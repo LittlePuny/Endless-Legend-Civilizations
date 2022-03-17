@@ -1,0 +1,335 @@
+[
+	// Wild Walkers
+	{
+		"name": "Wild Walkers",
+		"leaderName": "Ahote Zaltana",
+		"adjective": ["Walker"],
+		"startBias":["Forest"],
+		"preferredVictoryType": "Neutral",
+
+		"startIntroPart1": "The Wild Walkers were simple elves living as hunter-gathers in the forests. Their gift was to shape rocks and trees into great buildings; cities rose as green towers in the deep woods. This act, called The Sharing, let an elf experience the wild, untamed energy of their totem animal. Elves who Shared often, however risked having the spirit of the beast burst out like a violent flame and take control during moments of stress. In spite of that, some sought increasingly savage beasts in order to experience Sharings of greater intensity."
+		"startIntroPart2": "With individuals embracing the savagery of the animals and vanishing forever into the woods, the nation had to choose between the wild spirits of nature and the civilization of their towers. Troubled but determined, they forswore the Sharing, renamed themselves the Wild Walkers, and set out to build their towers away from their dark past. Only time will tell if the Sharing still has its hold on their souls."
+		
+		"introduction": "How fare you, fellow traveler upon this world blessed by Gaia?",
+		"neutralHello": "Your peaceful demeanor gives all Auriga hope for a brighter destiny.",
+		"hateHello": "Sadly we do not see monuments being raised in your honor; we would not even raise a cup to you.",
+		"declaringWar": "We cannot stomach this corrupted peace. We shall bring the flames of war to your towns and forests!",
+		"attacked": "You who go so eagerly from peace to war, prepare to feel the arrows of our anger.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"tradeRequest": "Do you accept this offer with our blessings?",
+
+		"outerColor": [51,51,0],
+		"innerColor": [178,255,153],
+		"uniqueName": "Way of the Woodlands",
+		"uniques": ["[+1 Production] from every [Forest]","[+1 Production] from every [Jungle]","[+10]% Production when constructing [all] buildings [in all cities]","[+10]% Strength for units fighting in [Forest, Jungle]","All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
+		"cities": ["Ogmakwan", "Tolilian", "Nyrinis", "Shiamere", "Gimael", "Cajnor", "Llighu", "Andarin", "Mahaeln", "Rewyt", "Ipedan", "Galerath", "Is'ryn", "Kared", "Zydena", "Helcrast", "Tralni", "Wiryn", "Perusk", "Sodeltan", "Shadonn", "Kentamys", "Uskdarler", "Sadrej"]
+	}
+	// Broken Lords
+	{
+		"name": "Broken Lords",
+		"leaderName": "Baron Joslyn Deyval",
+		"adjective": ["Lord"],
+		"startBias":["Plains"],
+		"preferredVictoryType": "Neutral",
+
+		"startIntroPart1": "The Broken Lords are a faction of knights and town-builders; an aristocratic society that believes in honor, virtue and justice. To succor the weak, to champion what is just, to root out evil wherever it may lurk - those are the ideals by which these noble warriors would live. And yet, the Broken Lords are a crippled people that exist only as spirits wrapped in their great suits of Dust-enhanced armor. Other nations view them as monsters, for their race was fading when it discovered a deadly secret - that by consuming the life forces of a sentient being they could extend their own life span. This rite of consumption is, obviously, a betrayal of their principles and their history. The greatest hope of the Broken Lords, therefore is develop magic that will break this curse and allow them to live without destroying others."
+		"startIntroPart2": "Though the question remains, and haunts their thoughts: Even if they did find a cure, would they want to give up this powerful gift? Their codes and morality insist 'yes', but in their hearts it is much less clear..."
+		
+		"introduction": "Hail to your grace! Let us hope that we become honorable acquaintances.",
+		"neutralHello": "We will all prosper if you continue this peaceful behavior.",
+		"hateHello": "You merely make your poor taste obvious to all.",
+		"declaringWar": "Peace is not enough. The price for your attitude is war!",
+		"attacked": "If you are so hungry for war, prepare to eat your fill!",
+		"defeated": "We suffer from war, and hope you suffer from guilt for the stains on your honor.",
+		"tradeRequest": "Do you accept the generous terms of this offer?",
+
+		"outerColor": [0,0,102],
+		"innerColor": [102,178,255],
+		"uniqueName": "Appetite for Dust",
+		"uniques": [
+		"[+1 Gold] from every [Granary]"
+		"[+1 Gold] from every [Water Mill]"
+		"[+1 Gold] from every [Lighthouse]"
+		"[+1 Gold] from every [Hospital]"
+		"[+2 Gold] from every [Aqueduct]"
+		"[+2 Gold] from every [Medical Lab]"
+		]
+		"cities": ["Amber Plain", "Ran'dare", "Dardogar", "Candray", "Yerian", "Holcaj", "Tsoth", "Ralian", "Awniss", "Janeldass", "Sormel", "Taldreen", "Ightohin", "Rayit", "Relian", "Wistred", "Sulet", "Ovoru", "Sam-hin", "Ersay", "Emoroya", "Halethby", "Caquag", "Etmess",]
+	}
+	// Vaulters
+	{
+		"name": "Vaulters",
+		"leaderName": "Zolya Ilona, First of the Bloodline",
+		"adjective": ["Vaulter"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Scientific",
+
+		"startIntroPart1": "This is a time of change for the Vaulters. For countless generations they lived as loosely-federated clans in the vast underground labyrinths that riddle Auriga. Their skills in mining and crafting made them comfortable, and their study of ancient artifacts slowly unlocked the secrets of their world's past. Though their origins were lost in legends and myth, they had found peace and prosperity in the deep places of the planet."
+		"startIntroPart2": "Suddenly, now, the Vaulters have been forced to abandon those ancient halls. The Great Quake broke walls and ruined roads and bridges; as their towns crumbled around them they fled to the surface. Some turn for answers to the priests in the Church of the Great Orrery, others look to their leader, Zolya Ilona, First of the Bloodline. For a people deeply bound by tradition and unused to change, the surface of Auriga is a frightening place. Torn between the secrets of the planet, their own traditions, and their need to survive, the Vaulters may struggle. But they will not fade, or surrender."
+
+		"introduction": "Hello, stranger. We hope that our dealings will be brief and peaceful.",
+		"neutralHello": "It is good to have peaceful relations. See that things stay that way.",
+		"hateHello": "What was that noise? We are used to swatting insects, not chatting with them.",
+		"declaringWar": "Peace does not seem to limit your ambitions. If that it what it takes, we propose war!",
+		"attacked": "We are unafraid to drop the tools of peace and hone the weapons of war",
+		"defeated": "Lives, material, and valuables have been lost or destroyed.",
+		"tradeRequest": "What do you say to our offer - it's fair for us both.",
+		
+		"outerColor": [25,25,51],
+		"innerColor": [255,128,0],
+		"uniqueName": "Apetite for Dust",
+		"uniques": ["[+1 Science] from every [Tundra]","[+2 Science] from every [Snow]","[+1 Production] from every [Strategic resource]"],
+		"cities": ["Argosy", "Glandeh", "Beloch", "Histrel", "Elmchaia", "Euste", "Skaeen", "Byaegol", "Lyeess", "Frytta", "Therrat", "Aldodev", "Aranak", "Warlaf", "Ildlyea", "Murynlar", "Lingain", "Sayap", "Erril", "Lorw", "Oddenda", "Reyjis", "Horlaken", "Delard",]
+	}
+	// Necrophages
+	{
+		"name": "Necrophages",
+		"leaderName": "He Who Meddles",
+		"adjective": ["Necrophage"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "The Necrophages are a scuttling monstrosity polluting the surface of Auriga; an insectoid menace that should be crushed under one's heel like the mutated cockroaches that they are. Or so the Vaulters, the Wild Walkers, the Broken Lords and every other nation on the planet would have one believe. Naturally, the Necrophages themselves don't share this view - in fact, they hold very few views other than fight, feed and propagate. The Necrophages have found a niche in the environment that suits them very well: They will win by numbers; by elevating the colony over the individual; by constant war-fare. Something between a hive insect and an undead horde, they reproduce by laying eggs in the bodies of fallen enemies."
+		"startIntroPart2": "Occasionally the offspring even inherits elements of the host's DNA accelerating their process of change and adaptation. Emotionless, relentless, and driven by their biology, the Necrophages do not waste time with diplomacy and commerce."
+		
+		"introduction": "Your presence is welcome. May you grow prosperous and fat.",
+		"neutralHello": "You seem to be a champion of peaceful behavior. Is this necessarily a good thing?",
+		"hateHello": "There are other nations besides the Endless that are worthy of our contempt; we are curious why you try so hard to be added to the list.",
+		"declaringWar": "Peace delayed your fate for a time, but now we go to war",
+		"attacked": "The hive is always ready for war",
+		"defeated": "The hive admits to war fatigue, but it is not the first or last time, and it will not make us back down.",
+		"tradeRequest": "We are making an offer. Consider it. Usually we just take what we want.",
+
+		"outerColor": [153,153,0],
+		"innerColor": [51,25,0],
+		"uniqueName": "Will of the Hive"
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]","[Ranged] units gain the [Proliferate] promotion","[-30]% growth [in all cities]"]
+		"cities": ["The Hive", "Qua'eng", "Belan", "Erindla", "Graldam", "Itleni", "Mesan", "Sylali", "Forany", "Anchan", "Caitan", "Samunttia", "Endigir", "Djoul", "Hareil", "Hadow", "Daromard", "Djathat", "Tsavyal", "Bolman", "Cauthayan", "Trode", "Morcdra", "Gnathen",]
+	}
+	// Ardent Mages
+	{
+		"name": "Ardent Mages",
+		"leaderName": "Zor Abaz",
+		"adjective": ["Mage"],
+		"preferredVictoryType": "Scientific",
+
+		"startIntroPart1": "The Ardent Mages are a people who were born in struggle and pain, and these conditions dominate their day to day lives. Though they control great powers, they pay a great price to do so. To manipulate the powers of Dust, an Ardent Mage must dissociate their mind from their body. For this they have developed elaborate pain rituals, for the more they are able to withstand the agony and ignore their physical discomfort, the deeper their relationship with Dust becomes. Pain has become a fundamental element of their society, to the point where children are taught from a young age to withstand it."
+		"startIntroPart2": "Stoicism is therefore as important as intelligence, and indifference to physical discomfort is the way in which an individual's worth is measured - be they an Ardent Mage or a stranger. After falling out with the rest of the Inner Circle in dark circumstances, Zor Abaz has annexed her clan from the greater Ardent Mage nation and struck out for new territory. The suffering must be great, even magnificent, if she is to prepare the Ardent Mages for the endtimes."
+		
+		"introduction": "Good day, fellow sufferer. May the agony make us all stronger.",
+		"neutralHello": "We are content that our relations are peaveful. We trust you don't plan to change this.",
+		"hateHello": "When the time comes for agony and mortification, we will see that you are at the top of the list.",
+		"declaringWar": "This peace settles nothing. We welcome the heat of war!",
+		"attacked": "We welcome the agony of war; we shall see if you are as well prepared!",
+		"defeated": "The war left scars upon us; we thank you for the beautification but will not forgive you for the act.",
+		"tradeRequest": "What do you say to the wisdom of our offer?",
+
+		"outerColor": [153,0,0],
+		"innerColor": [51,255,255],
+		"uniqueName": "Power Through Pain",
+		"uniques": ["Units fight as though they were at full strength even when damaged","[+20]% Strength if within [2] tiles of a [Arcana Pillar]"],
+		"cities": ["Al-Rubit", "Geiala", "Hendwen", "Oroos", "Dasraj", "Xighor", "Utanla", "Cyin", "Guairon", "Yuredan", "Ammael", "Junyan", "Ranf", "Suan", "Rothkallor", "Valdaea", "Tearan", "Coldramor", "Avarilea", "Lendfel", "Tuldraj", "Lireisy", "Jayain", "Ullath",]
+	}
+	// Roving Clans
+	{
+		"name": "Roving Clans",
+		"leaderName": "Ahsun ar-Delgùr",
+		"adjective": ["Clan"],
+		"startBias": ["Oasis"],
+		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": "Plying roads and sea lanes with skill and courage, they are ever on the lookout for new resources, new products, new markets, and new customers. Wherever the Clans pass, markets spring up, commerce blossoms, and the strange and wondrous goods from the many strange and wondrous peoples of Auriga are traded. The Roving Clans are so entwined in the business dealings of Auriga, that a tiny piece of every transaction somehow makes it into their coffers."
+		"startIntroPart2": "While their preference is for peace and trade, the Roving Clans should not be underestimated in war. With rapid, mounted units giving them an advantage in speed, they make difficult targets and frustrating enemies. Even their great cities can move, perched on the backs of giant Setseke scarabs -- an exploit unmatched by another nation. Patient, clever, and wily, the Roving Clans bring sophistication -- and manipulation -- to the peoples of Auriga."
+		
+		"introduction": "Well met! A fine day it is for commerce and conversation. In that order.",
+		"neutralHello": "Your peaceful behavior pleases us greatly. Trade, markets, and travel thrive; what's good for business is good for us all!",
+		"hateHello": "We once felt you were worth your weight in gold; lately we compare you to much baser metals. Do keep that in mind.",
+		"declaringWar": "We find this boring peace lacks volatility. Let us seek new markets in a state of war!",
+		"attacked": "Peace is over? Very well. We too are ready to mint coins in the heat of war.",
+		"defeated": "We are tired, and our savings all but spent.",
+		"tradeRequest": "Will you take advantage of our almost irresponsible generosity?",
+
+		"outerColor": [255,255,166],
+		"innerColor": [255,153,51],
+		"uniqueName": "Peace and Prosperity",
+		"uniques": ["[+1 Gold, +1 Culture] from each Trade Route","Maintenance on roads & railroads reduced by [50]%","Double quantity of [Horses] produced"],
+		"cities": ["Tebadel", "Zhivor", "Eraadh", "Rualle", "Grodej", "Strard", "Yulin", "Golcwin", "Wervalyn", "Aberian", "Rexos", "Juilarn", "Sam-risum", "O'irenth", "Gadinak", "Nakaini", "Moires", "Nylerea", "Uardan", "Umalna", "Adikin", "Relye", "Avrone", "Querat",]
+	}
+	// Drakken
+	{
+		"name": "Drakken",
+		"leaderName": "Prapaheni & Kehangana",
+		"adjective": ["Drakes"],
+		"startBias":["Hill"],
+		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": "Few in number but exceedingly powerful, they do not seek war but rather relationships, information, and knowledge. Faction histories, artifacts, and ruins are highly prized by the Drakken while wealth, military power, and advanced technology are viewed as insignificant. Militarily they have limited numbers, and bring to battle very few but very powerful units. The gradual onset of longer winters has not escaped the notice of this race who are more attuned to Auriga's rhythms than all the rest."
+		"startIntroPart2": " Already they have struck out across the vast planet forging ties with all who share Auriga's lands. They understand well that even if the cataclysm comes again, their first duty is to preserve what the Endless left behind, so that one day, maybe in a hundred years, maybe in a hundred thousand, their great teachers' creations will still endure."
+		
+		"introduction": "Peace be to Auriga, and to you. May our conversations be both civil and frequent.",
+		"neutralHello": "Your wisdom in facing adversity with calm strength is admirable. We rejoice that you are counted among the peaceful empires.",
+		"hateHello": "It is our duty to find the good and the beautiful within all things. You make this task particularly difficult.",
+		"declaringWar": "Your disrespect for the principles of peace leave us no option but to declare war!",
+		"attacked": "You are too bloodthirsty to maintain a peace? Then war it will be!",
+		"defeated": "Our will to persevere is great in spite of the horrors of this war.",
+		"tradeRequest": "Our offer is magnanimous; it is in the interest of Auriga that you accept it.",
+
+		"outerColor": [255,140,51],
+		"innerColor": [0,51,102],
+		"uniqueName": "Diplomatic Pressures",
+		"uniques": ["[-50]% City-State Influence degradation", "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory",
+			"[+25]% [Food] from City-States","[+25]% [Culture] from City-States","[+25]% [Faith] from City-States","Military Units gifted from City-States start with [+10] XP",],
+		"cities": ["Drakkenhome", "Tanelm", "Inolya", "Nyaegor", "Avrama", "Meruan", "Asemel", "Morinlac", "Olaran", "Larys", "Irimda", "Sharanne", "Ia'poli", "Ard'im", "Gaadach", "Sondir", "Hailoman", "Cosdrian", "Cymoa", "Perrandy", "Ormn", "Balther", "Naillon", "Hawyrd",]
+	}
+	// Cultists
+	{
+		"name": "Cult of the Eternal End",
+		"leaderName": "The Unspoken",
+		"adjective": ["Cultist"],
+		"preferredVictoryType": "Cultural",
+
+		"startIntroPart1": "This mysterious cult is led by two creations that are the remnants of the Endless: The Queen, imprisoned within her indestructible throne in the capital city, and the Unspoken, a wandering - and perhaps insane - being of enormous power. Left alone on the planet for millennia, they have turned against their creators and sworn to destroy every trace of their existence."
+		"startIntroPart2": "The Cult maintains a single city where the Queen is entombed in her indestructible throne. Its power, therefore, is projected across Auriga through proselytization and conversion, when the faithful followers and heroes of the Cult convince other, lesser peoples to join their cause. The Cultists then recruit, train, and arm these converts from the tribes and vagrants that live scattered across the surface of Auriga. Regardless of where they are or to whom they have previously sworn allegiance, when a tribe turns to the Cult it does so until its death. Monolithic, fanatic, and ever-expanding, the Cult of the Eternal End will spare no effort, cost, or sacrifice to see that its will is done."
+
+		"introduction": "Join us! The world and the universe await the flowering of our purpose.",
+		"neutralHello": "With peace, the Cult can focus on useful tasks. Your behavior is most convenient.",
+		"hateHello": "Be assured that when the Eternal End comes, we will not forget your desire to be known as an adversary.",
+		"declaringWar": "This peace does not serve the Eternal End; Prepare for war!",
+		"attacked": "The Queen knows and sees all; we are prepared for your war",
+		"defeated": "The Cult ends a holy war with an unholy defeat. Grotesque.",
+		"tradeRequest": "The Cult has made a most generous offer, and is sure that you will want to accept it.",
+
+		"outerColor": [240,229,204],
+		"innerColor": [64,64,64],
+		"uniqueName": "Conversion",
+		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities","Cities are razed [3] times as fast","[All] units gain the [Convert] promotion","[-25]% maintenance costs <for [All] units>",
+					"This faction doesn't build settlers and should raze any captured city"]
+		"cities": ["High Seat of the Queen", "Whiechsul", "Dallan", "Aldineche", "Vareis", "Ganli", "Herkuf", "Yaeg", "Yerow", "Jurgador", "Taim", "Manyur", "Gildrin", "Worimer", "Ashrusk", "Ndortara", "Doreis", "Tin'en", "Achq", "Jalastil", "Almed", "Danin", "Salimar",]
+	}
+	// Forgotten
+	{
+		"name": "Forgotten",
+		"leaderName": "Ziema Adya",
+		"adjective": ["Forgotten"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "A nightmare out of history, the Forgotten are a faction that all others thought to be lost or dead. Against their will they were forged into a tight society of violent and distrustful survivors, having spent the final years of the cataclysm alone on the surface of Auriga."
+		"startIntroPart2": "Now, as rifts in their society have led a splinter faction to declare its independence, the Forgotten are risking everything in the hopes that the other factions will accept them - or kneel before them."
+		
+		"introduction": "We are prepared to speak with you. Your envoys will be returned unharmed.",
+		"neutralHello": "A Forgotten likes the fight - but occasionally likes peace more. Let us try this path.",
+		"hateHello": "Your attitude is akin to a ten-day old corpse: it stinks!",
+		"declaringWar": "You have learned little in this peace. Perhaps this war will make you wiser!",
+		"attacked": "Your hunger for war is admirable. We shall do our best to sate it.",
+		"defeated": "The fighting takes its toll on my people.",
+		"tradeRequest": "Tarry not. Do we have a deal or not?",
+
+		"outerColor": [29,29,41],
+		"innerColor": [230,230,230],
+		"uniqueName": "Forage and Pillage",
+		"uniques": ["No movement cost to pillage <for [Land] units>","[Land] units gain the [From the Shadows] promotion",],
+		"cities": ["Dagaari Tanga", "Nolaran", "Antabb", "Frayhame", "Stigarnal", "Paerian", "Ymosy", "Vedra", "Rothald", "Hontur", "Neth", "Angryn", "Terreth", "Idyna", "Ravode", "Qua'usk", "Undand", "Shulna", "Moch", "Uskiv", "Uralleb", "Ostakk", "Leold", "Madinav",]
+	}
+	// Allayi
+	{
+		"name": "Allayi",
+		"leaderName": "Breyos Master Icespear",
+		"adjective": ["Allayi"],
+		"preferredVictoryType": "Cultural",
+
+		"startIntroPart1": "When the Endless first came to Auriga they did not find an empty planet, but one teeming with life - some of it intelligent. The Guardians, caretakers of the planet, were one sentient species; another were their helpers and comrades, the Allayi. The Allayi were broken and scattered by the Endless, and for centuries they have survived on the fringes of existence. Handing their traditions and stories down in the form of a religious text, the Epistles, and a book of prayer, the Euchologion, they have been waiting in the snows and the shadows until Auriga once again needs them. And it seems that this time has come..."
+		"startIntroPart2": "The Allayi are a people so closely aligned to Auriga that their very nature changes as the Dark Seasons occur. While they are friendly and defensive in summer, when the harsh winters arrive they become aggressive and dangerous, reflecting the madness of the planet. They are tied so closely to Auriga's fate that even their bodies alter to match the evolution of these extreme seasons. Growing strong once again the Allayi have returned, prepared to defend and preserve Mother Auriga with all their grim strength."
+		
+		"introduction": "Accept our greetings, stranger. We are the Allayi, loyal children and defenders of Mother Auriga.",
+		"neutralHello": "We find the peaceful behavior of your empire acceptable to Mother Auriga",
+		"hateHello": "Be careful of your words and actions, lest change come in a manner that does not suit you.",
+		"declaringWar": "You are faithless and unworthy of peace. Prepare for war!",
+		"attacked": "We prefer peace. But the change to war is one we know well.",
+		"defeated": "Though this defeat burdens us heavily, it has not lessened our contempt for you.",
+		"tradeRequest": "Please accept our proposal with the blessings of Mother Auriga",
+
+		"outerColor": [230,230,230],
+		"innerColor": [255,128,0],
+		"uniqueName": "Shifting",
+		"uniques": ["[+25]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+15]% Strength <for [All] units> <during a Golden Age>","[Great General] is earned [+33]% faster",],
+		"cities": ["Altar of Auriga", "Karrandar", "Oenga", "Uska", "Menavin", "Uryno", "Medordan", "Yith", "Selamont", "Somaj", "Imz", "Acareyn", "Tevan", "Brama", "Melantur", "Dainej", "Alandarin", "Chadhun", "Rouster", "Aduran", "Calal", "Lionith", "Naclaran", "Magomaj",]
+	}
+	// Morgawr
+	{
+		"name": "Morgawr",
+		"leaderName": "The Mind",
+		"adjective": ["Morgawr"],
+		"startBias":["Coast"],
+		"preferredVictoryType": "Neutral",
+
+		"startIntroPart1": "While much is known of the surface of Auriga, its oceans still guard many mysteries. While the nations of the planet learned to meet, trade, and war on the seas, another force arose from beneath them. They are - or is? - the Morgawr, a twisted and possessed people that seem to be symbiotic creations of sea life and other, unimaginable species. Constructed creatures that broke out of their prisons in the abysses of Auriga, the Morgawr are driven to seek the surface by forces they do not understand."
+		"startIntroPart2": "Only trusting the waters, the Morgawr can disembark and embark everywhere and their troop transports are faster and stronger than anyone else. Masters of mind control and suggestion, they can control roaming Minor Faction armies for their own nefarious purposes. Once the planet is theirs, however, their ambition may not be sated..."
+		
+		"introduction": "I, the Morgawr, are noting your presence. Speak.",
+		"neutralHello": "I, the Morgawr, note your peaceful behavior. Continue it.",
+		"hateHello": "I, the Morgawr, find your attitude unpleasant. Change it",
+		"declaringWar": "I, the Morgawr, find this peace idiotic. I are now at war with you.",
+		"attacked": "I, the Morgawr, are never unhappy to find war. Ours is the future.",
+		"defeated": "I, the Morgawr, suffer defeat, and hope you suffer as well.",
+		"tradeRequest": "I, the Morgawr, recommend you accept this offer; it is useful to me.",
+
+		"outerColor": [205,255,222],
+		"innerColor": [76,153,0],
+		"uniqueName": "Neptunian",
+		"uniques": ["[+1 Food] from every [Coast]","[+1 Production] from every [Water]","Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "Normal vision when embarked <for [All] units>","[Land] units gain the [Amphibious] promotion"],
+		"cities": ["The Fortress", "Vanoran", "Sipuan", "Sulin", "Mathenir", "Shorel", "Osdarcha", "Dene", "Turol", "Lertan", "Renar", "Mandara", "Eawyth", "Zadde", "Veltare", "Bel'sero", "Masuarim", "Mettanch", "Trenwin", "Aremon", "Inga", "Garint", "Rakmnal", "Ingulath",]
+	}
+	// Kapaku
+	{
+		"name": "Kapaku",
+		"leaderName": "Custodian Aktyl",
+		"adjective": ["Kapaku"],
+		"startBias":["[Hill]"],
+		"preferredVictoryType": "Neutral",
+
+		"startIntroPart1": "Rescued from the brink of extinction after the invasion of their home world, the Kapaku were evacuated by the Concrete Endless and sent to Auriga. They were promised a new beginning on a new planet, but discovering the true intentions of their saviors will pit them against both Auriga’s current denizens and the dark remnants of the Dust Wars."
+		"startIntroPart2": "The Kapaku are tinkers and inventors, a race of craftsmen with powerful bonds to earthen energies. Small in size, their resourcefulness and skill led them to create powerful stone golems to use as labors and soldiers. The Kapaku are a new race uniquely suited to the Volcanic Terrain, able to thrive off it where other races would struggle, and their symbiotic relationships with their golems allows them to exploit more resources more efficiently, fueling their machinery to turn Auriga into a new Volcanic Paradise."
+		
+		"introduction": "Hail Otherskin! We are the Kapaku, Auriga's rightful heirs.",
+		"neutralHello": "We are a peaceful race, forced into violence. We hope your pacifism isn't misjudged.",
+		"hateHello": "We have the power to transform this world into basalt plains and mighty volcanoes. Tread carefully.",
+		"declaringWar": "Our peace was a necessary falsehood to give us time to grow strong. Now we will forge a war.",
+		"attacked": "Otherskins! Never trust them! If this peace is shattered, then you will have your war",
+		"defeated": "We will never forget the defeat, nor will we likely forgive.",
+		"tradeRequest": "You will do well to accept our proposal, Otherskin. We have the Endless' blessing.",
+
+		"outerColor": [153,153,102],
+		"innerColor": [204,0,0],
+		"uniqueName": "Born of Ash",
+		"uniques": ["Receive free [Great Engineer] when you discover [Masonry]","[Great Engineer] is earned [50]% faster","[-25]% maintenance costs <for [Land] units>"],
+		"cities": ["Magma Council", "Amenvar", "Meen", "Isield", "Sliq", "Himun", "Tarrael", "Barians", "Nyerte", "Chah", "Oyvinn", "Masweyr", "Yunarin", "Fudoro", "Ataiu", "Cthydra", "Reghsina", "Aynar", "Syciki", "Waredda", "Dels", "Laldora", "Saradh", "Zhagorak",]
+	}
+	// Mykara
+	{
+		"name": "Mykara",
+		"leaderName": "Toth Ágnes",
+		"adjective": ["Mykara"],
+		"startBias":["Jungle"],
+		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": "The Mykara are a race of sentient plant matter and fungi, a single organism spanning thousands of semi-autonomous agents and time immemorial, ever adapting to survive and thrive. They spread all over Auriga as a massive underground root system, sprouting on the edges of the map, clinging to the regions other factions leave unattended."
+		"startIntroPart2": "The Mykara are a single, vast organism that has spread beneath the surface of Auriga, covering most of the planet. Yet all roots lead to home, their capital serving as a hub for their physical spread and their consciousness. Consequently, the Mykara are focused on a single city and have to exert their control over the world by different means, much like the Cultists of the Eternal End. Unlike their more religious rivals, who have to pacify villages and convert them with Influence, the Mykara do not have to be present near the areas they want to claim. As long as you have had vision on a point of interest before and it is located in a neutral region, you can begin growing a Fungal Bloom on it."
+		
+		"introduction": "Greetings. We are Mykara, the Custodians of Auriga.",
+		"neutralHello": "With empires like ours, the future of Auriga seems better than it might have been.",
+		"hateHello": "You are growing thorns, not crops. Be careful.",
+		"declaringWar": "Peace constrains our growth. It is time for war",
+		"attacked": "Though we have seen ages of war, we will not shy from it.",
+		"defeated": "The rage of war saps our force and exhausts our strength. We tire of conflict.",
+		"tradeRequest": "Do you find our offer promising?",
+
+		"outerColor": [102,51,0],
+		"innerColor": [255,152,255],
+		"uniqueName": "Symbiosis",
+		"uniques": ["[+1 Science, +1 Production, +1 Culture] per [3] population [in capital]",
+					"[+50]% [Culture] [in all non-occupied cities]","[+50]% [Science] [in all non-occupied cities]",
+					"[-50]% [Culture] [in capital]","[-50]% [Science] [in capital]",
+					"This faction doesn't build settlers and should puppet any captured city"],
+		"cities": ["Mykara","Mulladien", "Yerurnqua", "Radalta", "Marebond", "Yiggodra", "Madirod", "Omgar", "Ver'kal", "Anm", "Utharan", "Inelle", "Naquakic", "Dutharad", "Tyd", "Byldwan", "Marreyn", "Indorand", "Goulji", "Lodera", "Amund", "Ishimlor", "Edyno",]
+	}
+	
+]

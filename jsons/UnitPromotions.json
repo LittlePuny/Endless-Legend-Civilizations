@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Soul Leech",
+		"uniques": ["Heals [25] damage if it kills a unit"]
+	},
+	
+	{
+		"name": "Proliferate",
+		"uniques": ["May capture killed [Melee] units"]
+	},
+
+	{
+		"name": "Convert",
+		"uniques": ["May capture killed [Barbarian] units","[+50]% Strength <vs [Barbarian] units>"]
+	},
+	
+	{
+		"name": "From the Shadows",
+		"uniques": ["Invisible to non-adjacent units","May enter foreign tiles without open borders"]
+	},
+]

@@ -1,0 +1,353 @@
+[
+	// Wild Walkers
+	{
+		"name": "Dekari Ranger",
+		"replaces": "Composite Bowman",
+		"uniqueTo": "Wild Walkers"
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"promotions": ["Extended Range"]
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "Tenei Walker",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Wild Walkers"
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"requiredResource": "Iron",
+		"promotions": ["Cover I"],
+		"attackSound": "metalhit"
+	},
+	// Broken Lords
+	{
+		"name": "Stalwarts",
+		"unitType": "Sword",
+		"replaces": "Pikeman",
+		"uniqueTo": "Broken Lords",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", ],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Combined Arms",
+		"promotions": ["Soul Leech","Cover I"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Dust Bishop",
+		"unitType": "Ranged",
+		"replaces": "Gatling Gun",
+		"uniqueTo": "Broken Lords",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Machine Gun",
+		"obsoleteTech": "Ballistics",
+		"promotions": ["Medic I","Medic II"],
+		"attackSound": "machinegun"
+	},
+	// Vaulters
+	{
+		"name": "Vaulter Marine", 
+		"replaces": "Crossbowman",
+		"uniqueTo": "Vaulters",
+		"unitType": "Ranged",
+		"movement": 2,
+		"strength": 16,
+		"rangedStrength": 20,
+		"cost": 110,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "Dawn Officer",
+		"replaces": "Cavalry",
+		"uniqueTo": "Vaulters",
+		"unitType": "Sword",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking"],
+		"attackSound": "metalhit"
+	},
+	// Necrophages
+	{
+		"name": "Necrodrone",
+		"replaces": "Scout",
+		"uniqueTo": "Necrophages",
+		"unitType": "Scout",
+		"movement": 4,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["[+1] Sight","All tiles costs 1", "Can move after attacking", "No defensive terrain bonus","Can pass through impassable tiles"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	// Ardent Mages
+		{
+		"name": "Eneqa Wing",
+		"replaces": "Paratrooper",
+		"uniqueTo": "Ardent Mages",
+		"unitType": "Gunpowder",
+		"movement": 4,
+		"strength": 70,
+		"cost": 390,
+		"requiredTech": "Radar",
+		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory","All tiles costs 1", "Can move after attacking", "No defensive terrain bonus","Can pass through impassable tiles"],
+		"promotions": ["March"]
+		"attackSound": "shot"
+	},
+	
+	{
+		"name": "Great Arcanist",
+		"replaces": "Great Scientist",
+		"uniqueTo": "Ardent Mages",
+		"unitType": "Civilian",
+		"uniques": ["Can hurry technology research", "Can construct [Arcana Pillar]","Uncapturable", "Great Person - [Science]", "Unbuildable"],
+		"movement": 4
+	},
+	// Roving clans
+		{
+		"name": "Setseke",
+		"replaces": "Settler",
+		"uniqueTo": "Roving Clans",
+		"unitType": "Civilian",
+		"movement": 4,
+		"cost": 106,
+		"uniques": ["Founds a new city","Excess Food converted to Production when under construction","Requires at least [2] population","Ignores terrain cost"],
+		"hurryCostModifier": 20
+	},
+	
+	{
+		"name": "Yirmak",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Roving Clans",
+		"movement": 4,
+		"strength": 20,
+		"cost": 130,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"promotions": ["Besiege"]
+		"attackSound": "horse"
+	},
+	// Drakken
+	{
+		"name": "Wyvern",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Drakken",
+		"movement": 5,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": ["All tiles costs 1", "Can move after attacking", "No defensive terrain bonus","Can pass through impassable tiles"],
+		"attackSound": "horse"
+	},
+	
+	{
+		"name": "Ancient",
+		"replaces": "Artillery",
+		"uniqueTo": "Drakken",
+		"unitType": "Siege",
+		"movement": 4,
+		"strength": 25,
+		"rangedStrength": 30,
+		"range": 2,
+		"cost": 360,
+		"requiredTech": "Dynamite",
+		"upgradesTo": "Rocket Artillery",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","All tiles costs 1", "Can move after attacking", "No defensive terrain bonus","Can pass through impassable tiles",]
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	// Cultists
+	{
+		"name": "Cultists Settler",
+		"unitType": "Civilian",
+		"uniqueTo": "Cult of the Eternal End",
+		"replaces": "Settler",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city", "Will not be displayed in Civilopedia", "Unbuildable"],
+		"hurryCostModifier": 20
+	},
+	
+	{
+		"name": "Nameless Guard",
+		"replaces": "Gatling Gun",
+		"uniqueTo": "Cult of the Eternal End",
+		"unitType": "Archery",
+		"range": 2,
+		"movement": 2,
+		"strength": 25,
+		"rangedStrength": 35,
+		"cost": 210,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Machine Gun",
+		"obsoleteTech": "Ballistics",
+		"attackSound": "machinegun"
+	},
+	// Forgotten
+	{
+		"name": "Predatore",
+		"replaces": "Archer",
+		"uniqueTo": "Forgotten",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 9,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "Myst",
+		"replaces": "Swordsman",
+		"uniqueTo": "Forgotten",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"uniques": ["Ignores terrain cost"],
+		"attackSound": "metalhit"
+	},
+	// Allayi
+	{
+		"name": "Skyfin",
+		"unitType": "Civilian",
+		"uniqueTo": "Allayi",
+		"replaces": "Great General",
+		"uniques": ["Can start an [8]-turn golden age","Bonus for units in 2 tile radius 15%","All adjacent units heal [+15] HP when healing", "[+15] HP when healing", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable","[+1] Sight","All tiles costs 1", "Can move after attacking", "No defensive terrain bonus","Can pass through impassable tiles"],
+		"movement": 4
+	},
+	// Morgawr
+	{
+		"name": "Vore",
+		"unitType": "Melee Water",
+		"uniqueTo": "Morgawr",
+		"replaces": "Trireme",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"promotions": ["Boarding Party I","Boarding Party II"],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+	
+	{
+		"name": "Leviathan",
+		"unitType": "Submarine",
+		"uniqueTo": "Morgawr",
+		"replaces": "Submarine",
+		"movement": 6,
+		"strength": 40,
+		"rangedStrength": 70,
+		"cost": 325,
+		"requiredTech": "Refrigeration",
+		"upgradesTo": "Nuclear Submarine",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+	// Kapaku
+	{
+		"name": "Stone Sentinel",
+		"unitType": "Sword",
+		"uniqueTo": "Kapaku",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"promotions": ["Besiege"],
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	
+	{
+		"name": "Geomancer",
+		"unitType": "Siege",
+		"replaces": "Trebuchet",
+		"uniqueTo": "Kapaku",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 14,
+		"cost": 120,
+		"requiredTech": "Physics",
+		"obsoleteTech": "Chemistry",
+		"upgradesTo": "Cannon",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Never appears as a Barbarian unit"],
+		"attackSound": "throw"
+	},
+	// Mykara
+	{
+		"name": "Gorgon",
+		"replaces": "Cavalry",
+		"uniqueTo": "Mykara",
+		"unitType": "Sword",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>",],
+		"promotions": ["Blitz"]
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Mykara Settler",
+		"unitType": "Civilian",
+		"uniqueTo": "Mykara",
+		"replaces": "Settler",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city", "Will not be displayed in Civilopedia", "Unbuildable"],
+		"hurryCostModifier": 20
+	},
+	
+	
+	
+]

@@ -1,0 +1,57 @@
+[
+		// Wild Walkers
+		// Broken Lords
+		// Vaulters
+		// Necrophages
+	{
+		"name": "Feeding Pits",
+		"uniqueTo": "Necrophages",
+        "replaces": "Courthouse",
+		"maintenance": 2,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Remove extra unhappiness from annexed cities",
+            "+15% growth [in all cities]"
+			"Can only be built in annexed cities"
+			],
+        "requiredTech": "Mathematics"
+    },
+		// Ardent Mages
+		// Roving clans
+		// Drakken
+		// Cultists
+	{
+        "name": "Shrine of Whispers",
+		"uniqueTo": "Cult of the Eternal End",
+        "isNationalWonder": true,
+		"replaces": "Courthouse",
+		"requiredBuilding": "Palace",
+		"hurryCostModifier": 50,
+		"uniques": ["[+25]% great person generation [in capital]","[+50]% Yield from every [Great Improvement]"]
+		"requiredTech": "Mathematics"
+    },
+		// Forgotten
+		// Allayi
+	{
+		"name": "Garth of the Allayi",
+		"uniqueTo": "Allayi",
+		"replaces": "Garden",
+		"uniques": ["[+25]% great person generation [in this city]"],
+		"hurryCostModifier": 25,
+		"culture": 2,
+		"requiredTech": "Theology"
+	},
+		// Morgawr
+		// Kapaku
+		// Mykara	
+	{
+        "name": "Kernel of Plentitude",
+		"uniqueTo": "Mykara",
+        "isNationalWonder": true,
+		"replaces": "Courthouse",
+		"requiredBuilding": "Palace",
+		"hurryCostModifier": 50,
+		"uniques": ["[+10]% [Food] [in capital]","[+10]% [Science] [in capital]","[+10]% [Gold] [in capital]"]
+		"requiredTech": "Mathematics"
+    },
+]

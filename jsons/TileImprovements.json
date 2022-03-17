@@ -1,0 +1,27 @@
+[
+
+	{
+		"name": "Arcana Pillar",
+		"uniqueTo": "Ardent Mages",
+		"science": 6,
+		"uniques": [
+			"Great Improvement",
+			"[+1 Food] for each adjacent [Farm]",
+			"[+1 Food] for each adjacent [Pasture]",
+			"[+1 Food] for each adjacent [Fishing Boat]",
+			"[+1 Gold] for each adjacent [Camp]",
+			"[+1 Gold] for each adjacent [Plantation]",
+			"[+1 Gold] for each adjacent [Trading Post]",
+			"[+1 Production] for each adjacent [Mine]",
+			"[+1 Production] for each adjacent [Quary]",
+			"[+1 Production] for each adjacent [Lumber mill]",
+			"[+1 Production] for each adjacent [Oil well]",
+			"[+1 Culture] for each adjacent [City Center]",
+			"[+1 Culture] for each adjacent [City Ruin]",
+			"[+2 Science] for each adjacent [Great Improvement]",
+			"[+2 Science] <after discovering [Scientific Theory]>",
+			"[+2 Science] <after discovering [Atomic Theory]>",
+			]
+	}
+
+]
