@@ -61,7 +61,7 @@
 		"requiredTech": "Industrialization",
 		"upgradesTo": "Machine Gun",
 		"obsoleteTech": "Ballistics",
-		"promotions": ["Medic I","Medic II"],
+		"promotions": ["Medic","Medic II"],
 		"attackSound": "machinegun"
 	},
 	// Vaulters
