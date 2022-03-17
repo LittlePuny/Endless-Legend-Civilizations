@@ -151,7 +151,7 @@
 		"outerColor": [255,255,166],
 		"innerColor": [255,153,51],
 		"uniqueName": "Peace and Prosperity",
-		"uniques": ["[+1 Gold, +1 Culture] from each Trade Route","[50]% maintenance on roads & railroads","Double quantity of [Horses] produced"],
+		"uniques": ["[+1 Gold, +1 Culture] from each Trade Route","[-50]% maintenance on roads & railroads","Double quantity of [Horses] produced"],
 		"cities": ["Tebadel", "Zhivor", "Eraadh", "Rualle", "Grodej", "Strard", "Yulin", "Golcwin", "Wervalyn", "Aberian", "Rexos", "Juilarn", "Sam-risum", "O'irenth", "Gadinak", "Nakaini", "Moires", "Nylerea", "Uardan", "Umalna", "Adikin", "Relye", "Avrone", "Querat",]
 	}
 	// Drakken
