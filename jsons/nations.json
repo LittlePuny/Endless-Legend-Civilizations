@@ -126,7 +126,7 @@
 		"outerColor": [153,0,0],
 		"innerColor": [51,255,255],
 		"uniqueName": "Power Through Pain",
-		"uniques": ["Units fight as though they were at full strength even when damaged","[+20]% Strength if within [2] tiles of a [Arcana Pillar]"],
+		"uniques": ["Units fight as though they were at full strength even when damaged","+[20]% Strength if within [2] tiles of a [Arcana Pillar]"],
 		"cities": ["Al-Rubit", "Geiala", "Hendwen", "Oroos", "Dasraj", "Xighor", "Utanla", "Cyin", "Guairon", "Yuredan", "Ammael", "Junyan", "Ranf", "Suan", "Rothkallor", "Valdaea", "Tearan", "Coldramor", "Avarilea", "Lendfel", "Tuldraj", "Lireisy", "Jayain", "Ullath",]
 	}
 	// Roving Clans
@@ -151,7 +151,7 @@
 		"outerColor": [255,255,166],
 		"innerColor": [255,153,51],
 		"uniqueName": "Peace and Prosperity",
-		"uniques": ["[+1 Gold, +1 Culture] from each Trade Route","Maintenance on roads & railroads reduced by [50]%","Double quantity of [Horses] produced"],
+		"uniques": ["[+1 Gold, +1 Culture] from each Trade Route","[50]% maintenance on roads & railroads","Double quantity of [Horses] produced"],
 		"cities": ["Tebadel", "Zhivor", "Eraadh", "Rualle", "Grodej", "Strard", "Yulin", "Golcwin", "Wervalyn", "Aberian", "Rexos", "Juilarn", "Sam-risum", "O'irenth", "Gadinak", "Nakaini", "Moires", "Nylerea", "Uardan", "Umalna", "Adikin", "Relye", "Avrone", "Querat",]
 	}
 	// Drakken
