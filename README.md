@@ -3,8 +3,11 @@ An Endless Legend inspired Unciv mod.
 
 ### Possible Roadmap (most likely in that order)
 Further balancing factions
+
 Finding icons
+
 Endless Legend minor factions as city states
+
 Auriga custom map
 
 # Credits
