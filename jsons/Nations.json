@@ -22,7 +22,7 @@
 		"innerColor": [178,255,153],
 		"uniqueName": "Way of the Woodlands",
 		"uniques": ["[+1 Production] from every [Forest]","[+1 Production] from every [Jungle]","[+10]% Production when constructing [all] buildings [in all cities]","[+10]% Strength for units fighting in [Forest, Jungle]","All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
-		"cities": ["Ogmakwan", "Tolilian", "Nyrinis", "Shiamere", "Gimael", "Cajnor", "Llighu", "Andarin", "Mahaeln", "Rewyt", "Ipedan", "Galerath", "Is'ryn", "Kared", "Zydena", "Helcrast", "Tralni", "Wiryn", "Perusk", "Sodeltan", "Shadonn", "Kentamys", "Uskdarler", "Sadrej"]
+		"cities": ["Askas Kuigan", "Qua'usk", "Ataiu", "Tolilian", "Nyrinis", "Shiamere", "Gimael", "Cajnor", "Llighu", "Andarin", "Mahaeln", "Rewyt", "Ipedan", "Galerath", "Is'ryn", "Kared", "Zydena", "Helcrast", "Tralni", "Wiryn", "Perusk", "Sodeltan", "Shadonn", "Kentamys", "Uskdarler", "Sadrej"]
 	}
 	// Broken Lords
 	{
@@ -54,7 +54,7 @@
 		"[+2 Gold] from every [Aqueduct]"
 		"[+2 Gold] from every [Medical Lab]"
 		]
-		"cities": ["Amber Plain", "Ran'dare", "Dardogar", "Candray", "Yerian", "Holcaj", "Tsoth", "Ralian", "Awniss", "Janeldass", "Sormel", "Taldreen", "Ightohin", "Rayit", "Relian", "Wistred", "Sulet", "Ovoru", "Sam-hin", "Ersay", "Emoroya", "Halethby", "Caquag", "Etmess",]
+		"cities": ["Hwilhet-On-Arewe", "Valdaea", "Nolaran", "O'Irenth", "Worimer", "Lionith", "Trenwin", "Shadonn", "Aberian", "Ran'dare", "Dardogar", "Candray", "Yerian", "Holcaj", "Tsoth", "Ralian", "Awniss", "Janeldass", "Sormel", "Taldreen", "Ightohin", "Rayit", "Relian", "Wistred", "Sulet", "Ovoru", "Sam-hin", "Ersay", "Emoroya", "Halethby", "Caquag", "Etmess",]
 	}
 	// Vaulters
 	{
@@ -77,9 +77,9 @@
 		
 		"outerColor": [25,25,51],
 		"innerColor": [255,128,0],
-		"uniqueName": "Apetite for Dust",
+		"uniqueName": "Knack for Knowledge",
 		"uniques": ["[+1 Science] from every [Tundra]","[+2 Science] from every [Snow]","[+1 Production] from every [Strategic resource]"],
-		"cities": ["Argosy", "Glandeh", "Beloch", "Histrel", "Elmchaia", "Euste", "Skaeen", "Byaegol", "Lyeess", "Frytta", "Therrat", "Aldodev", "Aranak", "Warlaf", "Ildlyea", "Murynlar", "Lingain", "Sayap", "Erril", "Lorw", "Oddenda", "Reyjis", "Horlaken", "Delard",]
+		"cities": ["Budakai", "Strard", "Trode", "Aldodev", "Perusk", "Glandeh", "Beloch", "Histrel", "Elmchaia", "Euste", "Skaeen", "Byaegol", "Lyeess", "Frytta", "Therrat", "Aldodev", "Aranak", "Warlaf", "Ildlyea", "Murynlar", "Lingain", "Sayap", "Erril", "Lorw", "Oddenda", "Reyjis", "Horlaken", "Delard",]
 	}
 	// Necrophages
 	{
@@ -103,7 +103,7 @@
 		"innerColor": [51,25,0],
 		"uniqueName": "Will of the Hive"
 		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]","[Ranged] units gain the [Proliferate] promotion","[-30]% growth [in all cities]"]
-		"cities": ["The Hive", "Qua'eng", "Belan", "Erindla", "Graldam", "Itleni", "Mesan", "Sylali", "Forany", "Anchan", "Caitan", "Samunttia", "Endigir", "Djoul", "Hareil", "Hadow", "Daromard", "Djathat", "Tsavyal", "Bolman", "Cauthayan", "Trode", "Morcdra", "Gnathen",]
+		"cities": ["Ka-Tak-Nul", "Achq", "Beloch", "Sliq", "Yaeg", "Qua'eng", "Belan", "Erindla", "Graldam", "Itleni", "Mesan", "Sylali", "Forany", "Anchan", "Caitan", "Samunttia", "Endigir", "Djoul", "Hareil", "Hadow", "Daromard", "Djathat", "Tsavyal", "Bolman", "Cauthayan", "Trode", "Morcdra", "Gnathen",]
 	}
 	// Ardent Mages
 	{
@@ -127,7 +127,7 @@
 		"innerColor": [51,255,255],
 		"uniqueName": "Power Through Pain",
 		"uniques": ["Units fight as though they were at full strength even when damaged","+[20]% Strength if within [2] tiles of a [Arcana Pillar]"],
-		"cities": ["Al-Rubit", "Geiala", "Hendwen", "Oroos", "Dasraj", "Xighor", "Utanla", "Cyin", "Guairon", "Yuredan", "Ammael", "Junyan", "Ranf", "Suan", "Rothkallor", "Valdaea", "Tearan", "Coldramor", "Avarilea", "Lendfel", "Tuldraj", "Lireisy", "Jayain", "Ullath",]
+		"cities": ["Gnosta", "Manyur", "Zadde", "Himun", "Geiala", "Hendwen", "Oroos", "Dasraj", "Xighor", "Utanla", "Cyin", "Guairon", "Yuredan", "Ammael", "Junyan", "Ranf", "Suan", "Rothkallor", "Valdaea", "Tearan", "Coldramor", "Avarilea", "Lendfel", "Tuldraj", "Lireisy", "Jayain", "Ullath",]
 	}
 	// Roving Clans
 	{
@@ -152,7 +152,7 @@
 		"innerColor": [255,153,51],
 		"uniqueName": "Peace and Prosperity",
 		"uniques": ["[+1 Gold, +1 Culture] from each Trade Route","[-50]% maintenance on roads & railroads","Double quantity of [Horses] produced"],
-		"cities": ["Tebadel", "Zhivor", "Eraadh", "Rualle", "Grodej", "Strard", "Yulin", "Golcwin", "Wervalyn", "Aberian", "Rexos", "Juilarn", "Sam-risum", "O'irenth", "Gadinak", "Nakaini", "Moires", "Nylerea", "Uardan", "Umalna", "Adikin", "Relye", "Avrone", "Querat",]
+		"cities": ["Al-Quereshi", "Karrandar", "Almed", "Samunttia", "Zhagorak", "Sipuan", "Mapaa", "Adikin", "Zhivor", "Eraadh", "Rualle", "Grodej", "Strard", "Yulin", "Golcwin", "Wervalyn", "Aberian", "Rexos", "Juilarn", "Sam-risum", "O'irenth", "Gadinak", "Nakaini", "Moires", "Nylerea", "Uardan", "Umalna", "Adikin", "Relye", "Avrone", "Querat",]
 	}
 	// Drakken
 	{
@@ -178,7 +178,7 @@
 		"uniqueName": "Diplomatic Pressures",
 		"uniques": ["[-50]% City-State Influence degradation", "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory",
 			"[+25]% [Food] from City-States","[+25]% [Culture] from City-States","[+25]% [Faith] from City-States","Military Units gifted from City-States start with [+10] XP",],
-		"cities": ["Drakkenhome", "Tanelm", "Inolya", "Nyaegor", "Avrama", "Meruan", "Asemel", "Morinlac", "Olaran", "Larys", "Irimda", "Sharanne", "Ia'poli", "Ard'im", "Gaadach", "Sondir", "Hailoman", "Cosdrian", "Cymoa", "Perrandy", "Ormn", "Balther", "Naillon", "Hawyrd",]
+		"cities": ["Nahar Tereth", "Shiamere", "Tanelm", "Inolya", "Nyaegor", "Avrama", "Meruan", "Asemel", "Morinlac", "Olaran", "Larys", "Irimda", "Sharanne", "Ia'poli", "Ard'im", "Gaadach", "Sondir", "Hailoman", "Cosdrian", "Cymoa", "Perrandy", "Ormn", "Balther", "Naillon", "Hawyrd",]
 	}
 	// Cultists
 	{
@@ -203,7 +203,7 @@
 		"uniqueName": "Conversion",
 		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities","Cities are razed [3] times as fast","[All] units gain the [Convert] promotion","[-25]% maintenance costs <for [All] units>",
 					"This faction doesn't build settlers and should raze any captured city"]
-		"cities": ["High Seat of the Queen", "Whiechsul", "Dallan", "Aldineche", "Vareis", "Ganli", "Herkuf", "Yaeg", "Yerow", "Jurgador", "Taim", "Manyur", "Gildrin", "Worimer", "Ashrusk", "Ndortara", "Doreis", "Tin'en", "Achq", "Jalastil", "Almed", "Danin", "Salimar",]
+		"cities": ["Queen's Tomb", "Amenvar", "Undand", "Endigir", "Whiechsul", "Dallan", "Aldineche", "Vareis", "Ganli", "Herkuf", "Yaeg", "Yerow", "Jurgador", "Taim", "Manyur", "Gildrin", "Worimer", "Ashrusk", "Ndortara", "Doreis", "Tin'en", "Achq", "Jalastil", "Almed", "Danin", "Salimar",]
 	}
 	// Forgotten
 	{
@@ -227,7 +227,7 @@
 		"innerColor": [230,230,230],
 		"uniqueName": "Forage and Pillage",
 		"uniques": ["No movement cost to pillage <for [Land] units>","[Land] units gain the [From the Shadows] promotion",],
-		"cities": ["Dagaari Tanga", "Nolaran", "Antabb", "Frayhame", "Stigarnal", "Paerian", "Ymosy", "Vedra", "Rothald", "Hontur", "Neth", "Angryn", "Terreth", "Idyna", "Ravode", "Qua'usk", "Undand", "Shulna", "Moch", "Uskiv", "Uralleb", "Ostakk", "Leold", "Madinav",]
+		"cities": ["Dagaari Tanga", "Omgar", "Nolaran", "Antabb", "Frayhame", "Stigarnal", "Paerian", "Ymosy", "Vedra", "Rothald", "Hontur", "Neth", "Angryn", "Terreth", "Idyna", "Ravode", "Qua'usk", "Undand", "Shulna", "Moch", "Uskiv", "Uralleb", "Ostakk", "Leold", "Madinav",]
 	}
 	// Allayi
 	{
@@ -251,7 +251,7 @@
 		"innerColor": [255,128,0],
 		"uniqueName": "Shifting",
 		"uniques": ["[+25]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+15]% Strength <for [All] units> <during a Golden Age>","[Great General] is earned [+33]% faster",],
-		"cities": ["Altar of Auriga", "Karrandar", "Oenga", "Uska", "Menavin", "Uryno", "Medordan", "Yith", "Selamont", "Somaj", "Imz", "Acareyn", "Tevan", "Brama", "Melantur", "Dainej", "Alandarin", "Chadhun", "Rouster", "Aduran", "Calal", "Lionith", "Naclaran", "Magomaj",]
+		"cities": ["Zimna", "Kentamys", "Karrandar", "Oenga", "Uska", "Menavin", "Uryno", "Medordan", "Yith", "Selamont", "Somaj", "Imz", "Acareyn", "Tevan", "Brama", "Melantur", "Dainej", "Alandarin", "Chadhun", "Rouster", "Aduran", "Calal", "Lionith", "Naclaran", "Magomaj",]
 	}
 	// Morgawr
 	{
@@ -276,7 +276,7 @@
 		"innerColor": [76,153,0],
 		"uniqueName": "Neptunian",
 		"uniques": ["[+1 Food] from every [Coast]","[+1 Production] from every [Water]","Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "Normal vision when embarked <for [All] units>","[Land] units gain the [Amphibious] promotion"],
-		"cities": ["The Fortress", "Vanoran", "Sipuan", "Sulin", "Mathenir", "Shorel", "Osdarcha", "Dene", "Turol", "Lertan", "Renar", "Mandara", "Eawyth", "Zadde", "Veltare", "Bel'sero", "Masuarim", "Mettanch", "Trenwin", "Aremon", "Inga", "Garint", "Rakmnal", "Ingulath",]
+		"cities": ["The Beginning", "Masweyr", "Vanoran", "Sipuan", "Sulin", "Mathenir", "Shorel", "Osdarcha", "Dene", "Turol", "Lertan", "Renar", "Mandara", "Eawyth", "Zadde", "Veltare", "Bel'sero", "Masuarim", "Mettanch", "Trenwin", "Aremon", "Inga", "Garint", "Rakmnal", "Ingulath",]
 	}
 	// Kapaku
 	{
@@ -301,7 +301,7 @@
 		"innerColor": [204,0,0],
 		"uniqueName": "Born of Ash",
 		"uniques": ["Receive free [Great Engineer] when you discover [Masonry]","[Great Engineer] is earned [50]% faster","[-25]% maintenance costs <for [Land] units>"],
-		"cities": ["Magma Council", "Amenvar", "Meen", "Isield", "Sliq", "Himun", "Tarrael", "Barians", "Nyerte", "Chah", "Oyvinn", "Masweyr", "Yunarin", "Fudoro", "Ataiu", "Cthydra", "Reghsina", "Aynar", "Syciki", "Waredda", "Dels", "Laldora", "Saradh", "Zhagorak",]
+		"cities": ["Iokua", "Ormn", "Amenvar", "Meen", "Isield", "Sliq", "Himun", "Tarrael", "Barians", "Nyerte", "Chah", "Oyvinn", "Masweyr", "Yunarin", "Fudoro", "Ataiu", "Cthydra", "Reghsina", "Aynar", "Syciki", "Waredda", "Dels", "Laldora", "Saradh", "Zhagorak",]
 	}
 	// Mykara
 	{
@@ -329,7 +329,7 @@
 					"[+50]% [Culture] [in all non-occupied cities]","[+50]% [Science] [in all non-occupied cities]",
 					"[-50]% [Culture] [in capital]","[-50]% [Science] [in capital]",
 					"This faction doesn't build settlers and should puppet any captured city"],
-		"cities": ["Mykara","Mulladien", "Yerurnqua", "Radalta", "Marebond", "Yiggodra", "Madirod", "Omgar", "Ver'kal", "Anm", "Utharan", "Inelle", "Naquakic", "Dutharad", "Tyd", "Byldwan", "Marreyn", "Indorand", "Goulji", "Lodera", "Amund", "Ishimlor", "Edyno",]
+		"cities": ["Manita Gari", "Agai", "Mulladien", "Yerurnqua", "Radalta", "Marebond", "Yiggodra", "Madirod", "Omgar", "Ver'kal", "Anm", "Utharan", "Inelle", "Naquakic", "Dutharad", "Tyd", "Byldwan", "Marreyn", "Indorand", "Goulji", "Lodera", "Amund", "Ishimlor", "Edyno",]
 	}
 	
 ]
