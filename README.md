@@ -14,4 +14,6 @@ Auriga custom map
 Faction icons and setseke icon come from Endless Legend
 
 # Changelog
+### v0.1.1	fixed Vaulter UA name, city names match official map now
+
 ### v0.1	initial release
