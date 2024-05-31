@@ -7,7 +7,7 @@
 		"production": 4,
 		"uniques": [
 			"Great Improvement", 
-			"[+1 Production] <after discovering [Chemistry]>", 
+			"[+3 Production] <after discovering [Chemistry]>", 
 			"Removes removable features when built", 
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"[+1 Food] for each adjacent [Farm]",
@@ -34,7 +34,7 @@
 		"gold": 4,
 		"uniques": [
 			"Great Improvement", 
-			"[+1 Gold] <after discovering [Economics]>", 
+			"[+4 Gold] <after discovering [Economics]>", 
 			"Removes removable features when built", 
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"[+1 Food] for each adjacent [Farm]",
