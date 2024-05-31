@@ -1,6 +1,17 @@
 [
 		// Wild Walkers
 		// Broken Lords
+	{
+			"name": "Altar of Channeling",
+			"uniqueTo": "Broken Lords",
+        	"replaces": "Bank",
+			"gold": 4,
+			"specialistSlots": {"Merchant": 2},
+			"hurryCostModifier": 15,
+			"percentStatBonus": {"gold": 30},
+			"requiredBuilding": "Market",
+			"requiredTech": "Banking"
+		},
 		// Vaulters
 		// Necrophages
 	{
