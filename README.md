@@ -1,4 +1,4 @@
-# Endless-Unciv
+# Endless Legend Civilizations
 An Endless Legend inspired Unciv mod.
 
 ### Possible Roadmap (most likely in that order)
