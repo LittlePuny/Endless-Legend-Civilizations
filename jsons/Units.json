@@ -2,67 +2,52 @@
 	// Wild Walkers
 	{
 		"name": "Dekari Ranger",
-		"replaces": "Composite Bowman",
-		"uniqueTo": "Wild Walkers"
 		"unitType": "Archery",
+		"range": 2,
 		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 11,
-		"cost": 75,
-		"requiredTech": "Construction",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
-		"promotions": ["Extended Range"]
+		"strength": 13,
+		"rangedStrength": 18,
+		"replaces": "Crossbowman",
+		"uniqueTo": "Wild Walkers",
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"promotions": ["Extended Range"],
 		"attackSound": "arrow"
 	},
 	
 	{
 		"name": "Tenei Walker",
-		"replaces": "Longswordsman",
-		"uniqueTo": "Wild Walkers"
-		"unitType": "Sword",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Wild Walkers",
 		"movement": 2,
-		"strength": 24,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"requiredResource": "Iron",
-		"promotions": ["Cover I"],
-		"attackSound": "metalhit"
+		"strength": 55,
+		"cost": 300,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": [],
+		"promotions":  ["Cover I"],
+		"attackSound": "shot"
 	},
 	// Broken Lords
 	{
-		"name": "Stalwarts",
-		"unitType": "Sword",
-		"replaces": "Pikeman",
+		"name": "Ryder",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
 		"uniqueTo": "Broken Lords",
-		"movement": 2,
-		"strength": 16,
-		"cost": 90,
-		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", ],
-		"upgradesTo": "Lancer",
-		"obsoleteTech": "Combined Arms",
-		"promotions": ["Soul Leech","Cover I"],
-		"attackSound": "metalhit"
-	},
-	
-	{
-		"name": "Dust Bishop",
-		"unitType": "Ranged",
-		"replaces": "Gatling Gun",
-		"uniqueTo": "Broken Lords",
-		"range": 1,
-		"movement": 2,
-		"strength": 30,
-		"rangedStrength": 30,
+		"movement": 4,
+		"strength": 34,
 		"cost": 225,
-		"requiredTech": "Industrialization",
-		"upgradesTo": "Machine Gun",
-		"obsoleteTech": "Ballistics",
-		"promotions": ["Medic","Medic II"],
-		"attackSound": "machinegun"
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"promotions": ["Soul Leech"],
+		"attackSound": "horse"
 	},
 	// Vaulters
 	{
@@ -82,16 +67,15 @@
 	
 	{
 		"name": "Dawn Officer",
-		"replaces": "Cavalry",
-		"uniqueTo": "Vaulters",
 		"unitType": "Sword",
+		"replaces": "Musketman",
+		"uniqueTo": "France",
 		"movement": 4,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combustion",
-		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking"],
+		"strength": 27,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit"
 	},
 	// Necrophages
@@ -101,36 +85,88 @@
 		"uniqueTo": "Necrophages",
 		"unitType": "Scout",
 		"movement": 4,
-		"strength": 5,
+		"strength": 6,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["[+1] Sight","All tiles costs 1", "Can move after attacking", "No defensive terrain bonus","Can pass through impassable tiles"],
+		"uniques": ["[+1] Sight","All tiles cost 1 movement", "Can move after attacking", "No defensive terrain bonus","Can pass through impassable tiles"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
 	// Ardent Mages
-		{
+	{
 		"name": "Eneqa Wing",
-		"replaces": "Paratrooper",
+		"replaces": "Anti-Tank Gun",
 		"uniqueTo": "Ardent Mages",
-		"unitType": "Gunpowder",
+		"unitType": "Helicopter",
 		"movement": 4,
-		"strength": 70,
-		"cost": 390,
-		"requiredTech": "Radar",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory","All tiles costs 1", "Can move after attacking", "No defensive terrain bonus","Can pass through impassable tiles"],
-		"promotions": ["March"]
-		"attackSound": "shot"
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Helicopter Gunship",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"promotions": ["March"],
+		"attackSound": "machinegun"
 	},
 	
 	{
-		"name": "Great Arcanist",
+		"name": "Arcana Engineer",
+		"replaces": "Great Engineer",
+		"uniqueTo": "Ardent Mages",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building", "Can instantly construct a [Industry Pillar] improvement <by consuming this unit>","Uncapturable", "Great Person - [Production]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Arcana Merchant",
+		"replaces": "Great Merchant",
+		"uniqueTo": "Ardent Mages",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", "Can instantly construct a [Dust Pillar] improvement <by consuming this unit>","Uncapturable", "Great Person - [Gold]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Arcana Scientist",
 		"replaces": "Great Scientist",
 		"uniqueTo": "Ardent Mages",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research", "Can construct [Arcana Pillar]","Uncapturable", "Great Person - [Science]", "Unbuildable"],
-		"movement": 4
+		"uniques": ["Can hurry technology research", "Can instantly construct a [Science Pillar] improvement <by consuming this unit>","Uncapturable", "Great Person - [Science]", "Unbuildable"],
+		"movement": 2
 	},
+	{
+		"name": "Arcana Artist",
+		"replaces": "Great Artist",
+		"uniqueTo": "Ardent Mages",
+		"unitType": "Civilian",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Influence Pillar] improvement <by consuming this unit>","Uncapturable", "Great Person - [Culture]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Arcana General",
+		"replaces": "Great General",
+		"uniqueTo": "Ardent Mages",
+		"unitType": "Civilian",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Citadel Pillar] improvement <by consuming this unit>","Uncapturable", "Can be earned through combat", "Great Person - [War]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Arcana Prophet",
+		"replaces": "Great Prophet",
+		"uniqueTo": "Ardent Mages",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can instantly construct a [Holy Pillar] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+
 	// Roving clans
 		{
 		"name": "Setseke",
@@ -155,8 +191,8 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"promotions": ["Besiege"]
+		"uniques": ["Can move after attacking"],
+		"promotions": ["Besiege"],
 		"attackSound": "horse"
 	},
 	// Drakken
@@ -171,25 +207,8 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["All tiles costs 1", "Can move after attacking", "No defensive terrain bonus","Can pass through impassable tiles"],
+		"uniques": ["All tiles cost 1 movement", "Can move after attacking", "No defensive terrain bonus","Can pass through impassable tiles"],
 		"attackSound": "horse"
-	},
-	
-	{
-		"name": "Ancient",
-		"replaces": "Artillery",
-		"uniqueTo": "Drakken",
-		"unitType": "Siege",
-		"movement": 4,
-		"strength": 25,
-		"rangedStrength": 30,
-		"range": 2,
-		"cost": 360,
-		"requiredTech": "Dynamite",
-		"upgradesTo": "Rocket Artillery",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","All tiles costs 1", "Can move after attacking", "No defensive terrain bonus","Can pass through impassable tiles",]
-		"promotions": ["Indirect Fire"],
-		"attackSound": "artillery"
 	},
 	// Cultists
 	{
@@ -203,21 +222,6 @@
 		"hurryCostModifier": 20
 	},
 	
-	{
-		"name": "Nameless Guard",
-		"replaces": "Gatling Gun",
-		"uniqueTo": "Cult of the Eternal End",
-		"unitType": "Archery",
-		"range": 2,
-		"movement": 2,
-		"strength": 25,
-		"rangedStrength": 35,
-		"cost": 210,
-		"requiredTech": "Industrialization",
-		"upgradesTo": "Machine Gun",
-		"obsoleteTech": "Ballistics",
-		"attackSound": "machinegun"
-	},
 	// Forgotten
 	{
 		"name": "Predatore",
@@ -256,7 +260,14 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Allayi",
 		"replaces": "Great General",
-		"uniques": ["Can start an [8]-turn golden age","Bonus for units in 2 tile radius 15%","All adjacent units heal [+15] HP when healing", "[+15] HP when healing", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable","[+1] Sight","All tiles costs 1", "Can move after attacking", "No defensive terrain bonus","Can pass through impassable tiles"],
+		"uniques": [
+            "All tiles cost 1 movement",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+10] HP when healing", "[+10] HP when healing",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	// Morgawr
@@ -300,27 +311,23 @@
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"promotions": ["Besiege"],
-		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"uniques" : ["[-100]% maintenance costs"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
 	
-	{
-		"name": "Geomancer",
-		"unitType": "Siege",
-		"replaces": "Trebuchet",
-		"uniqueTo": "Kapaku",
-		"movement": 2,
-		"strength": 12,
-		"rangedStrength": 14,
-		"cost": 120,
-		"requiredTech": "Physics",
-		"obsoleteTech": "Chemistry",
-		"upgradesTo": "Cannon",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Never appears as a Barbarian unit"],
-		"attackSound": "throw"
-	},
 	// Mykara
+	{
+		"name": "Mykara Settler",
+		"unitType": "Civilian",
+		"uniqueTo": "Mykara",
+		"replaces": "Settler",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city", "Will not be displayed in Civilopedia", "Unbuildable"],
+		"hurryCostModifier": 20
+	},
+
 	{
 		"name": "Gorgon",
 		"replaces": "Cavalry",
@@ -332,22 +339,8 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>",],
-		"promotions": ["Blitz"]
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>"],
+		"promotions": ["Blitz"],
 		"attackSound": "metalhit"
-	},
-	
-	{
-		"name": "Mykara Settler",
-		"unitType": "Civilian",
-		"uniqueTo": "Mykara",
-		"replaces": "Settler",
-		"movement": 2,
-		"cost": 106,
-		"uniques": ["Founds a new city", "Will not be displayed in Civilopedia", "Unbuildable"],
-		"hurryCostModifier": 20
-	},
-	
-	
-	
+	}
 ]

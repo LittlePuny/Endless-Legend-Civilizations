@@ -7,19 +7,44 @@
 		"name": "Feeding Pits",
 		"uniqueTo": "Necrophages",
         "replaces": "Courthouse",
-		"maintenance": 2,
+		"maintenance": 0,
         "hurryCostModifier": 50,
         "uniques": [
 			"Remove extra unhappiness from annexed cities",
-            "+15% growth [in all cities]"
-			"Can only be built in annexed cities"
+            "[+10]% growth [in this city]",
+			"Can only be built <in [Annexed] cities>"
 			],
         "requiredTech": "Mathematics"
     },
 		// Ardent Mages
 		// Roving clans
 		// Drakken
+	{
+		"name": "Oologic Nursery",
+		"uniqueTo": "Drakken",
+        "replaces": "Hospital",
+		"food": 5,
+		"requiredBuilding": "Aqueduct",
+		"maintenance": 0,
+		"hurryCostModifier": 0,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
+		"requiredTech": "Biology"
+	},
 		// Cultists
+	{
+		"name": "High Seat of the Queen",
+		"uniqueTo": "Cult of the Eternal End",
+		"replaces": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 5,
+		"culture": 1,
+		"cityStrength": 5,
+		"cost": 1,
+		"specialistSlots": {"Artist": 1, "Engineer": 1, "Merchant": 1, "Scientist": 1},
+		"uniques": ["Indicates the capital city","[1] Unit Supply per [1] population [in capital]"]
+	},
 	{
         "name": "Shrine of Whispers",
 		"uniqueTo": "Cult of the Eternal End",
@@ -27,7 +52,7 @@
 		"replaces": "Courthouse",
 		"requiredBuilding": "Palace",
 		"hurryCostModifier": 50,
-		"uniques": ["[+25]% great person generation [in capital]","[+50]% Yield from every [Great Improvement]"]
+		"uniques": ["[+25]% Great Person generation [in capital]","[+50]% Yield from every [Great Improvement]"],
 		"requiredTech": "Mathematics"
     },
 		// Forgotten
@@ -36,13 +61,27 @@
 		"name": "Garth of the Allayi",
 		"uniqueTo": "Allayi",
 		"replaces": "Garden",
-		"uniques": ["[+25]% great person generation [in this city]"],
+		"uniques": ["[+25]% Great Person generation [in this city]"],
 		"hurryCostModifier": 25,
 		"culture": 2,
+		"maintenance": 0,
 		"requiredTech": "Theology"
 	},
 		// Morgawr
-		// Kapaku
+		// Kapakku
+	{
+		"name": "Golem Camp",
+		"uniqueTo": "Kapakku",
+		"replaces": "Workshop",
+		"maintenance": 1,
+		"production": 3,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"uniques": ["[1] population [in this city]"],
+		"requiredTech": "Metal Casting"
+	},
+
 		// Mykara	
 	{
         "name": "Kernel of Plentitude",
@@ -51,7 +90,7 @@
 		"replaces": "Courthouse",
 		"requiredBuilding": "Palace",
 		"hurryCostModifier": 50,
-		"uniques": ["[+10]% [Food] [in capital]","[+10]% [Science] [in capital]","[+10]% [Gold] [in capital]"]
+		"uniques": ["[+10]% [Food] [in capital]","[+10]% [Science] [in capital]","[+10]% [Gold] [in capital]"],
 		"requiredTech": "Mathematics"
     },
 ]

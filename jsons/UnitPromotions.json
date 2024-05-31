@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Soul Leech",
-		"uniques": ["Heals [25] damage if it kills a unit"]
+		"uniques": ["Heals [15] damage if it kills a unit"]
 	},
 	
 	{
@@ -11,7 +11,7 @@
 
 	{
 		"name": "Convert",
-		"uniques": ["May capture killed [Barbarian] units","[+50]% Strength <vs [Barbarian] units>"]
+		"uniques": ["May capture killed [Barbarian] units","[+25]% Strength <vs [Barbarian] units>"]
 	},
 	
 	{
