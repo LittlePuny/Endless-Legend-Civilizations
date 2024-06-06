@@ -22,8 +22,7 @@
         "hurryCostModifier": 50,
         "uniques": [
 			"Remove extra unhappiness from annexed cities",
-            "[+10]% growth [in this city]",
-			"Can only be built <in [Annexed] cities>"
+            "[+10]% growth [in this city]"
 			],
         "requiredTech": "Mathematics"
     },

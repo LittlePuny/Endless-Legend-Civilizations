@@ -81,18 +81,36 @@
 	// Necrophages
 	{
 		"name": "Necrodrone",
-		"replaces": "Scout",
+		"unitType": "Sword",
+		"replaces": "Pikeman",
 		"uniqueTo": "Necrophages",
-		"unitType": "Scout",
 		"movement": 4,
-		"strength": 6,
-		"cost": 25,
-		"obsoleteTech": "Scientific Theory",
-		"uniques": ["[+1] Sight","All tiles cost 1 movement", "Can move after attacking", "No defensive terrain bonus","Can pass through impassable tiles"],
-		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit"
+		"strength": 19,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["Can move after attacking","[+50]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
 	},
 	// Ardent Mages
+	{
+		"name": "Ateshi Zealot",
+		"replaces": "Cannon",
+		"uniqueTo": "Ardent Mages",
+		"unitType": "Siege",
+		"range": 3,
+		"movement": 2,
+		"strength": 14,
+		"rangedStrength": 20,
+		"cost": 185,
+		"requiredTech": "Chemistry",
+		"upgradesTo": "Artillery",
+		"obsoleteTech": "Dynamite",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+	
 	{
 		"name": "Eneqa Wing",
 		"replaces": "Anti-Tank Gun",
@@ -114,7 +132,7 @@
 		"replaces": "Great Engineer",
 		"uniqueTo": "Ardent Mages",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building", "Can instantly construct a [Industry Pillar] improvement <by consuming this unit>","Uncapturable", "Great Person - [Production]", "Unbuildable"],
+		"uniques": ["Will not be displayed in Civilopedia","Can speed up construction of a building", "Can instantly construct a [Industry Pillar] improvement <by consuming this unit>","Uncapturable", "Great Person - [Production]", "Unbuildable"],
 		"movement": 2
 	},
 	{
@@ -122,7 +140,7 @@
 		"replaces": "Great Merchant",
 		"uniqueTo": "Ardent Mages",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", "Can instantly construct a [Dust Pillar] improvement <by consuming this unit>","Uncapturable", "Great Person - [Gold]", "Unbuildable"],
+		"uniques": ["Will not be displayed in Civilopedia","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", "Can instantly construct a [Dust Pillar] improvement <by consuming this unit>","Uncapturable", "Great Person - [Gold]", "Unbuildable"],
 		"movement": 2
 	},
 	{
@@ -130,7 +148,7 @@
 		"replaces": "Great Scientist",
 		"uniqueTo": "Ardent Mages",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research", "Can instantly construct a [Science Pillar] improvement <by consuming this unit>","Uncapturable", "Great Person - [Science]", "Unbuildable"],
+		"uniques": ["Will not be displayed in Civilopedia","Can hurry technology research", "Can instantly construct a [Science Pillar] improvement <by consuming this unit>","Uncapturable", "Great Person - [Science]", "Unbuildable"],
 		"movement": 2
 	},
 	{
@@ -138,7 +156,7 @@
 		"replaces": "Great Artist",
 		"uniqueTo": "Ardent Mages",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Influence Pillar] improvement <by consuming this unit>","Uncapturable", "Great Person - [Culture]", "Unbuildable"],
+		"uniques": ["Will not be displayed in Civilopedia","Empire enters a [8]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Influence Pillar] improvement <by consuming this unit>","Uncapturable", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 2
 	},
 	{
@@ -146,7 +164,7 @@
 		"replaces": "Great General",
 		"uniqueTo": "Ardent Mages",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Citadel Pillar] improvement <by consuming this unit>","Uncapturable", "Can be earned through combat", "Great Person - [War]", "Unbuildable"],
+		"uniques": ["Will not be displayed in Civilopedia","Empire enters a [8]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Citadel Pillar] improvement <by consuming this unit>","Uncapturable", "Can be earned through combat", "Great Person - [War]", "Unbuildable"],
 		"movement": 2
 	},
 	{
@@ -155,6 +173,7 @@
 		"uniqueTo": "Ardent Mages",
 		"unitType": "Civilian",
 		"uniques": [
+			"Will not be displayed in Civilopedia",
             "Can instantly construct a [Holy Pillar] improvement <by consuming this unit> <if it hasn't used other actions yet>",
             "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
@@ -174,8 +193,14 @@
 		"uniqueTo": "Roving Clans",
 		"unitType": "Civilian",
 		"movement": 4,
-		"cost": 106,
-		"uniques": ["Founds a new city","Excess Food converted to Production when under construction","Requires at least [2] population","Ignores terrain cost"],
+		"cost": 90,
+		"uniques": [
+			"Founds a new city",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population",
+			"Ignores terrain cost",
+			"[1] population in a random city<upon founding a city>"
+		],
 		"hurryCostModifier": 20
 	},
 	
@@ -314,6 +339,22 @@
 		"uniques" : ["[-100]% maintenance costs"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Geomancer",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Kapaku",
+		"replaces": "Gatling Gun",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 35,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"promotions": ["Extended Range"],
+		"upgradesTo": "Machine Gun",
+		"obsoleteTech": "Ballistics",
+		"attackSound": "machinegun"
 	},
 	
 	// Mykara
