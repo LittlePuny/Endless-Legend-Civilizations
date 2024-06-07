@@ -34,7 +34,7 @@
 	},
 	// Broken Lords
 	{
-		"name": "Stalwats",
+		"name": "Stalwarts",
 		"unitType": "Sword",
 		"replaces": "Spearman",
 		"uniqueTo": "Broken Lords",
