@@ -34,6 +34,20 @@
 	},
 	// Broken Lords
 	{
+		"name": "Stalwats",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Broken Lords",
+		"movement": 2,
+		"strength": 13,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Ryder",
 		"unitType": "Mounted",
 		"replaces": "Cavalry",

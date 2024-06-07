@@ -1,17 +1,6 @@
 [
 		// Wild Walkers
 		// Broken Lords
-	{
-			"name": "Altar of Channeling",
-			"uniqueTo": "Broken Lords",
-        	"replaces": "Bank",
-			"gold": 4,
-			"specialistSlots": {"Merchant": 2},
-			"hurryCostModifier": 15,
-			"percentStatBonus": {"gold": 30},
-			"requiredBuilding": "Market",
-			"requiredTech": "Banking"
-		},
 		// Vaulters
 		// Necrophages
 	{
@@ -103,4 +92,533 @@
 		"uniques": ["[+10]% [Food] [in capital]","[+10]% [Science] [in capital]","[+10]% [Gold] [in capital]"],
 		"requiredTech": "Mathematics"
     },
+
+
+
+	//broken lords population buy/produce mechanic
+	{
+		"name": "Create Population 1",
+		"uniqueTo": "Broken Lords",
+		"cost": 7, //15*50
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [1] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 2",
+		"uniqueTo": "Broken Lords",
+		"cost": 12, //22*55
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [2] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 3",
+		"uniqueTo": "Broken Lords",
+		"cost": 18, //30*60
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [3] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 4",
+		"uniqueTo": "Broken Lords",
+		"cost": 26, //40*65
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [4] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 5",
+		"uniqueTo": "Broken Lords",
+		"cost": 35, //51*70
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [5] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 6",
+		"uniqueTo": "Broken Lords",
+		"cost": 47, //63*75
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [6] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 7",
+		"uniqueTo": "Broken Lords",
+		"cost": 60, //76*80
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [7] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 8",
+		"uniqueTo": "Broken Lords",
+		"cost": 76, //90*85
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [8] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 9",
+		"uniqueTo": "Broken Lords",
+		"cost": 94, //105*90
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [9] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 10",
+		"uniqueTo": "Broken Lords",
+		"cost": 114, //121*95
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [10] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+
+	{
+		"name": "Create Population 11",
+		"uniqueTo": "Broken Lords",
+		"cost": 138, //138
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [11] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 12",
+		"uniqueTo": "Broken Lords",
+		"cost": 155, //155
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [12] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 13",
+		"uniqueTo": "Broken Lords",
+		"cost": 175, //175
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [13] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 14",
+		"uniqueTo": "Broken Lords",
+		"cost": 194, //194
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [14] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 15",
+		"uniqueTo": "Broken Lords",
+		"cost": 214, //214
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [15] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 16",
+		"uniqueTo": "Broken Lords",
+		"cost": 235, //235
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [16] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 17",
+		"uniqueTo": "Broken Lords",
+		"cost": 258, //258
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [17] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 18",
+		"uniqueTo": "Broken Lords",
+		"cost": 280, //280
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [18] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 19",
+		"uniqueTo": "Broken Lords",
+		"cost": 304, //304
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [19] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 20",
+		"uniqueTo": "Broken Lords",
+		"cost": 329, //329
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [20] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+
+	{
+		"name": "Create Population 21",
+		"uniqueTo": "Broken Lords",
+		"cost": 354, //354
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [21] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 22",
+		"uniqueTo": "Broken Lords",
+		"cost": 382, //382
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [22] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 23",
+		"uniqueTo": "Broken Lords",
+		"cost": 407, //407
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [23] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 24",
+		"uniqueTo": "Broken Lords",
+		"cost": 435,
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [24] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 25",
+		"uniqueTo": "Broken Lords",
+		"cost": 464,
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [25] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 26",
+		"uniqueTo": "Broken Lords",
+		"cost": 493,
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [26] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 27",
+		"uniqueTo": "Broken Lords",
+		"cost": 523,
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [27] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 28",
+		"uniqueTo": "Broken Lords",
+		"cost": 554,
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [28] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 29",
+		"uniqueTo": "Broken Lords",
+		"cost": 585,
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [29] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 30",
+		"uniqueTo": "Broken Lords",
+		"cost": 617,
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [30] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+
+	{
+		"name": "Create Population 31",
+		"uniqueTo": "Broken Lords",
+		"cost": 650,
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [31] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 32",
+		"uniqueTo": "Broken Lords",
+		"cost": 684,
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [32] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 33",
+		"uniqueTo": "Broken Lords",
+		"cost": 719,
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [33] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 34",
+		"uniqueTo": "Broken Lords",
+		"cost": 754,
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [34] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 35",
+		"uniqueTo": "Broken Lords",
+		"cost": 790,
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [35] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 36",
+		"uniqueTo": "Broken Lords",
+		"cost": 826,
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [36] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 37",
+		"uniqueTo": "Broken Lords",
+		"cost": 863,
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [37] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 38",
+		"uniqueTo": "Broken Lords",
+		"cost": 901,
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [38] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 39",
+		"uniqueTo": "Broken Lords",
+		"cost": 940,
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [39] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Create Population 40",
+		"uniqueTo": "Broken Lords",
+		"cost": 979,
+		"uniques": [
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Population Building",
+			"[+1] population [in this city]",
+			"Only available<in cities with [40] [Population]>",
+			"Remove [Population Building] [in all cities]<after [1] turns>"
+		]
+	},
+
+	
 ]
