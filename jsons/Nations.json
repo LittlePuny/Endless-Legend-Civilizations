@@ -127,6 +127,7 @@
 			"[+1 Gold] from every [Desert]<if [Petra] is constructed>",
 			"[+10]% [Gold] [in capital]<after adopting [Landed Elite]>",
 			"[+2 Gold] [in capital]<after adopting [Landed Elite]>",
+			"[+15]% [Gold] [in all cities]<after adopting [Tradition Complete]>",
 			"[+2 Gold] [in all cities]<after adopting [Order]>"
 		],
 		"cities": ["Hwilhet-On-Arewe", "Valdaea", "Nolaran", "O'Irenth", "Worimer", "Lionith", "Trenwin", "Shadonn", "Aberian", "Ran'dare", "Dardogar", "Candray", "Yerian", "Holcaj", "Tsoth", "Ralian", "Awniss", "Janeldass", "Sormel", "Taldreen", "Ightohin", "Rayit", "Relian", "Wistred", "Sulet", "Ovoru", "Sam-hin", "Ersay", "Emoroya", "Halethby", "Caquag", "Etmess"]
