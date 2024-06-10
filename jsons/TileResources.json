@@ -1,0 +1,12 @@
+[
+    {
+		"name": "Cadavers",
+		"resourceType": "Strategic",
+		"uniques": [
+                    "Stockpiled",
+                    "Doesn't generate naturally",
+                    "Cannot be traded",
+                    "Not shown on world screen <for [non-[Necrophages]]>"
+                    ]
+	}
+]

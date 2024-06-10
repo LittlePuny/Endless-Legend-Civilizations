@@ -11,10 +11,41 @@
         "hurryCostModifier": 50,
         "uniques": [
 			"Remove extra unhappiness from annexed cities",
-            "[+10]% growth [in this city]"
+            "[+10]% growth [in this city]",
+			"[-20]% Culture cost of natural border growth [in this city]"
 			],
         "requiredTech": "Mathematics"
     },
+
+	{
+		"name": "Feed the Hive",
+		"uniqueTo": "Necrophages",
+		"cost": 0,
+		"uniques": [
+			"Unsellable", "Unbuildable",
+			"Will not be displayed in Civilopedia",
+			"Can be purchased for [0] [Culture] [in all cities]",
+			"Instantly consumes [4] [Cadavers]",
+			"Unbuildable <when below [4] [Cadavers]>",
+			"[+1] population [in this city]",
+			"Only available<in cities with [1] [Population]>",
+			"Remove [Feed the Hive] [in this city]<after [1] turns>"
+		]
+	},
+	{
+		"name": "Demanding Gods",
+		"uniqueTo": "Necrophages",
+		"cost": 0,
+		"uniques": [
+			"Unsellable", "Unbuildable",
+			"Will not be displayed in Civilopedia",
+			"Can be purchased for [0] [Culture] [in all cities]",
+			"Requires at least [2] population",
+			"[-1] population [in this city]",
+			"[-100]% Unhappiness from [Population] [in this city] <for [10] turns>",
+			"Remove [Cull the Herd] [in this city] <after [10] turns>"
+		]
+	},
 		// Ardent Mages
 		// Roving clans
 		// Drakken

@@ -2,6 +2,8 @@
 
 	{
 		"name": "Industry Pillar",
+		"replaces": "Manufactory",
+		"uniqueTo": "Ardent Mages",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
 		"uniques": [
@@ -28,6 +30,8 @@
 	},
 	{
 		"name": "Dust Pillar",
+		"replaces": "Customs house",
+		"uniqueTo": "Ardent Mages",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 4,
 		"uniques": [
@@ -54,6 +58,8 @@
 	},
 	{
 		"name": "Science Pillar",
+		"replaces": "Academy",
+		"uniqueTo": "Ardent Mages",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
 		"uniques": [
@@ -81,6 +87,8 @@
 	},
 	{
 		"name": "Influence Pillar",
+		"replaces": "Landmark",
+		"uniqueTo": "Ardent Mages",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 6,
 		"uniques": [
@@ -106,6 +114,8 @@
 	},
 	{
 		"name": "Citadel Pillar",
+		"replaces": "Citadel",
+		"uniqueTo": "Ardent Mages",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
@@ -128,11 +138,13 @@
 			"[+1 Culture] for each adjacent [City center]",
 			"[+1 Culture] for each adjacent [City ruins]",
 			"[+1 Culture] for each adjacent [Fort]",
-			"[+2 Science] for each adjacent [Great Improvement]",
+			"[+2 Science] for each adjacent [Great Improvement]"
 			]
 	},
 	{
 		"name": "Holy Pillar",
+		"replaces": "Holy site",
+		"uniqueTo": "Ardent Mages",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 6,
 		"uniques": [

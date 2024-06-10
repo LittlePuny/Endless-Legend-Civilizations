@@ -225,8 +225,11 @@
 		"innerColor": [51,25,0],
 		"uniqueName": "Recycling",
 		"uniques": [
-			"[+15]% Strength<when at war>",
-			"[Ranged] units gain the [Proliferate] promotion"
+			"Comment [Gain Cadavers by killing military units]",
+			"Comment [Spend 4 Cadavers to buy warrior line of units. Cadaver units have half maintenance cost and upgrade for free]",
+			"Comment [Spend 4 Cadavers to create a population in a city]",
+			"Comment [Can Sacrifice a population to negate population unhappiness of a city for 10 turns]",
+			"[Military] units gain the [Recycler] promotion"
 		],
 		"cities": ["Ka-Tak-Nul", "Achq", "Beloch", "Sliq", "Yaeg", "Qua'eng", "Belan", "Erindla", "Graldam", "Itleni", "Mesan", "Sylali", "Forany", "Anchan", "Caitan", "Samunttia", "Endigir", "Djoul", "Hareil", "Hadow", "Daromard", "Djathat", "Tsavyal", "Bolman", "Cauthayan", "Trode", "Morcdra", "Gnathen"]
 	},

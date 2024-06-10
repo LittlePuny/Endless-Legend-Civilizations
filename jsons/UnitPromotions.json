@@ -5,8 +5,12 @@
 	},
 	
 	{
-		"name": "Proliferate",
-		"uniques": ["May capture killed [Melee] units"]
+		"name": "Recycler",
+		"uniques": ["Instantly provides [1] [Cadavers] <upon defeating a [Military] unit>","[+15]% to Flank Attack bonuses"]
+	},
+	{
+		"name": "Parasitism",
+		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>","[+100]% Strength <vs cities> <when attacking>"]
 	},
 
 	{
