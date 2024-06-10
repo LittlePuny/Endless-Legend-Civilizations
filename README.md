@@ -24,6 +24,7 @@ Necrophages have a new unique resource, Cadavers, which is only available to the
 Necrodrone is replaced with Proliferator, as a ranged unit synergizes with the Cadaver units better. As with the previous update AI has no idea how to use the Cadavers (I've seen him sit on 70+ cadavers on a winning game) but afaik it doesn't kill all its cities with Demanding Gods too so faction uniques are player oriented with this one too.
 
 - We now have a Preview image!
+  
 Necrophages:
 - New unique resource called Cadavers, only available and visible for Necrophages
 - Gain Cadavers by killing military units
@@ -36,6 +37,7 @@ Necrophages:
 - Feeding Pits also has Culture cost reduction natural border growth now.
 - Necrodrones removed.
 - Made Proliferators a replacement for Composite Bowman.
+  
 Vaulters:
 - Dawn Officer rejects being French and becoems Vaulter instead.
 
@@ -55,18 +57,22 @@ Broken Lords:
 
 ### v0.2.1
 Some prefered victory types are changed
+
 Necrophage:
 - Removed food buff/debuff from Necrophage as they didn't add a lot to their gameplay.
 - Increased Necrophage at war bonus to 15%.
 - Removed annexed city restriction form Feeding Pits.
-- Made Necrodrone a replacement for Pikemen instead of Scout .
+- Made Necrodrone a replacement for Pikemen instead of Scout.
+  
 Ardent Mages:
 - Gains 3 great persons when entering different eras now.
 - 10% strength within 2 tiles of great improvement added.
 - Added Ateshi Zealot as Canon replacement.
 - Nonmechanical changes to reduce pillar related stuff showing up on nation screen.
+  
 Roving Clans:
 - Setseke slightly cheaper and gives 1 pop to random city.
+  
 Kapaku:
 - Added Geomancer as Gatling Gun replacement.
 
