@@ -16,10 +16,20 @@ Auriga custom map
 Faction icons and Setseke icon come from Endless Legend
 
 # Changelog
+### v0.4.1 unshackling the AI
+After an epiphany, I realised I can use a bunch of conditionals so certain mechanics would impact human and AI players different. This ensures players will play with the intended mechanics while AI will play them more like a normal civ. This also opens up forced single city empires.
+
+Broken Lords:
+- AI no longer has the mechanics related to growth nullification. They no longer build/buy populations.
+- Most gold bonuses are only for human players now
+
+Necrophages:
+- AI automatically uses Cadavers to buy a population in a random city.
+
 ### v0.4 Still Hungry
 This update takes a look at the bug boys and gives them their "necromancy" mechanic.
 
-Necrophages have a new unique resource, Cadavers, which is only available to them (seriously, other civs wont even know it exists). They gain one Cadaver for evety unit they kill. They can use this Cadavers for two cool things. First is creating a population in a city just like in Endless Legend. Second is to buy Cadaver units, which is like having Battleborns in Endless Legend. They also get "Demanding Gods" action, which is a temporary building you can buy by sacrificing a population and negate unhappiness from population in that city for 10 turns. Now you can be the wild warmongerer from the getgo if you know how to feed.
+Necrophages have a new unique resource, Cadavers, which is only available to them (seriously, other civs wont even know it exists). They gain one Cadaver for every unit they kill. They can use this Cadavers for two cool things. First is creating a population in a city just like in Endless Legend. Second is to buy Cadaver units, which is like having Battleborns in Endless Legend. They also get "Demanding Gods" action, which is a temporary building you can buy by sacrificing a population and negate unhappiness from population in that city for 10 turns. Now you can be the wild warmongerer from the getgo if you know how to feed.
 
 Necrodrone is replaced with Proliferator, as a ranged unit synergizes with the Cadaver units better. As with the previous update AI has no idea how to use the Cadavers (I've seen him sit on 70+ cadavers on a winning game) but afaik it doesn't kill all its cities with Demanding Gods too so faction uniques are player oriented with this one too.
 

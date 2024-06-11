@@ -132,7 +132,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 7, //15*50
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -145,7 +145,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 12, //22*55
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -158,7 +158,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 18, //30*60
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -171,7 +171,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 26, //40*65
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -184,7 +184,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 35, //51*70
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -197,7 +197,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 47, //63*75
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -210,7 +210,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 60, //76*80
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -223,7 +223,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 76, //90*85
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -236,7 +236,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 94, //105*90
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -249,7 +249,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 114, //121*95
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -263,7 +263,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 138, //138
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -276,7 +276,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 155, //155
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -289,7 +289,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 175, //175
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -315,7 +315,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 214, //214
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -328,7 +328,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 235, //235
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -341,7 +341,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 258, //258
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -354,7 +354,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 280, //280
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -367,7 +367,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 304, //304
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -380,7 +380,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 329, //329
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -394,7 +394,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 354, //354
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -407,7 +407,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 382, //382
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -420,7 +420,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 407, //407
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -433,7 +433,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 435,
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -446,7 +446,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 464,
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -459,7 +459,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 493,
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -472,7 +472,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 523,
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -485,7 +485,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 554,
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -498,7 +498,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 585,
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -511,7 +511,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 617,
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -525,7 +525,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 650,
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -538,7 +538,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 684,
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -551,7 +551,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 719,
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -564,7 +564,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 754,
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -577,7 +577,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 790,
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -590,7 +590,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 826,
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -603,7 +603,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 863,
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -616,7 +616,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 901,
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -629,7 +629,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 940,
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -642,7 +642,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 979,
 		"uniques": [
-			"Unsellable",
+			"Unsellable", "Unbuildable<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
