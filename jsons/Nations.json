@@ -236,8 +236,8 @@
 			"Comment [Spend 4 Cadavers to create a population in a city]",
 			"Comment [Can Sacrifice a population to negate population unhappiness of a city for 10 turns]",
 			"[Military] units gain the [Recycler] promotion",
-			"[1] population in a random city <when above [3] [Cadavers]><upon turn end> <for [AI player]><hidden from users>",
-			"Instantly consumes [4] [Cadavers] <when above [3] [Cadavers]><upon turn end> <for [AI player]><hidden from users>"
+			"[1] population in a random city <when above [4] [Cadavers]><upon turn end> <for [AI player]><hidden from users>",
+			"Instantly consumes [4] [Cadavers] <when above [4] [Cadavers]><upon turn end> <for [AI player]><hidden from users>"
 		],
 		"cities": ["Ka-Tak-Nul", "Achq", "Beloch", "Sliq", "Yaeg", "Qua'eng", "Belan", "Erindla", "Graldam", "Itleni", "Mesan", "Sylali", "Forany", "Anchan", "Caitan", "Samunttia", "Endigir", "Djoul", "Hareil", "Hadow", "Daromard", "Djathat", "Tsavyal", "Bolman", "Cauthayan", "Trode", "Morcdra", "Gnathen"]
 	},
