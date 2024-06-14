@@ -118,8 +118,8 @@
 			"strength": 8,
 			"cost": 0,
 			"obsoleteTech": "Metal Casting",
-			"upgradesTo": "Swordsman",
-			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free","Will not be displayed in Civilopedia"],
+			"upgradesTo": "Cadaver Swordsman",
+			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free<after discovering [Metal Casting]>","Will not be displayed in Civilopedia"],
 			"attackSound": "nonmetalhit"
 		},
 		{
@@ -130,10 +130,10 @@
 			"strength": 14,
 			"cost": 0,
 			"requiredTech": "Iron Working",
-			"upgradesTo": "Longswordsman",
+			"upgradesTo": "Cadaver Longswordsman",
 			"obsoleteTech": "Steel",
 			"hurryCostModifier": 20,
-			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free","Will not be displayed in Civilopedia"],
+			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free<after discovering [Steel]>","Will not be displayed in Civilopedia"],
 			"attackSound": "metalhit"
 		},
 		{
@@ -144,9 +144,9 @@
 			"strength": 21,
 			"cost": 0,
 			"requiredTech": "Steel",
-			"upgradesTo": "Musketman",
+			"upgradesTo": "Cadaver Musketman",
 			"obsoleteTech": "Gunpowder",
-			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free","Will not be displayed in Civilopedia"],
+			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free<after discovering [Gunpowder]>","Will not be displayed in Civilopedia"],
 			"attackSound": "metalhit"
 		},
 		{
@@ -157,9 +157,9 @@
 			"strength": 24,
 			"cost": 0,
 			"requiredTech": "Gunpowder",
-			"upgradesTo": "Rifleman",
+			"upgradesTo": "Cadaver Rifleman",
 			"obsoleteTech": "Rifling",
-			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free","Will not be displayed in Civilopedia"],
+			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free<after discovering [Rifling]>","Will not be displayed in Civilopedia"],
 			"attackSound": "shot"
 		},
 		{
@@ -171,8 +171,8 @@
 			"cost": 0,
 			"requiredTech": "Rifling",
 			"obsoleteTech": "Replaceable Parts",
-			"upgradesTo": "Great War Infantry",
-			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free","Will not be displayed in Civilopedia"],
+			"upgradesTo": "Cadaver Great War Infantry",
+			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free<after discovering [Replaceable Parts]>","Will not be displayed in Civilopedia"],
 			"attackSound": "shot"
 		},
 		{
@@ -183,9 +183,9 @@
 			"strength": 50,
 			"cost": 0,
 			"requiredTech": "Replaceable Parts",
-			"upgradesTo": "Infantry",
+			"upgradesTo": "Cadaver Infantry",
 			"obsoleteTech": "Plastics",
-			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free","Will not be displayed in Civilopedia"],
+			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free<after discovering [Plastics]>","Will not be displayed in Civilopedia"],
 			"attackSound": "shot"
 		},
 		{
@@ -196,9 +196,9 @@
 			"strength": 70,
 			"cost": 0,
 			"requiredTech": "Plastics",
-			"upgradesTo": "Mechanized Infantry",
+			"upgradesTo": "Cadaver Mechanized Infantry",
 			"obsoleteTech": "Mobile Tactics",
-			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free","Will not be displayed in Civilopedia"],
+			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free<after discovering [Mobile Tactics]>","Will not be displayed in Civilopedia"],
 			"attackSound": "shot"
 		},
 		{
@@ -209,7 +209,7 @@
 			"strength": 90,
 			"cost": 0,
 			"requiredTech": "Mobile Tactics",
-			"uniques": ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free","Will not be displayed in Civilopedia"],
+			"uniques": ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","Will not be displayed in Civilopedia"],
 			"attackSound": "tankshot"
 		},
 

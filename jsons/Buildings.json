@@ -24,7 +24,6 @@
 		"uniques": [
 			"Unsellable", "Unbuildable",
 			"Will not be displayed in Civilopedia",
-			"Can be purchased for [0] [Culture] [in all cities]",
 			"Instantly consumes [4] [Cadavers]",
 			"Unbuildable <when below [4] [Cadavers]>",
 			"[+1] population [in this city]",
@@ -43,7 +42,7 @@
 			"Requires at least [2] population",
 			"[-1] population [in this city]",
 			"[-100]% Unhappiness from [Population] [in this city] <for [10] turns>",
-			"Remove [Cull the Herd] [in this city] <after [10] turns>"
+			"Remove [Demanding Gods] [in this city] <after [10] turns>"
 		]
 	},
 		// Ardent Mages
@@ -124,15 +123,18 @@
 		"requiredTech": "Mathematics"
     },
 
-
-
+	//
+	//
 	//broken lords population buy/produce mechanic
+	//
+	//
+
 	{
 		"name": "Create Population 1",
 		"uniqueTo": "Broken Lords",
 		"cost": 7, //15*50
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -145,7 +147,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 12, //22*55
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -158,7 +160,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 18, //30*60
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -171,7 +173,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 26, //40*65
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -184,7 +186,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 35, //51*70
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -197,7 +199,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 47, //63*75
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -210,7 +212,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 60, //76*80
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -223,7 +225,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 76, //90*85
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -236,7 +238,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 94, //105*90
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -249,7 +251,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 114, //121*95
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -263,7 +265,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 138, //138
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -276,7 +278,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 155, //155
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -289,7 +291,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 175, //175
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -303,7 +305,7 @@
 		"cost": 194, //194
 		"uniques": [
 			"Unsellable",
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Cannot be purchased<for [AI player]>",
 			"Population Building",
 			"[+1] population [in this city]",
 			"Only available<in cities with [14] [Population]>",
@@ -315,7 +317,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 214, //214
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -328,7 +330,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 235, //235
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -341,7 +343,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 258, //258
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -354,7 +356,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 280, //280
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -367,7 +369,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 304, //304
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -380,7 +382,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 329, //329
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -394,7 +396,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 354, //354
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -407,7 +409,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 382, //382
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -420,7 +422,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 407, //407
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -433,7 +435,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 435,
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -446,7 +448,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 464,
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -459,7 +461,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 493,
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -472,7 +474,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 523,
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -485,7 +487,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 554,
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -498,7 +500,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 585,
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -511,7 +513,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 617,
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -525,7 +527,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 650,
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -538,7 +540,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 684,
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -551,7 +553,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 719,
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -564,7 +566,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 754,
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -577,7 +579,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 790,
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -590,7 +592,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 826,
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -603,7 +605,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 863,
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -616,7 +618,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 901,
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -629,7 +631,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 940,
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -642,7 +644,7 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 979,
 		"uniques": [
-			"Unsellable", "Unbuildable<for [AI player]>",
+			"Unsellable", "Unbuildable<for [AI player]>", "Cannot be purchased<for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Population Building",
 			"[+1] population [in this city]",
@@ -651,5 +653,408 @@
 		]
 	},
 
+	//
+	//
+	// Forgotten Tech buy mechanic
+	//
+	//	
 	
+	{
+		"name": "Buy Pottery",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [5] per owned city",
+			"Discover [Pottery]",
+			"Only available <before discovering [Pottery]>"
+			],
+        "requiredTech": "Agriculture"
+    },
+	{
+		"name": "Buy Animal Husbandry",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [5] per owned city",
+			"Discover [Animal Husbandry]",
+			"Only available <before discovering [Animal Husbandry]>"
+			],
+        "requiredTech": "Agriculture"
+    },
+	{
+		"name": "Buy Archery",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [5] per owned city",
+			"Discover [Archery]",
+			"Only available <before discovering [Archery]>"
+			],
+        "requiredTech": "Agriculture"
+    },
+	{
+		"name": "Buy Mining",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [5] per owned city",
+			"Discover [Mining]",
+			"Only available <before discovering [Mining]>"
+			],
+        "requiredTech": "Agriculture"
+    },
+	
+	{
+		"name": "Buy Sailing",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [10] per owned city",
+			"Discover [Sailing]",
+			"Only available <before discovering [Sailing]>"
+			],
+        "requiredTech": "Pottery"
+    },
+	{
+		"name": "Buy Calendar",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [10] per owned city",
+			"Discover [Calendar]",
+			"Only available <before discovering [Calendar]>"
+			],
+        "requiredTech": "Pottery"
+    },
+	{
+		"name": "Buy Writing",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [10] per owned city",
+			"Discover [Writing]",
+			"Only available <before discovering [Writing]>"
+			],
+        "requiredTech": "Pottery"
+    },
+	{
+		"name": "Buy Trapping",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [10] per owned city",
+			"Discover [Trapping]",
+			"Only available <before discovering [Trapping]>"
+			],
+        "requiredTech": "Animal Husbandry"
+    },
+	{
+		"name": "Buy The Wheel",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [10] per owned city",
+			"Discover [The Wheel]",
+			"Only available <before discovering [The Wheel]>",
+			"Only available <after discovering [Archery]>"
+			],
+        "requiredTech": "Animal Husbandry"
+    },
+	{
+		"name": "Buy Masonry",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [10] per owned city",
+			"Discover [Masonry]",
+			"Only available <before discovering [Masonry]>"
+			],
+        "requiredTech": "Mining"
+    },
+	{
+		"name": "Buy Bronze Working",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [15] per owned city",
+			"Discover [Bronze Working]",
+			"Only available <before discovering [Bronze Working]>"
+			],
+        "requiredTech": "Mining"
+    },
+
+	{
+		"name": "Buy Optics",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [15] per owned city",
+			"Discover [Optics]",
+			"Only available <before discovering [Optics]>"
+			],
+        "requiredTech": "Sailing"
+    },
+	{
+		"name": "Buy Horseback Riding",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [15] per owned city",
+			"Discover [Horseback Riding]",
+			"Only available <before discovering [Horseback Riding]>",
+			"Only available <after discovering [The Wheel]>"
+			],
+        "requiredTech": "Trapping"
+    },
+	{
+		"name": "Buy Mathematics",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [15] per owned city",
+			"Discover [Mathematics]",
+			"Only available <before discovering [Mathematics]>"
+			],
+        "requiredTech": "The Wheel"
+    },
+	{
+		"name": "Buy Construction",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [15] per owned city",
+			"Discover [Construction]",
+			"Only available <before discovering [Construction]>",
+			"Only available <after discovering [The Wheel]>"
+			],
+        "requiredTech": "Masonry"
+    },
+
+	{
+		"name": "Buy Philosophy",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [20] per owned city",
+			"Discover [Philosophy]",
+			"Only available <before discovering [Philosophy]>",
+			"Only available <after discovering [Calendar]>"
+			],
+        "requiredTech": "Writing"
+    },
+	{
+		"name": "Buy Drama and Poetry",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [20] per owned city",
+			"Discover [Drama and Poetry]",
+			"Only available <before discovering [Drama and Poetry]>"
+			],
+        "requiredTech": "Writing"
+    },
+	{
+		"name": "Buy Currency",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [20] per owned city",
+			"Discover [Currency]",
+			"Only available <before discovering [Currency]>"
+			],
+        "requiredTech": "Mathematics"
+    },
+	{
+		"name": "Buy Engineering",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [20] per owned city",
+			"Discover [Engineering]",
+			"Only available <before discovering [Engineering]>",
+			"Only available <after discovering [Construction]>"
+			],
+        "requiredTech": "Mathematics"
+    },
+	{
+		"name": "Buy Iron Working",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [20] per owned city",
+			"Discover [Iron Working]",
+			"Only available <before discovering [Iron Working]>"
+			],
+        "requiredTech": "Bronze Working"
+    },
+
+	{
+		"name": "Buy Theology",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [25] per owned city",
+			"Discover [Theology]",
+			"Only available <before discovering [Theology]>",
+			"Only available <after discovering [Drama and Poetry]>"
+			],
+        "requiredTech": "Philosophy"
+    },
+	{
+		"name": "Buy Civil Service",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [25] per owned city",
+			"Discover [Civil Service]",
+			"Only available <before discovering [Civil Service]>",
+			"Only available <after discovering [Horseback Riding]>",
+			"Only available <after discovering [Drama and Poetry]>"
+			],
+        "requiredTech": "Currency"
+    },
+	{
+		"name": "Buy Guilds",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [25] per owned city",
+			"Discover [Guilds]",
+			"Only available <before discovering [Guilds]>"
+			],
+        "requiredTech": "Currency"
+    },
+	{
+		"name": "Buy Metal Casting",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [25] per owned city",
+			"Discover [Metal Casting]",
+			"Only available <before discovering [Engineering]>",
+			"Only available <after discovering [Iron Working]>"
+			],
+        "requiredTech": "Engineering"
+    }
+
 ]

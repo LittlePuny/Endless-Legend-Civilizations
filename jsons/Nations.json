@@ -138,7 +138,7 @@
 			"Nullifies Growth [in all cities] <for [Human player]><hidden from users>",
 			"[-100]% [Food] from every [All] <for [Human player]><hidden from users>",
 			"[-100]% [Food] from every [Improvement] <for [Human player]><hidden from users>",
-			"[+1 Gold] from every [resource] <for [AI player]><hidden from users>",
+			"[+1 Gold] from every [resource] <for [AI player]><hidden from users>"
 		],
 		"cities": ["Hwilhet-On-Arewe", "Valdaea", "Nolaran", "O'Irenth", "Worimer", "Lionith", "Trenwin", "Shadonn", "Aberian", "Ran'dare", "Dardogar", "Candray", "Yerian", "Holcaj", "Tsoth", "Ralian", "Awniss", "Janeldass", "Sormel", "Taldreen", "Ightohin", "Rayit", "Relian", "Wistred", "Sulet", "Ovoru", "Sam-hin", "Ersay", "Emoroya", "Halethby", "Caquag", "Etmess"]
 	},
@@ -478,11 +478,21 @@
 
 		"outerColor": [29,29,41],
 		"innerColor": [230,230,230],
-		"uniqueName": "Forage and Pillage",
+		"uniqueName": "Science Phobic",
 		"uniques": [
+			"Comment [No Science is produced]",
+			"Comment [Technologies can be bought out with Gold]",
+			"Comment [Science buildings provide Gold instead]",
 			"Receive triple Gold from Barbarian encampments and pillaging Cities",
 			"No movement cost to pillage <for [Land] units>",
-			"[Melee] units gain the [From the Shadows] promotion"
+			"Gain an extra spy <if starting in the [Ancient era]>",
+			"Gain an extra spy <if starting in the [Classical era]>",
+			"Gain an extra spy <if starting in the [Medieval era]>",
+			"[+1 Gold] per [1] population [in all cities]",
+			"[-200]% [Science] <for [Human player]><hidden from users>",
+			"May buy [Technology Building] buildings with [Gold] [in all cities] <for [Human player]><hidden from users>",
+			"[+5 Gold] from all [Science] buildings <for [Human player]><hidden from users>"
+			
 			],
 		"cities": ["Dagaari Tanga", "Omgar", "Nolaran", "Antabb", "Frayhame", "Stigarnal", "Paerian", "Ymosy", "Vedra", "Rothald", "Hontur", "Neth", "Angryn", "Terreth", "Idyna", "Ravode", "Qua'usk", "Undand", "Shulna", "Moch", "Uskiv", "Uralleb", "Ostakk", "Leold", "Madinav"]
 	},
@@ -650,7 +660,7 @@
 
 	{
 		"name": "Mykara",
-		"leaderName": "Toth �?gnes",
+		"leaderName": "Toth Agnes",
 		"adjective": ["Mykara"],
 		"startBias":["Jungle"],
 		"preferredVictoryType": "Scientific",
