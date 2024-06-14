@@ -16,6 +16,16 @@ Auriga custom map
 Faction icons and Setseke icon come from Endless Legend
 
 # Changelog
+### v0.4.2
+A generic bugfix
+
+Necrophages:
+- Cadaver units should properly upgrade only when you have the required tech now
+- Feeding the Hive should only be available if you have enough Cadavers now
+
+Forgotten:
+- some preliminary work on their upcoming update. You should be able to play in Ancient and Classical era with little problem
+
 ### v0.4.1 unshackling the AI
 After an epiphany, I realised I can use a bunch of conditionals so certain mechanics would impact human and AI players different. This ensures players will play with the intended mechanics while AI will play them more like a normal civ. This also opens up forced single city empires.
 
