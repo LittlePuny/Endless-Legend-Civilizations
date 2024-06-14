@@ -16,6 +16,20 @@ Auriga custom map
 Faction icons and Setseke icon come from Endless Legend
 
 # Changelog
+### v0.5 Shifting Uniques
+Inspiration came while working on the Forgotten. This is the result.
+
+Allayi now has a brand new "Shifting" mechanic. They start the game in Light Season, which gives them small growth, culture and gold bonus. Each turn, they also gain one Aurigan Pearl.
+When they have at least 5 pearls, can enter a Dark Season which consumes their Aurigan Pearls every turn. During Dark Season, they lose the Light Season bonuses but hain production bonus, military strength and movement speed. They can prematurely end the Dark Season or keep it going until they run out of pearls. By using the Dark Season in a timely manner, you can move settlers faster or speed up wonder construction or buff your armies for war.
+
+AI ignores the pearl mechanic and enters Dark Season when at war. This can make them kinda dangerous at warfare but declaring war also removes their culture and growth bonus, which they will benefit a lot for their culture victory.
+
+Allayi:
+- Unique Ability revamped. Now has two different sets of bonuses for Light and Dark Season
+- Shift between seasons by spending Allayi exclusive resource, Aurigan Pearls
+- Garth of Allayi now doubles the bonuses of Light Season in the city
+- Skyfin gains extra sight (Its a giant flying manta ray thingie)
+
 ### v0.4.2
 A generic bugfix
 
