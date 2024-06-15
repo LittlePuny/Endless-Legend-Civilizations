@@ -490,7 +490,7 @@
 			"Receive triple Gold from Barbarian encampments and pillaging Cities",
 			"No movement cost to pillage <for [Land] units>",
 			"Gain an extra spy <after [1] turns>",
-			"[+1 Gold] per [1] population [in all cities]",
+			"[+1 Gold] per [1] population [in all cities]<hidden from users>",
 
 			"[-100]% [Science] from every [All] <for [Human player]><hidden from users>",
 			"[-100]% [Science] from every [Improvement] <for [Human player]><hidden from users>",
