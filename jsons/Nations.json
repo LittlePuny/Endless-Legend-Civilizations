@@ -84,6 +84,13 @@
 			"Comment [Population grows by building or buying them in cities]",
 			"Comment [Sources of Food gives Gold instead]",
 			"Comment [Growth bonuses gives relative Gold instead]",
+
+			"[+1 Gold] from every [resource] <for [AI player]><hidden from users>",
+
+			"Nullifies Growth [in all cities] <for [Human player]><hidden from users>",
+			"[-100]% [Food] from every [All] <for [Human player]><hidden from users>",
+			"[-100]% [Food] from every [Improvement] <for [Human player]><hidden from users>",
+
 			"[+2 Gold] from every [Granary] <for [Human player]><hidden from users>",
 			"[+2 Gold] from every [Water Mill] <for [Human player]><hidden from users>",
 			"[+5 Gold] from every [Hospital] <for [Human player]><hidden from users>",
@@ -122,23 +129,19 @@
 			"[+1 Gold] from every [Sheep] <for [Human player]><hidden from users>",
 			"[+1 Gold] from every [Whales] <for [Human player]><hidden from users>",
 			"[+1 Gold] from every [Wheat] <for [Human player]><hidden from users>",
-			"[+1 Gold] from every [Bananas]<if [Granary] is constructed> <for [Human player]><hidden from users>",
-			"[+1 Gold] from every [Truffles]<if [Granary] is constructed> <for [Human player]><hidden from users>",
-			"[+1 Gold] from every [Wheat]<if [Granary] is constructed> <for [Human player]><hidden from users>",
-			"[+1 Gold] from every [Coast]<if [Lighthouse] is constructed> <for [Human player]><hidden from users>",
-			"[+1 Gold] from every [Ocean]<if [Lighthouse] is constructed> <for [Human player]><hidden from users>",
-			"[+1 Gold] from every [Fish]<if [Lighthouse] is constructed> <for [Human player]><hidden from users>",
+			"[+1 Gold] from every [Bananas]<in cities with a [Granary]> <for [Human player]><hidden from users>",
+			"[+1 Gold] from every [Truffles]<in cities with a [Granary]> <for [Human player]><hidden from users>",
+			"[+1 Gold] from every [Wheat]<in cities with a [Granary]> <for [Human player]><hidden from users>",
+			"[+1 Gold] from every [Coast]<in cities with a [Lighthouse]> <for [Human player]><hidden from users>",
+			"[+1 Gold] from every [Ocean]<in cities with a [Lighthouse]> <for [Human player]><hidden from users>",
+			"[+1 Gold] from every [Fish]<in cities with a [Lighthouse]> <for [Human player]><hidden from users>",
 			"[+10]% [Gold] [in all cities]<if [Temple of Artemis] is constructed> <for [Human player]><hidden from users>",
 			"[+6 Gold] from every [Hanging Gardens] <for [Human player]><hidden from users>",
-			"[+1 Gold] from every [Desert]<if [Petra] is constructed> <for [Human player]><hidden from users>",
+			"[+1 Gold] from every [Desert]<in cities with a [Petra]> <for [Human player]><hidden from users>",
 			"[+10]% [Gold] [in capital]<after adopting [Landed Elite]> <for [Human player]><hidden from users>",
 			"[+2 Gold] [in capital]<after adopting [Landed Elite]> <for [Human player]><hidden from users>",
 			"[+15]% [Gold] [in all cities]<after adopting [Tradition Complete]> <for [Human player]><hidden from users>",
-			"[+2 Gold] [in all cities]<after adopting [Order]> <for [Human player]><hidden from users>",
-			"Nullifies Growth [in all cities] <for [Human player]><hidden from users>",
-			"[-100]% [Food] from every [All] <for [Human player]><hidden from users>",
-			"[-100]% [Food] from every [Improvement] <for [Human player]><hidden from users>",
-			"[+1 Gold] from every [resource] <for [AI player]><hidden from users>"
+			"[+2 Gold] [in all cities]<after adopting [Order]> <for [Human player]><hidden from users>"
 		],
 		"cities": ["Hwilhet-On-Arewe", "Valdaea", "Nolaran", "O'Irenth", "Worimer", "Lionith", "Trenwin", "Shadonn", "Aberian", "Ran'dare", "Dardogar", "Candray", "Yerian", "Holcaj", "Tsoth", "Ralian", "Awniss", "Janeldass", "Sormel", "Taldreen", "Ightohin", "Rayit", "Relian", "Wistred", "Sulet", "Ovoru", "Sam-hin", "Ersay", "Emoroya", "Halethby", "Caquag", "Etmess"]
 	},
@@ -445,7 +448,7 @@
 		// practiced pillage: fortification damage, less upkeep
 		
 		// dust sense: +100 gold from pillage
-		// caudata sanctuary: seaon predictability, infiltration cost reduction
+		// caudata sanctuary: season predictability, infiltration cost reduction
 		// tower of the consecrate:  +1 resource on extraction
 		// whats mine is mine: security on cities. espionage bonus
 		// high seminary: research cost reduction for ea 3 techs
@@ -482,17 +485,47 @@
 		"uniques": [
 			"Comment [No Science is produced]",
 			"Comment [Technologies can be bought out with Gold]",
-			"Comment [Science buildings provide Gold instead]",
+			"Comment [Sources of Science gives Gold instead]",
+
 			"Receive triple Gold from Barbarian encampments and pillaging Cities",
 			"No movement cost to pillage <for [Land] units>",
-			"Gain an extra spy <if starting in the [Ancient era]>",
-			"Gain an extra spy <if starting in the [Classical era]>",
-			"Gain an extra spy <if starting in the [Medieval era]>",
+			"Gain an extra spy <after [1] turns>",
 			"[+1 Gold] per [1] population [in all cities]",
-			"[-200]% [Science] <for [Human player]><hidden from users>",
+
+			"[-100]% [Science] from every [All] <for [Human player]><hidden from users>",
+			"[-100]% [Science] from every [Improvement] <for [Human player]><hidden from users>",
 			"May buy [Technology Building] buildings with [Gold] [in all cities] <for [Human player]><hidden from users>",
-			"[+5 Gold] from all [Science] buildings <for [Human player]><hidden from users>"
 			
+			"[+1 Gold] per [2] population [in all cities] <in cities with a [Library]> <for [Human player]><hidden from users>",
+			"[+2 Gold] from every [Jungle]<in cities with a [University]> <for [Human player]><hidden from users>",
+			"[+33]% [Gold] <in cities with a [University]> <for [Human player]><hidden from users>",
+			"[+50]% [Gold] <in cities with a [Observatory]> <for [Human player]><hidden from users>",
+			"[+1 Gold] per [2] population [in all cities] <in cities with a [Public School]> <for [Human player]><hidden from users>",
+			"[+3 Gold] from every [Public School] <for [Human player]><hidden from users>",
+			"[+4 Gold] from every [Research Lab] <for [Human player]><hidden from users>",
+			"[+50]% [Gold] <in cities with a [Research Lab]> <for [Human player]><hidden from users>",
+			"[+3 Gold] from every [Great Library] <for [Human player]><hidden from users>",
+			"[+3 Gold] from every [National College] <for [Human player]><hidden from users>",
+			"[+50]% [Gold] <in cities with a [National College]> <for [Human player]><hidden from users>",
+			"[+3 Gold] from every [Oxford University] <for [Human player]><hidden from users>",
+			"[+3 Gold] from every [Scientist] <for [Human player]><hidden from users>",
+			"[+2 Gold] from every [Great Barrier Reef] <for [Human player]><hidden from users>",
+			"[+2 Gold] from every [Old Faithful] <for [Human player]><hidden from users>",
+			"[+5 Gold] from every [Krakatoa] <for [Human player]><hidden from users>",
+			"[+2 Gold] from every [Barringer Crater] <for [Human player]><hidden from users>",
+			"[+8 Gold] from every [Academy] <for [Human player]><hidden from users>",
+			"[+2 Gold] from every [Academy]<after discovering [Scientific Theory]> <for [Human player]><hidden from users>",
+			"[+2 Gold] from every [Academy]<after discovering [Atomic Theory]> <for [Human player]><hidden from users>",
+			"[+1 Gold] from every [Mint]<after adopting [Mercantilism]> <for [Human player]><hidden from users>",
+            "[+1 Gold] from every [Market]<after adopting [Mercantilism]> <for [Human player]><hidden from users>",
+            "[+1 Gold] from every [Bank]<after adopting [Mercantilism]> <for [Human player]><hidden from users>",
+            "[+1 Gold] from every [Stock Exchange]<after adopting [Mercantilism]> <for [Human player]><hidden from users>",
+			"[+15]% [Gold] <while the empire is happy><after adopting [Rationalism]> <for [Human player]><hidden from users>",
+			"[+2 Gold] from every specialist [in all cities]<after adopting [Secularism]> <for [Human player]><hidden from users>",
+			"[+1 Gold] from every [Trading post]<after adopting [Free Thought]> <for [Human player]><hidden from users>",
+            "[+17]% [Gold] from every [University]<after adopting [Free Thought]> <for [Human player]><hidden from users>",
+			"[+25]% [Gold] from every [Factory]<after adopting [Planned Economy]> <for [Human player]><hidden from users>",
+			"[+2 Gold] [in all cities]<after adopting [Order Complete]> <for [Human player]><hidden from users>"
 			],
 		"cities": ["Dagaari Tanga", "Omgar", "Nolaran", "Antabb", "Frayhame", "Stigarnal", "Paerian", "Ymosy", "Vedra", "Rothald", "Hontur", "Neth", "Angryn", "Terreth", "Idyna", "Ravode", "Qua'usk", "Undand", "Shulna", "Moch", "Uskiv", "Uralleb", "Ostakk", "Leold", "Madinav"]
 	},

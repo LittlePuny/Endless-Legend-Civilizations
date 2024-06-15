@@ -16,11 +16,24 @@ Auriga custom map
 Faction icons and Setseke icon come from Endless Legend
 
 # Changelog
+### v0.6 Funding Science
+Forgotten and their "Science Phobic" trait is done. Similar to Broken Lords, they don't generate science at all. Instead they can buy technologies with gold. Or more preferably, steal from other civilizations as they start with 1 Spy from the game start. Every source of Science (except for trade agreements and City States) is converted to Gold for them. This also means those science buildings can give obscene amount of gold due to their relative bonuses (so expect relevant changes later on)
+
+Forgotten:
+- Unique Ability revamped.
+- Buyable technology buildings added
+- Predatore removed
+- Myst is now a scout replacement that is fast, invisible, has extra sight and ignores enemy borders. Gotta find that capital fast for your spy!
+- Oxford University replaced with Caudata Sanctuary, which gives another spy and makes spies start with 1 extra level.
+
+Broken Lords
+- Conditionals on uniques changed a bit
+
 ### v0.5 Shifting Uniques
 Inspiration came while working on the Forgotten. This is the result.
 
 Allayi now has a brand new "Shifting" mechanic. They start the game in Light Season, which gives them small growth, culture and gold bonus. Each turn, they also gain one Aurigan Pearl.
-When they have at least 5 pearls, can enter a Dark Season which consumes their Aurigan Pearls every turn. During Dark Season, they lose the Light Season bonuses but hain production bonus, military strength and movement speed. They can prematurely end the Dark Season or keep it going until they run out of pearls. By using the Dark Season in a timely manner, you can move settlers faster or speed up wonder construction or buff your armies for war.
+When they have at least 5 pearls, can enter a Dark Season which consumes their Aurigan Pearls every turn. During Dark Season, they lose the Light Season bonuses but gain production bonus, military strength and movement speed. They can prematurely end the Dark Season or keep it going until they run out of pearls. By using the Dark Season in a timely manner, you can move settlers faster or speed up wonder construction or buff your armies for war.
 
 AI ignores the pearl mechanic and enters Dark Season when at war. This can make them kinda dangerous at warfare but declaring war also removes their culture and growth bonus, which they will benefit a lot for their culture victory.
 
@@ -77,7 +90,7 @@ Vaulters:
 
 
 ### v0.3 "Broken" Lords
-Main change in this version is the implementation of Broken Lords "buy your pops=ulation" mechanic. 
+Main change in this version is the implementation of Broken Lords "buy your population" mechanic. 
 
 Broken Lords no longer gain any food at all. They won't have any natural growth or starvation. Instead, every source of food (execpt for maritime city-states) have been turned into gold with nation unique. They have buildings that gives 1 pop to the city they are build. These buildings have increasing cost based on existing population of the city and autodelete themself so any source of pop loss (nukes or conquered city) is taken into account.
 

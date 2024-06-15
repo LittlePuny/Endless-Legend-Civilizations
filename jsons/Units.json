@@ -371,36 +371,19 @@
 	
 	// Forgotten
 	{
-		"name": "Predatore",
-		"replaces": "Archer",
-		"uniqueTo": "Forgotten",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 9,
-		"cost": 40,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Construction",
-		"upgradesTo": "Composite Bowman",
-		"attackSound": "arrow"
-	},
-	
-	{
 		"name": "Myst",
-		"replaces": "Swordsman",
+		"unitType": "Scout",
 		"uniqueTo": "Forgotten",
-		"unitType": "Sword",
+		"replaces": "Scout",
 		"movement": 3,
-		"strength": 16,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"requiredResource": "Iron",
-		"hurryCostModifier": 20,
-		"uniques": ["Ignores terrain cost"],
-		"attackSound": "metalhit"
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["[+1] Sight","Invisible to non-adjacent units","May enter foreign tiles without open borders"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
 	},
+
 	// Allayi
 	{
 		"name": "Skyfin",
@@ -412,7 +395,7 @@
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
 			"All adjacent units heal [+10] HP when healing", "[+10] HP when healing",
-			"[1] Sight",
+			"[+1] Sight",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat",
             "Great Person - [War]", "Unbuildable", "Uncapturable"

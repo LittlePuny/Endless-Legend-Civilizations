@@ -84,7 +84,23 @@
 		"uniques": ["[+25]% Great Person generation [in capital]","[+50]% Yield from every [Great Improvement]"],
 		"requiredTech": "Mathematics"
     },
-		// Forgotten
+		// Forgotten	
+	{
+		"name": "Caudata Sanctuary",
+		"uniqueTo": "Forgotten",
+		"replaces": "Oxford University",
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <if [University] is constructed in all [non-[Puppeted]] cities>", "Free Technology", "Cost increases by [30] per owned city",
+			"New spies start with [1] level(s)",
+			"Gain an extra spy"
+		],
+		"requiredTech": "Education"
+	},
+
 		// Allayi
 	{
 		"name": "Garth of the Allayi",
@@ -111,7 +127,7 @@
 		"uniqueTo": "Allayi",
 		"maintenance": 0,
 		"uniques": [
-			"Unsellable", "Unbuildable", "unavailable <for [AI player]>",
+			"Unsellable", "Unbuildable", "Unavailable <for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Can be purchased for [0] [Culture] [in all cities]",
 			"Limited to [1] per Civilization",
@@ -126,7 +142,7 @@
 		"uniqueTo": "Allayi",
 		"maintenance": 0,
 		"uniques": [
-			"Unsellable", "Unbuildable", "unavailable <for [AI player]>",
+			"Unsellable", "Unbuildable", "Unavailable <for [AI player]>",
 			"Will not be displayed in Civilopedia",
 			"Can be purchased for [0] [Culture] [in all cities]",
 			"Only available <if [Shift to Dark Season] is constructed>",
@@ -1094,6 +1110,942 @@
 			"Only available <after discovering [Iron Working]>"
 			],
         "requiredTech": "Engineering"
-    }
+    },
 
+	{
+		"name": "Buy Compass",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [30] per owned city",
+			"Discover [Compass]",
+			"Only available <before discovering [Compass]>",
+			"Only available <after discovering [Theology]>"
+			],
+        "requiredTech": "Optics"
+    },
+	{
+		"name": "Buy Education",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [30] per owned city",
+			"Discover [Education]",
+			"Only available <before discovering [Education]>",
+			"Only available <after discovering [Civil Service]>"
+			],
+        "requiredTech": "Theology"
+    },
+	{
+		"name": "Buy Chivalry",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [30] per owned city",
+			"Discover [Chivalry]",
+			"Only available <before discovering [Chivalry]>",
+			"Only available <after discovering [Guilds]>"
+			],
+        "requiredTech": "Civil Service"
+    },
+	{
+		"name": "Buy Machinery",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [30] per owned city",
+			"Discover [Machinery]",
+			"Only available <before discovering [Machinery]>",
+			"Only available <after discovering [Engineering]>"
+			],
+        "requiredTech": "Guilds"
+    },
+	{
+		"name": "Buy Physics",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [30] per owned city",
+			"Discover [Physics]",
+			"Only available <before discovering [Physics]>"
+			],
+        "requiredTech": "Metal Casting"
+    },
+	{
+		"name": "Buy Steel",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [30] per owned city",
+			"Discover [Steel]",
+			"Only available <before discovering [Steel]>"
+			],
+        "requiredTech": "Metal Casting"
+    },
+
+	{
+		"name": "Buy Astronomy",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [35] per owned city",
+			"Discover [Astronomy]",
+			"Only available <before discovering [Astronomy]>",
+			"Only available <after discovering [Education]>"
+			],
+        "requiredTech": "Compass"
+    },
+	{
+		"name": "Buy Acoustics",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [35] per owned city",
+			"Discover [Acoustics]",
+			"Only available <before discovering [Acoustics]>"
+			],
+        "requiredTech": "Education"
+    },
+	{
+		"name": "Buy Banking",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [35] per owned city",
+			"Discover [Banking]",
+			"Only available <before discovering [Banking]>",
+			"Only available <after discovering [Chivalry]>"
+			],
+        "requiredTech": "Education"
+    },
+	{
+		"name": "Buy Printing Press",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [35] per owned city",
+			"Discover [Printing Press]",
+			"Only available <before discovering [Printing Press]>",
+			"Only available <after discovering [Physics]>",
+			"Only available <after discovering [Chivalry]>"
+			],
+        "requiredTech": "Machinery"
+    },
+	{
+		"name": "Buy Gunpowder",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [35] per owned city",
+			"Discover [Gunpowder]",
+			"Only available <before discovering [Gunpowder]>",
+			"Only available <after discovering [Steel]>"
+			],
+        "requiredTech": "Gunpowder"
+    },
+
+	{
+		"name": "Buy Navigation",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [40] per owned city",
+			"Discover [Navigation]",
+			"Only available <before discovering [Navigation]>"
+			],
+        "requiredTech": "Astronomy"
+    },
+	{
+		"name": "Buy Architecture",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [40] per owned city",
+			"Discover [Architecture]",
+			"Only available <before discovering [Architecture]>",
+			"Only available <after discovering [Banking]>"
+			],
+        "requiredTech": "Acoustics"
+    },
+	{
+		"name": "Buy Economics",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [40] per owned city",
+			"Discover [Economics]",
+			"Only available <before discovering [Economics]>",
+			"Only available <after discovering [Printing Press]>"
+			],
+        "requiredTech": "Banking"
+    },
+	{
+		"name": "Buy Metallurgy",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [40] per owned city",
+			"Discover [Metallurgy]",
+			"Only available <before discovering [Metallurgy]>",
+			"Only available <after discovering [Gunpowder]>"
+			],
+        "requiredTech": "Printing Press"
+    },
+	{
+		"name": "Buy Chemistry",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [40] per owned city",
+			"Discover [Chemistry]",
+			"Only available <before discovering [Chemistry]>"
+			],
+        "requiredTech": "Gunpowder"
+    },
+	
+	{
+		"name": "Buy Archaeology",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [45] per owned city",
+			"Discover [Archaeology]",
+			"Only available <before discovering [Archaeology]>",
+			"Only available <after discovering [Architecture]>"
+			],
+        "requiredTech": "Navigation"
+    },
+	{
+		"name": "Buy Scientific Theory",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [45] per owned city",
+			"Discover [Scientific Theory]",
+			"Only available <before discovering [Scientific Theory]>",
+			"Only available <after discovering [Economics]>"
+			],
+        "requiredTech": "Architecture"
+    },
+	{
+		"name": "Buy Industrialization",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [45] per owned city",
+			"Discover [Industrialization]",
+			"Only available <before discovering [Industrialization]>"
+			],
+        "requiredTech": "Economics"
+    },
+	{
+		"name": "Buy Rifling",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [45] per owned city",
+			"Discover [Rifling]",
+			"Only available <before discovering [Rifling]>",
+			"Only available <after discovering [Metallurgy]>"
+			],
+        "requiredTech": "Economics"
+    },
+	{
+		"name": "Buy Military Science",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [45] per owned city",
+			"Discover [Military Science]",
+			"Only available <before discovering [Military Science]>",
+			"Only available <after discovering [Chemistry]>"
+			],
+        "requiredTech": "Metallurgy"
+    },
+	{
+		"name": "Buy Fertilizer",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [45] per owned city",
+			"Discover [Fertilizer]",
+			"Only available <before discovering [Fertilizer]>"
+			],
+        "requiredTech": "Chemistry"
+    },
+
+	{
+		"name": "Buy Biology",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [50] per owned city",
+			"Discover [Biology]",
+			"Only available <before discovering [Biology]>",
+			"Only available <after discovering [Scientific Theory]>"
+			],
+        "requiredTech": "Archaeology"
+    },
+	{
+		"name": "Buy Electricity",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [50] per owned city",
+			"Discover [Electricity]",
+			"Only available <before discovering [Electricity]>"
+			],
+        "requiredTech": "Scientific Theory"
+    },
+	{
+		"name": "Buy Steam Power",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [50] per owned city",
+			"Discover [Steam Power]",
+			"Only available <before discovering [Steam Power]>",
+			"Only available <after discovering [Scientific Theory]>",
+			"Only available <after discovering [Rifling]>"
+			],
+        "requiredTech": "Industrialization"
+    },
+	{
+		"name": "Buy Dynamite",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [50] per owned city",
+			"Discover [Dynamite]",
+			"Only available <before discovering [Dynamite]>",
+			"Only available <after discovering [Military Science]>"
+			],
+        "requiredTech": "Fertilizer"
+    },
+
+	{
+		"name": "Buy Refrigeration",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [55] per owned city",
+			"Discover [Refrigeration]",
+			"Only available <before discovering [Refrigeration]>",
+			"Only available <after discovering [Electricity]>"
+			],
+        "requiredTech": "Biology"
+    },
+	{
+		"name": "Buy Radio",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [55] per owned city",
+			"Discover [Radio]",
+			"Only available <before discovering [Radio]>"
+			],
+        "requiredTech": "Electricity"
+    },
+	{
+		"name": "Buy Replaceable Parts",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [55] per owned city",
+			"Discover [Replaceable Parts]",
+			"Only available <before discovering [Replaceable Parts]>",
+			"Only available <after discovering [Steam Power]>"
+			],
+        "requiredTech": "Electricity"
+    },
+	{
+		"name": "Buy Flight",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [55] per owned city",
+			"Discover [Flight]",
+			"Only available <before discovering [Flight]>"
+			],
+        "requiredTech": "Steam Power"
+    },
+	{
+		"name": "Buy Railroads",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [55] per owned city",
+			"Discover [Railroads]",
+			"Only available <before discovering [Railroads]>",
+			"Only available <after discovering [Dynamite]>"
+			],
+        "requiredTech": "Steam Power"
+    },
+
+	{
+		"name": "Buy Plastics",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [60] per owned city",
+			"Discover [Plastics]",
+			"Only available <before discovering [Plastics]>",
+			"Only available <after discovering [Replaceable Parts]>"
+			],
+        "requiredTech": "Radio"
+    },
+	{
+		"name": "Buy Electronics",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [60] per owned city",
+			"Discover [Electronics]",
+			"Only available <before discovering [Electronics]>",
+			"Only available <after discovering [Flight]>"
+			],
+        "requiredTech": "Replaceable Parts"
+    },
+	{
+		"name": "Buy Ballistics",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [60] per owned city",
+			"Discover [Ballistics]",
+			"Only available <before discovering [Ballistics]>"
+			],
+        "requiredTech": "Flight"
+    },
+	{
+		"name": "Buy Combustion",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [60] per owned city",
+			"Discover [Combustion]",
+			"Only available <before discovering [Combustion]>"
+			],
+        "requiredTech": "Railroads"
+    },
+
+	{
+		"name": "Buy Pharmaceuticals",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [65] per owned city",
+			"Discover [Pharmaceuticals]",
+			"Only available <before discovering [Pharmaceuticals]>",
+			"Only available <after discovering [Refrigeration]>"
+			],
+        "requiredTech": "Plastics"
+    },
+	{
+		"name": "Buy Atomic Theory",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [65] per owned city",
+			"Discover [Atomic Theory]",
+			"Only available <before discovering [Atomic Theory]>",
+			"Only available <after discovering [Electronics]>"
+			],
+        "requiredTech": "Plastics"
+    },
+	{
+		"name": "Buy Radar",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [65] per owned city",
+			"Discover [Radar]",
+			"Only available <before discovering [Radar]>",
+			"Only available <after discovering [Electronics]>"
+			],
+        "requiredTech": "Ballistics"
+    },
+	{
+		"name": "Buy Combined Arms",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [65] per owned city",
+			"Discover [Combined Arms]",
+			"Only available <before discovering [Combined Arms]>",
+			"Only available <after discovering [Combustion]>"
+			],
+        "requiredTech": "Ballistics"
+    },
+
+	{
+		"name": "Buy Ecology",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [70] per owned city",
+			"Discover [Ecology]",
+			"Only available <before discovering [Ecology]>",
+			"Only available <after discovering [Pharmaceuticals]>"
+			],
+        "requiredTech": "Atomic Theory"
+    },
+	{
+		"name": "Buy Nuclear Fission",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [70] per owned city",
+			"Discover [Nuclear Fission]",
+			"Only available <before discovering [Nuclear Fission]>",
+			"Only available <after discovering [Radar]>"
+			],
+        "requiredTech": "Atomic Theory"
+    },
+	{
+		"name": "Buy Rocketry",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [70] per owned city",
+			"Discover [Rocketry]",
+			"Only available <before discovering [Rocketry]>"
+			],
+        "requiredTech": "Radar"
+    },
+	{
+		"name": "Buy Computers",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [70] per owned city",
+			"Discover [Computers]",
+			"Only available <before discovering [Computers]>",
+			"Only available <after discovering [Radar]>"
+			],
+        "requiredTech": "Combined Arms"
+    },
+
+	{
+		"name": "Buy Telecommunications",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [75] per owned city",
+			"Discover [Telecommunications]",
+			"Only available <before discovering [Telecommunications]>"
+			],
+        "requiredTech": "Ecology"
+    },
+	{
+		"name": "Buy Mobile Tactics",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [75] per owned city",
+			"Discover [Mobile Tactics]",
+			"Only available <before discovering [Mobile Tactics]>",
+			"Only available <after discovering [Nuclear Fission]>"
+			],
+        "requiredTech": "Ecology"
+    },
+	{
+		"name": "Buy Advanced Ballistics",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [75] per owned city",
+			"Discover [Advanced Ballistics]",
+			"Only available <before discovering [Advanced Ballistics]>",
+			"Only available <after discovering [Nuclear Fission]>"
+			],
+        "requiredTech": "Rocketry"
+    },
+	{
+		"name": "Buy Satellites",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [75] per owned city",
+			"Discover [Satellites]",
+			"Only available <before discovering [Satellites]>"
+			],
+        "requiredTech": "Rocketry"
+    },
+	{
+		"name": "Buy Robotics",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [75] per owned city",
+			"Discover [Robotics]",
+			"Only available <before discovering [Robotics]>",
+			"Only available <after discovering [Computers]>"
+			],
+        "requiredTech": "Rocketry"
+    },
+	{
+		"name": "Buy Lasers",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [75] per owned city",
+			"Discover [Lasers]",
+			"Only available <before discovering [Lasers]>"
+			],
+        "requiredTech": "Computers"
+    },
+
+	{
+		"name": "Buy Globalization",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [80] per owned city",
+			"Discover [Globalization]",
+			"Only available <before discovering [Globalization]>"
+			],
+        "requiredTech": "Telecommunications"
+    },
+	{
+		"name": "Buy Particle Physics",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [80] per owned city",
+			"Discover [Particle Physics]",
+			"Only available <before discovering [Particle Physics]>",
+			"Only available <after discovering [Mobile Tactics]>",
+			"Only available <after discovering [Advanced Ballistics]>"
+			],
+        "requiredTech": "Telecommunications"
+    },
+	{
+		"name": "Buy Nuclear Fusion",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [80] per owned city",
+			"Discover [Nuclear Fusion]",
+			"Only available <before discovering [Nuclear Fusion]>",
+			"Only available <after discovering [Satellites]>",
+			"Only available <after discovering [Robotics]>"
+			],
+        "requiredTech": "Advanced Ballistics"
+    },
+	{
+		"name": "Buy Nanotechnology",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [80] per owned city",
+			"Discover [Nanotechnology]",
+			"Only available <before discovering [Nanotechnology]>"
+			],
+        "requiredTech": "Robotics"
+    },
+	{
+		"name": "Buy Stealth",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 55,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [80] per owned city",
+			"Discover [Stealth]",
+			"Only available <before discovering [Stealth]>",
+			"Only available <after discovering [Lasers]>"
+			],
+        "requiredTech": "Robotics"
+    },
+
+	{
+		"name": "Buy Future Tech",
+		"uniqueTo": "Forgotten",
+		"maintenance": 0,
+        "hurryCostModifier": 200,
+        "uniques": [
+			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player]>",
+			"Will not be displayed in Civilopedia",
+			"Technology Building",
+			"Remove [Technology Building] [in all cities]<after [1] turns>",
+			"Cost increases by [100] per owned city",
+			"Discover [Future Tech]",
+			"Only available <after discovering [Particle Physics]>",
+			"Only available <after discovering [Nuclear Fusion]>",
+			"Only available <after discovering [Nanotechnology]>",
+			"Only available <after discovering [Stealth]>"
+			],
+        "requiredTech": "Globalization",
+		"civilopediaText": [{"text": "When you are bored and want to flex your money"}]
+    }
+	
 ]
