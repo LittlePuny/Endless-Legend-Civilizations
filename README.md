@@ -28,7 +28,7 @@ Cultists have a focus on converting barbarian units and having a strong faith. T
 Cult of the Eternal End
 - Single City related uniques and restrictions revamped
 - National Unique redesigned with a focus of religion
-- New AI personality to ensure they go Piety and don't take Liberty
+- New AI personality to ensure they go Piety and go to wars
 - High Seat of the Queen removed
 - Walls of Faith added as Wall replacement
 - Shrine of Whispers is no longer national unique. It gives faith and religion spread. It's capital bonuses reduced.
@@ -36,8 +36,8 @@ Cult of the Eternal End
 Mykara
 - Single City related uniques and restrictions revamped
 - National Unique redesigned with a focus of civilization diplomacy, and overall yields
-- New AI personality to ensure they go Tradition and don't take Liberty
-- Kernel of Plentitude is no longer national unique.  It now gives Food to the city it is built. It's capital bonuses are reduced.
+- New AI personality to ensure they go Tradition and go to wars
+- Kernel of Plentitude is no longer national unique.  It now gives yields to capital.
 - Gorgon removed
 - Ipotane added as Crossbowman replacement
 
