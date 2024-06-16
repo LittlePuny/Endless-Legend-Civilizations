@@ -19,9 +19,9 @@ Faction icons and Setseke icon come from Endless Legend
 ### v0.7 One City to rule them all
 This update revamps two "single city" nations
 
-Liberty is blocked for both nations so no more free settler for them. (sidenote, mod can work with other extension mods or even with some rulesets like Rekmod but there will be conflicts and problems) Players can probably get extra cities by snatching enemy settlers. Also both of them have their personaltiy with high Warmongering so they shouldn't be a sitting duck whole game. 
+Liberty is blocked for both nations so no more free settler for them. (sidenote, mod can work with other extension mods changong stuff or even with some rulesets like Rekmod but there will be conflicts and problems) Players can probably get extra cities by snatching enemy settlers. Also both of them have their personality with high Warmongering so they shouldn't be a sitting duck whole game. 
 
-Despite both of them being stacked with uniques, other AI's can beat them. Left unchecked, they will just build wonders and go for a cultural victory quiet easilly. But their lack of control on puppets mean when forced to war, they can get stuck on producing military units and never get a chance to finish
+Despite both of them being stacked with uniques, other AI's can beat them. Left unchecked, they will just build wonders and go for a cultural victory quiet easily. But their lack of control on puppets mean when forced to war, they can get stuck on producing military units and never get a chance to finish Utopia Project
 
 Cultists have a focus on converting barbarian units and having a strong faith. Their puppets increase capital's GP generation and yields on Great Improvements. Mykara gets relative bonus to every stat. They also get some extra bonuses from engaging in diplomacy and their puppets don't have the standard Culture/Science penalty.
 
