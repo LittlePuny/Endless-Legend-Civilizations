@@ -16,6 +16,31 @@ Auriga custom map
 Faction icons and Setseke icon come from Endless Legend
 
 # Changelog
+### v0.7 One City to rule them all
+This update revamps two "single city" nations
+
+Liberty is blocked for both nations so no more free settler for them. (sidenote, mod can work with other extension mods or even with some rulesets like Rekmod but there will be conflicts and problems) Players can probably get extra cities by snatching enemy settlers. Also both of them have their personaltiy with high Warmongering so they shouldn't be a sitting duck whole game. 
+
+Despite both of them being stacked with uniques, other AI's can beat them. Left unchecked, they will just build wonders and go for a cultural victory quiet easilly. But their lack of control on puppets mean when forced to war, they can get stuck on producing military units and never get a chance to finish
+
+Cultists have a focus on converting barbarian units and having a strong faith. Their puppets increase capital's GP generation and yields on Great Improvements. Mykara gets relative bonus to every stat. They also get some extra bonuses from engaging in diplomacy and their puppets don't have the standard Culture/Science penalty.
+
+Cult of the Eternal End
+- Single City related uniques and restrictions revamped
+- National Unique redesigned with a focus of religion
+- New AI personality to ensure they go Piety and don't take Liberty
+- High Seat of the Queen removed
+- Walls of Faith added as Wall replacement
+- Shrine of Whispers is no longer national unique. It gives faith and religion spread. It's capital bonuses reduced.
+
+Mykara
+- Single City related uniques and restrictions revamped
+- National Unique redesigned with a focus of civilization diplomacy, and overall yields
+- New AI personality to ensure they go Tradition and don't take Liberty
+- Kernel of Plentitude is no longer national unique.  It now gives Food to the city it is built. It's capital bonuses are reduced.
+- Gorgon removed
+- Ipotane added as Crossbowman replacement
+
 ### v0.6 Funding Science
 Forgotten and their "Science Phobic" trait is done. Similar to Broken Lords, they don't generate science at all. Instead they can buy technologies with gold. Or more preferably, steal from other civilizations as they start with 1 Spy from the game start. Every source of Science (except for trade agreements and City States) is converted to Gold for them. This also means those science buildings can give obscene amount of gold due to their relative bonuses (so expect relevant changes later on)
 
@@ -26,7 +51,7 @@ Forgotten:
 - Myst is now a scout replacement that is fast, invisible, has extra sight and ignores enemy borders. Gotta find that capital fast for your spy!
 - Oxford University replaced with Caudata Sanctuary, which gives another spy and makes spies start with 1 extra level.
 
-Broken Lords
+Broken Lords:
 - Conditionals on uniques changed a bit
 
 ### v0.5 Shifting Uniques

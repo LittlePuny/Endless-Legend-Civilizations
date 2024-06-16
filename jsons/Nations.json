@@ -402,7 +402,7 @@
 		// we are legion: +exp on converted unit
 		// shrine of whispers: %science per covnerted village
 		// all beings are siblings: exp when recruiting units
-		//  hands of the unspoken: +3 converted unit 
+		// hands of the unspoken: +3 converted unit 
 
 		// preacher: support. buffs ally stats
 		// fanatic: cavalry
@@ -413,6 +413,8 @@
 		"leaderName": "The Unspoken",
 		"adjective": ["Cultist"],
 		"preferredVictoryType": "Domination",
+		"personality": "Cultist",
+		"favoredReligion": "Eternal End",
 
 		"startIntroPart1": "This mysterious cult is led by two creations that are the remnants of the Endless: The Queen, imprisoned within her indestructible throne in the capital city, and the Unspoken, a wandering - and perhaps insane - being of enormous power. Left alone on the planet for millennia, they have turned against their creators and sworn to destroy every trace of their existence.",
 		"startIntroPart2": "The Cult maintains a single city where the Queen is entombed in her indestructible throne. Its power, therefore, is projected across Auriga through proselytization and conversion, when the faithful followers and heroes of the Cult convince other, lesser peoples to join their cause. The Cultists then recruit, train, and arm these converts from the tribes and vagrants that live scattered across the surface of Auriga. Regardless of where they are or to whom they have previously sworn allegiance, when a tribe turns to the Cult it does so until its death. Monolithic, fanatic, and ever-expanding, the Cult of the Eternal End will spare no effort, cost, or sacrifice to see that its will is done.",
@@ -429,14 +431,20 @@
 		"innerColor": [64,64,64],
 		"uniqueName": "High Seat of the Queen",
 		"uniques": [
-			"Receive triple Gold from Barbarian encampments and pillaging Cities",
-			"When conquering an encampment, earn [0] Gold and recruit a Barbarian unit",
-			"Cities are razed [3] times as fast",
-			"Upon capturing a city, receive [5] times its [Culture] production as [Culture] immediately",
-			"Upon capturing a city, receive [5] times its [Science] production as [Science] immediately",
+			"Cannot build [Settler] units",
 			"May not annex cities",
+			"May buy items in puppet cities",
+			"[+20]% Strength decreasing with distance from the capital",
+			"[1] Unit Supply per [1] population [in the capital]",
+			
 			"[Military] units gain the [Convert] promotion",
-			"Comment [Can't produce Settlers]"
+			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit",
+			"Cities are razed [3] times as fast",
+
+			"[Civilian] units gain the [Cultist] promotion",
+			"[+1 Faith] per [2] population [in capital]",
+			"May choose [1] additional [Founder] beliefs when [founding] a religion",
+			"May choose [1] additional [Follower] beliefs when [enhancing] a religion"
 		],
 		"cities": ["Queen's Tomb", "Amenvar", "Undand", "Endigir", "Whiechsul", "Dallan", "Aldineche", "Vareis", "Ganli", "Herkuf", "Yaeg", "Yerow", "Jurgador", "Taim", "Manyur", "Gildrin", "Worimer", "Ashrusk", "Ndortara", "Doreis", "Tin'en", "Achq", "Jalastil", "Almed", "Danin", "Salimar"]
 	},
@@ -491,7 +499,8 @@
 			"No movement cost to pillage <for [Land] units>",
 			"Gain an extra spy <upon discovering [Agriculture] technology>",
 			"[+1 Gold] per [1] population [in all cities]<hidden from users>",
-
+			
+			"Nullifies [Science] [in all cities] <for [Human player]><hidden from users>",
 			"[-100]% [Science] from every [All] <for [Human player]><hidden from users>",
 			"[-100]% [Science] from every [Improvement] <for [Human player]><hidden from users>",
 			"May buy [Technology Building] buildings with [Gold] [in all cities] <for [Human player]><hidden from users>",
@@ -575,15 +584,18 @@
 			"Comment [During Dark Season gain +10% Production, Strength and +1 Movement Speed]",
 			"Comment [Light Season provides 1 Aurigan Pearl while Dark Season consumes 1 Aurigan Pearl]",
 			"Provides [1] [Aurigan Pearls] <hidden from users>",
+
 			"[+5]% growth [in all cities] <hidden from users>",
 			"[+5]% [Culture] <hidden from users>",
 			"[+5]% [Gold] <hidden from users>",
+
 			"[-5]% growth [in all cities] <if [Shift to Dark Season] is constructed> <hidden from users>",
 			"[-5]% [Culture] <if [Shift to Dark Season] is constructed> <hidden from users>",
 			"[-5]% [Gold] <if [Shift to Dark Season] is constructed> <hidden from users>",
 			"[+10]% [Production] <if [Shift to Dark Season] is constructed> <hidden from users>",
 			"[+10]% Strength <if [Shift to Dark Season] is constructed> <hidden from users>",
 			"[1] Movement <if [Shift to Dark Season] is constructed> <hidden from users>",
+
 			"[-5]% growth [in all cities] <when at war> <for [AI player]> <hidden from users>",
 			"[-5]% [Culture] <when at war> <for [AI player]> <hidden from users>",
 			"[-5]% [Gold] <when at war> <for [AI player]> <hidden from users>",
@@ -701,7 +713,7 @@
 		// urkan encampment: allows garrison units in tamed urkans
 		// urkan politics: reduced influence cost on diplomacy per urkan
 		// kernel of plentitude: food, science and dgold per number of cities
-		// iron veinds: +3 fidsi multoplier on fungal bloom (quadruple the yields)
+		// iron veins: +3 fidsi multoplier on fungal bloom (quadruple the yields)
 
 		// fungal bloom geren
 		// ipotane: ranged/ reduce speed
@@ -714,6 +726,8 @@
 		"adjective": ["Mykara"],
 		"startBias":["Jungle"],
 		"preferredVictoryType": "Scientific",
+		"personality": "Mykara",
+
 
 		"startIntroPart1": "The Mykara are a race of sentient plant matter and fungi, a single organism spanning thousands of semi-autonomous agents and time immemorial, ever adapting to survive and thrive. They spread all over Auriga as a massive underground root system, sprouting on the edges of the map, clinging to the regions other factions leave unattended.",
 		"startIntroPart2": "The Mykara are a single, vast organism that has spread beneath the surface of Auriga, covering most of the planet. Yet all roots lead to home, their capital serving as a hub for their physical spread and their consciousness. Consequently, the Mykara are focused on a single city and have to exert their control over the world by different means, much like the Cultists of the Eternal End. Unlike their more religious rivals, who have to pacify villages and convert them with Influence, the Mykara do not have to be present near the areas they want to claim. As long as you have had vision on a point of interest before and it is located in a neutral region, you can begin growing a Fungal Bloom on it.",
@@ -728,17 +742,46 @@
 
 		"outerColor": [102,51,0],
 		"innerColor": [255,152,255],
-		"uniqueName": "SCreeping Presence",
+		"uniqueName": "Creeping Presence",
 		"uniques": [
-			"[+10]% growth [in all cities]",
-			"[+1 Production] per every [5] [Culture]<in [Capital] cities>",
-			"[+25]% [Culture] [in puppeted cities]",
-			"[+25]% [Science] [in puppeted cities]",
-			"May buy items in puppet cities",
+			"Cannot build [Settler] units",
 			"May not annex cities",
-			"Comment [Can't produce Settlers]"
+			"May buy items in puppet cities",
+			"[+20]% Strength decreasing with distance from the capital",
+			"[1] Unit Supply per [1] population [in the capital]",
+			
+			"When declaring friendship, both parties gain a [+10]% boost to great person generation",
+			"Retain [+25]% of the happiness from a luxury after the last copy has been traded away",
+			"Science gained from research agreements [+25]%",
+			"[+15]% [Culture] [in all cities] <upon declaring friendship><for [15] turns>",
+			"[+15]% [Production] [in all cities] <upon declaring a defensive pact><for [15] turns>",
+
+			"[+10]% [Food] [in capital]",
+			"[+10]% [Production] [in capital]",
+			"[+10]% [Gold] [in capital]",
+			"[+10]% [Science] [in capital]",
+			"[+10]% [Culture] [in capital]",
+			
+			"Upon capturing a city, receive [3] times its [Culture] production as [Culture] immediately",
+			"Upon capturing a city, receive [3] times its [Science] production as [Science] immediately",
+			"[+25]% [Culture] [in puppeted cities]",
+			"[+25]% [Science] [in puppeted cities]"
+
 			],
 		"cities": ["Manita Gari", "Agai", "Mulladien", "Yerurnqua", "Radalta", "Marebond", "Yiggodra", "Madirod", "Omgar", "Ver'kal", "Anm", "Utharan", "Inelle", "Naquakic", "Dutharad", "Tyd", "Byldwan", "Marreyn", "Indorand", "Goulji", "Lodera", "Amund", "Ishimlor", "Edyno"]
 	}
 	
+	/*
+	Single City uniques:
+		"Cannot build [Settler] units",
+		"May not annex cities",
+		"May buy items in puppet cities",
+		"[+20]% Strength decreasing with distance from the capital",
+		"[1] Unit Supply per [1] population [in the capital]",
+
+	Puppet City penalty nulification:
+		"[+25]% [Culture] [in puppeted cities]",
+		"[+25]% [Science] [in puppeted cities]",
+
+	*/
 ]

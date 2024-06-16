@@ -358,17 +358,6 @@
 		"attackSound": "horse"
 	},
 	// Cultists
-	{
-		"name": "Cultists Settler",
-		"unitType": "Civilian",
-		"uniqueTo": "Cult of the Eternal End",
-		"replaces": "Settler",
-		"movement": 2,
-		"cost": 106,
-		"uniques": ["Founds a new city", "Will not be displayed in Civilopedia", "Unbuildable"],
-		"hurryCostModifier": 20
-	},
-	
 	// Forgotten
 	{
 		"name": "Myst",
@@ -466,29 +455,18 @@
 	
 	// Mykara
 	{
-		"name": "Mykara Settler",
-		"unitType": "Civilian",
+		"name": "Ipotane",
+		"unitType": "Archery",
 		"uniqueTo": "Mykara",
-		"replaces": "Settler",
+		"replaces": "Crossbowman",
 		"movement": 2,
-		"cost": 106,
-		"uniques": ["Founds a new city", "Will not be displayed in Civilopedia", "Unbuildable"],
-		"hurryCostModifier": 20
+		"strength": 16,
+		"rangedStrength": 20,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"promotions": ["March"],
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "crossbow"
 	},
-
-	{
-		"name": "Gorgon",
-		"replaces": "Cavalry",
-		"uniqueTo": "Mykara",
-		"unitType": "Sword",
-		"movement": 4,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combustion",
-		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>"],
-		"promotions": ["Blitz"],
-		"attackSound": "metalhit"
-	}
 ]

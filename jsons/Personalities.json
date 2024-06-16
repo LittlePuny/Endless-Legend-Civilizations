@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Cultist",
+        "priorities": {
+            "Tradition": 30,
+            "Liberty": 0,
+            "Honor": 10,
+            "Piety": 20,
+            "Autocracy": 90 
+        },
+        "warMongering": 10
+    },
+    {
+        "name": "Mykara",
+        "priorities": {
+            "Tradition": 30,
+            "Liberty": 0,
+            "Honor": 10,
+            "Order": 0,
+            "Freedom": 90
+        },
+        "warMongering": 8
+    }
+
+]

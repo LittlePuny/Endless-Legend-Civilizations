@@ -17,9 +17,8 @@
 		"name": "Convert",
 		"uniques": ["May capture killed [Barbarian] units","[+25]% Strength <vs [Barbarian] units>"]
 	},
-	
 	{
-		"name": "From the Shadows",
-		"uniques": ["Invisible to non-adjacent units","May enter foreign tiles without open borders"]
+		"name": "Cultist",
+		"uniques": ["Takes your religion over the one in their birth city"]
 	},
 ]

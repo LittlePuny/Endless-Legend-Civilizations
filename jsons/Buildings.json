@@ -61,27 +61,28 @@
 	},
 		// Cultists
 	{
-		"name": "High Seat of the Queen",
+		"name": "Walls of Faith",
+		"replaces": "Walls",
 		"uniqueTo": "Cult of the Eternal End",
-		"replaces": "Palace",
-		"isNationalWonder": true,
-		"production": 3,
-		"science": 3,
-		"gold": 5,
-		"culture": 1,
+		"faith": 1,
 		"cityStrength": 5,
-		"cost": 1,
-		"specialistSlots": {"Artist": 1, "Engineer": 1, "Merchant": 1, "Scientist": 1},
-		"uniques": ["Indicates the capital city","[1] Unit Supply per [1] population [in capital]"]
+		"cityHealth": 75,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
         "name": "Shrine of Whispers",
 		"uniqueTo": "Cult of the Eternal End",
-        "isNationalWonder": true,
 		"replaces": "Courthouse",
-		"requiredBuilding": "Palace",
+		"faith": 2,
 		"hurryCostModifier": 50,
-		"uniques": ["[+25]% Great Person generation [in capital]","[+50]% Yield from every [Great Improvement]"],
+		"uniques": [
+			"[+33]% Natural religion spread [in this city]",
+			"[+10]% Great Person generation [in capital]",
+			"[+10]% Yield from every [Great Improvement]<in [Capital] cities>",
+			"Destroyed when the city is captured"
+			],
 		"requiredTech": "Mathematics"
     },
 		// Forgotten	
@@ -170,11 +171,14 @@
 	{
         "name": "Kernel of Plentitude",
 		"uniqueTo": "Mykara",
-        "isNationalWonder": true,
 		"replaces": "Courthouse",
-		"requiredBuilding": "Palace",
 		"hurryCostModifier": 50,
-		"uniques": ["[+10]% [Food] [in capital]","[+10]% [Science] [in capital]","[+10]% [Gold] [in capital]"],
+		"uniques": [
+			"[+2 Food] <in [in capital] cities>",
+			"[+2 Gold] <in [in capital] cities>",
+			"[+2 Science] <in [in capital] cities>",
+			"Destroyed when the city is captured"
+		],
 		"requiredTech": "Mathematics"
     },
 
