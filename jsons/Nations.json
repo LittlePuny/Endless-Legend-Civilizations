@@ -185,10 +185,10 @@
 		"innerColor": [255,128,0],
 		"uniqueName": "Holy Resource",
 		"uniques": [
+			"Comment [Can Build Holy Resource buildings. Only one type can be built in each city. Sell the Holy Resource building to replace it]",
+			"Comment [Holy Resource buildings doubles the quantity of the selected strategic resource and increase their tile yield by 50%]",
 			"[+1 Science] from every [Strategic resource]",
-			"[+1 Science] from every [Luxury resource]",
-			"[+1 Science] from every [Bonus resource]",
-			"Quantity of strategic resources produced by the empire +[+25]%"
+			"[+1 Science] from every [Strategic resource]<after discovering [Scientific Theory]>"
 		],
 		"cities": ["Budakai", "Strard", "Trode", "Aldodev", "Perusk", "Glandeh", "Beloch", "Histrel", "Elmchaia", "Euste", "Skaeen", "Byaegol", "Lyeess", "Frytta", "Therrat", "Aldodev", "Aranak", "Warlaf", "Ildlyea", "Murynlar", "Lingain", "Sayap", "Erril", "Lorw", "Oddenda", "Reyjis", "Horlaken", "Delard"]
 	},
@@ -264,6 +264,7 @@
 		"adjective": ["Mage"],
 		"startBias":["Avoid [Coast]"],
 		"preferredVictoryType": "Scientific",
+		"personality": "Tall",
 
 		"startIntroPart1": "The Ardent Mages are a people who were born in struggle and pain, and these conditions dominate their day to day lives. Though they control great powers, they pay a great price to do so. To manipulate the powers of Dust, an Ardent Mage must dissociate their mind from their body. For this they have developed elaborate pain rituals, for the more they are able to withstand the agony and ignore their physical discomfort, the deeper their relationship with Dust becomes. Pain has become a fundamental element of their society, to the point where children are taught from a young age to withstand it.",
 		"startIntroPart2": "Stoicism is therefore as important as intelligence, and indifference to physical discomfort is the way in which an individual's worth is measured - be they an Ardent Mage or a stranger. After falling out with the rest of the Inner Circle in dark circumstances, Zor Abaz has annexed her clan from the greater Ardent Mage nation and struck out for new territory. The suffering must be great, even magnificent, if she is to prepare the Ardent Mages for the endtimes.",
@@ -282,9 +283,7 @@
 		"uniques": [
 			"Damage is ignored when determining unit Strength <for [All] units>",
 			"[+10]% Strength <within [2] tiles of a [Great Improvement]>",
-			"Free Great Person <upon entering the [Classical era]>",
-			"Free Great Person <upon entering the [Renaissance era]>",
-			"Free Great Person <upon entering the [Modern era]>",
+			"Free Great Person <upon discovering [Philosophy] technology>",
 			"Comment [Great Improvements are replaced with Pillars which gain yields based on adjacent tile improvements]"
 			],
 		"cities": ["Gnosta", "Manyur", "Zadde", "Himun", "Geiala", "Hendwen", "Oroos", "Dasraj", "Xighor", "Utanla", "Cyin", "Guairon", "Yuredan", "Ammael", "Junyan", "Ranf", "Suan", "Rothkallor", "Valdaea", "Tearan", "Coldramor", "Avarilea", "Lendfel", "Tuldraj", "Lireisy", "Jayain", "Ullath"]
@@ -387,7 +386,7 @@
 			"[+25]% [Food] from City-States",
 			"[+25]% [Culture] from City-States",
 			"[+25]% [Faith] from City-States",
-			"Military Units gifted from City-States start with [+15] XP"
+			"Military Units gifted from City-States start with [+5] XP"
 			],
 		"cities": ["Nahar Tereth", "Shiamere", "Tanelm", "Inolya", "Nyaegor", "Avrama", "Meruan", "Asemel", "Morinlac", "Olaran", "Larys", "Irimda", "Sharanne", "Ia'poli", "Ard'im", "Gaadach", "Sondir", "Hailoman", "Cosdrian", "Cymoa", "Perrandy", "Ormn", "Balther", "Naillon", "Hawyrd"]
 	},
@@ -441,7 +440,6 @@
 			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit",
 			"Cities are razed [3] times as fast",
 
-			"[Civilian] units gain the [Cultist] promotion",
 			"[+1 Faith] per [2] population [in capital]",
 			"May choose [1] additional [Founder] beliefs when [founding] a religion",
 			"May choose [1] additional [Follower] beliefs when [enhancing] a religion"
@@ -563,6 +561,7 @@
 		"leaderName": "Breyos Master Icespear",
 		"adjective": ["Allayi"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Tall",
 
 		"startIntroPart1": "When the Endless first came to Auriga they did not find an empty planet, but one teeming with life - some of it intelligent. The Guardians, caretakers of the planet, were one sentient species; another were their helpers and comrades, the Allayi. The Allayi were broken and scattered by the Endless, and for centuries they have survived on the fringes of existence. Handing their traditions and stories down in the form of a religious text, the Epistles, and a book of prayer, the Euchologion, they have been waiting in the snows and the shadows until Auriga once again needs them. And it seems that this time has come...",
 		"startIntroPart2": "The Allayi are a people so closely aligned to Auriga that their very nature changes as the Dark Seasons occur. While they are friendly and defensive in summer, when the harsh winters arrive they become aggressive and dangerous, reflecting the madness of the planet. They are tied so closely to Auriga's fate that even their bodies alter to match the evolution of these extreme seasons. Growing strong once again the Allayi have returned, prepared to defend and preserve Mother Auriga with all their grim strength.",
@@ -645,11 +644,16 @@
 		"innerColor": [76,153,0],
 		"uniqueName": "Neptunian",
 		"uniques": [
-			"[+1 Production] from every [River]",
-			"[+1 Production] from every [Water]",
-			"[+1 Production] from every [Oasis]",
-			"Enables [Land] units to enter ocean tiles <starting from the [Ancient era]>", 
-			"[+1] Sight<for [Embarked] units>",
+			"Comment [Harbor and Seaport tile bonuses also applies to Water tiles without resources.]",
+			"[+1 Production] from every [Fresh water] <after discovering [Optics]>",
+			"[+1 Production] from every [Fresh water] <after discovering [Navigation]>",
+			"[+1 Production] from every [Water] <in cities with a [Harbor]> <hidden from users>",
+			"[-1 Production] from every [Water resource] <in cities with a [Harbor]> <hidden from users>",
+			"[+1 Production, +1 Gold] from every [Water] <in cities with a [Seaport]> <hidden from users>",
+			"[-1 Production, -1 Gold] from every [Water resource] <in cities with a [Seaport]> <hidden from users>",
+			"Enables [Land] units to enter ocean tiles <starting from the [Ancient era]> <hidden from users>", 
+			"[+1] Sight <for [Embarked] units>",
+			"Defense bonus when embarked",
 			"[Land] units gain the [Amphibious] promotion"
 			],
 		"cities": ["The Beginning", "Masweyr", "Vanoran", "Sipuan", "Sulin", "Mathenir", "Shorel", "Osdarcha", "Dene", "Turol", "Lertan", "Renar", "Mandara", "Eawyth", "Zadde", "Veltare", "Bel'sero", "Masuarim", "Mettanch", "Trenwin", "Aremon", "Inga", "Garint", "Rakmnal", "Ingulath"]
@@ -697,6 +701,8 @@
 		"uniques": [
 			"[+1 Food] from every [Mine]",
 			"[+1 Food] from every [Quarry]",
+			"[+3 Food] from every [Manufactory]",
+			"Units ignore terrain costs when moving into any tile with Hills",
 			"Free [Great Engineer] appears <upon discovering [Masonry] technology>",
 			"[Great Engineer] is earned [50]% faster"
 			],
@@ -756,11 +762,8 @@
 			"[+15]% [Culture] [in all cities] <upon declaring friendship><for [15] turns>",
 			"[+15]% [Production] [in all cities] <upon declaring a defensive pact><for [15] turns>",
 
-			"[+10]% [Food] [in capital]",
-			"[+10]% [Production] [in capital]",
-			"[+10]% [Gold] [in capital]",
-			"[+10]% [Science] [in capital]",
-			"[+10]% [Culture] [in capital]",
+			"[+15]% [Food] [in capital]",
+			"[+2 Production] from all [Food] buildings",
 			
 			"Upon capturing a city, receive [3] times its [Culture] production as [Culture] immediately",
 			"Upon capturing a city, receive [3] times its [Science] production as [Science] immediately",

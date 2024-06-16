@@ -2,6 +2,85 @@
 		// Wild Walkers
 		// Broken Lords
 		// Vaulters
+		{
+			"name": "Holy Resource: Horses",
+			"uniqueTo": "Vaulters",
+			"requiredNearbyImprovedResources": ["Horses"],
+			"requiredTech": "Animal Husbandry",
+			"uniques": [
+				"Double quantity of [Horses] produced <in this city>",
+				"[+50]% Yield from every [Horses] <in this city>",
+				"Holy Resource Building",
+				"Unavailable <in cities with a [Holy Resource Building]>",
+				"Will not be displayed in Civilopedia"
+			]
+		},
+		{
+			"name": "Holy Resource: Iron",
+			"uniqueTo": "Vaulters",
+			"requiredNearbyImprovedResources": ["Iron"],
+			"requiredTech": "Iron Working",
+			"uniques": [
+				"Double quantity of [Iron] produced <in this city>",
+				"[+50]% Yield from every [Iron] <in this city>",
+				"Holy Resource Building",
+				"Unavailable <in cities with a [Holy Resource Building]>",
+				"Will not be displayed in Civilopedia"
+			]
+		},
+		{
+			"name": "Holy Resource: Coal",
+			"uniqueTo": "Vaulters",
+			"requiredNearbyImprovedResources": ["Coal"],
+			"requiredTech": "Industrialization",
+			"uniques": [
+				"Double quantity of [Coal] produced <in this city>",
+				"[+50]% Yield from every [Coal] <in this city>",
+				"Holy Resource Building",
+				"Unavailable <in cities with a [Holy Resource Building]>",
+				"Will not be displayed in Civilopedia"
+			]
+		},
+		{
+			"name": "Holy Resource: Oil",
+			"uniqueTo": "Vaulters",
+			"requiredNearbyImprovedResources": ["Oil"],
+			"requiredTech": "Biology",
+			"uniques": [
+				"Double quantity of [Oil] produced <in this city>",
+				"[+50]% Yield from every [Oil] <in this city>",
+				"Holy Resource Building",
+				"Unavailable <in cities with a [Holy Resource Building]>",
+				"Will not be displayed in Civilopedia"
+			]
+		},
+		{
+			"name": "Holy Resource: Aluminum",
+			"uniqueTo": "Vaulters",
+			"requiredNearbyImprovedResources": ["Aluminum"],
+			"requiredTech": "Electricity",
+			"uniques": [
+				"Double quantity of [Aluminum] produced <in this city>",
+				"[+50]% Yield from every [Aluminum] <in this city>",
+				"Holy Resource Building",
+				"Unavailable <in cities with a [Holy Resource Building]>",
+				"Will not be displayed in Civilopedia"
+			]
+		},
+		{
+			"name": "Holy Resource: Uranium",
+			"uniqueTo": "Vaulters",
+			"requiredNearbyImprovedResources": ["Uranium"],
+			"requiredTech": "Atomic Theory",
+			"uniques": [
+				"Double quantity of [Uranium] produced <in this city>",
+				"[+50]% Yield from every [Uranium] <in this city>",
+				"Holy Resource Building",
+				"Unavailable <in cities with a [Holy Resource Building]>",
+				"Will not be displayed in Civilopedia"
+			]
+		},
+
 		// Necrophages
 	{
 		"name": "Feeding Pits",
@@ -60,17 +139,6 @@
 		"requiredTech": "Biology"
 	},
 		// Cultists
-	{
-		"name": "Walls of Faith",
-		"replaces": "Walls",
-		"uniqueTo": "Cult of the Eternal End",
-		"faith": 1,
-		"cityStrength": 5,
-		"cityHealth": 75,
-		"hurryCostModifier": 25,
-		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured"]
-	},
 	{
         "name": "Shrine of Whispers",
 		"uniqueTo": "Cult of the Eternal End",
@@ -156,11 +224,11 @@
 		// Kapakku
 	{
 		"name": "Golem Camp",
-		"uniqueTo": "Kapakku",
+		"uniqueTo": "Kapaku",
 		"replaces": "Workshop",
-		"maintenance": 1,
+		"maintenance": 0,
 		"production": 3,
-		"specialistSlots": {"Engineer": 1},
+		"specialistSlots": {"Engineer": 2},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
 		"uniques": ["[1] population [in this city]"],

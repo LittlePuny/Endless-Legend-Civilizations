@@ -16,6 +16,51 @@ Auriga custom map
 Faction icons and Setseke icon come from Endless Legend
 
 # Changelog
+### v0.7.1
+Mostly balance changes. Putting this out now before I mess with terrains for Kapaku Volcanoform stuff.
+
+Echoes of Auriga: https://github.com/LittlePuny/Echoes-of-Auriga-for-UnCiv/tree/main
+- Rename Spectator - From Dawn to Dusk Gary's Version - Theme.mp3 to From Dawn to Dusk Gary's Version - Ambient.mp3. Now it shouldn't cause weird audio bug.
+- Added "unciv-mod-audio" tag
+
+Wild Walkers:
+- Replaced Jungle's +1 Food with +1 Production
+
+Vaulters:
+- Cities can now designate one "Holy Resource" which increases selected strategic resource quantity and its tile yields. 
+- Science from Luxury and Bonus resource removed
+
+Ardent Mages:
+- Assigned new "Tall" personality with Tradition and Freedom priorty
+- Only one free GP at discovering Philosophy
+
+Drakken:
+- City State military unit gifts start with +5 exp instead of +15 (correctly half of Siamese bonus)
+
+Cultists:
+- Wall of Faith removed
+- Preacher added as Missionary replacement
+
+Allayi:
+- Assigned new "Tall" personality with Tradition and Freedom priorty
+
+Morgawr:
+- Harbor and Seaport tile bonuses also applies to Water tiles without resources
+- Industry from fresh water delayed, with improvement later
+- Vore has Rapid Mutation promotion. Some stat changes
+- Leviathan has Rapid Mutation promotion. Stats changes (now it can attack cities as a melee submarine)
+
+Kapaku:
+- Golem Camp as Workshop replacement (wasn't available due to typo)
+- Units ignore terrain costs when moving into any tile with Hills
+- Manufactory provides food now
+- Removed Geomancer
+- Stone Sentinel now Swordsman replacement
+
+Mykara:
+- Relative bonuses are replaced with stronger Food bonus
+- Food buildings now also give Production
+
 ### v0.7 One City to rule them all
 This update revamps two "single city" nations
 

@@ -20,6 +20,18 @@
             "Freedom": 90
         },
         "warMongering": 8
+    },
+
+    {
+        "name": "Tall",
+        "priorities": {
+            "Tradition": 30,
+            "Liberty": 10,
+            "Honor": 10,
+            "Order": 0,
+            "Freedom": 90
+        },
+        "warMongering": 5
     }
 
 ]

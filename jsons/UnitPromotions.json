@@ -17,8 +17,14 @@
 		"name": "Convert",
 		"uniques": ["May capture killed [Barbarian] units","[+25]% Strength <vs [Barbarian] units>"]
 	},
+
 	{
-		"name": "Cultist",
-		"uniques": ["Takes your religion over the one in their birth city"]
+		"name": "Rapid Mutation",
+		"uniques": ["May heal outside of friendly territory","All healing effects doubled"]
 	},
+
+	{
+		"name": "Golem",
+		"uniques": ["[-100]% maintenance costs","[+25]% Strength <when defending>"]
+	}
 ]

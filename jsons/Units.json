@@ -358,6 +358,21 @@
 		"attackSound": "horse"
 	},
 	// Cultists
+	{
+		"name": "Fanatic",
+		"unitType": "Civilian",
+		"replaces": "Missionary",
+		"uniqueTo": "Cult of the Eternal End",
+		"uniques": [
+			"Takes your religion over the one in their birth city","[+10]% Strength bonus for [Military] units within [2] tiles","All adjacent units heal [+5] HP when healing",
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+
 	// Forgotten
 	{
 		"name": "Myst",
@@ -401,7 +416,8 @@
 		"strength": 10,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"promotions": ["Boarding Party I","Boarding Party II"],
+		"promotions": ["Rapid Mutation"],
+		"uniques": ["[+50]% Strength <when defending>"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -413,44 +429,30 @@
 		"uniqueTo": "Morgawr",
 		"replaces": "Submarine",
 		"movement": 6,
-		"strength": 40,
-		"rangedStrength": 70,
+		"strength": 60,
 		"cost": 325,
 		"requiredTech": "Refrigeration",
 		"upgradesTo": "Nuclear Submarine",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"promotions": ["Rapid Mutation"],
+		"uniques": ["[+75]% Strength <when attacking>"],
 		"attackSound": "torpedo"
 	},
 	// Kapaku
 	{
-		"name": "Stone Sentinel",
+		"name": "Sentinel",
 		"unitType": "Sword",
 		"uniqueTo": "Kapaku",
-		"replaces": "Warrior",
+		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"obsoleteTech": "Metal Casting",
-		"promotions": ["Besiege"],
-		"uniques" : ["[-100]% maintenance costs"],
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Geomancer",
-		"unitType": "Ranged Gunpowder",
-		"uniqueTo": "Kapaku",
-		"replaces": "Gatling Gun",
-		"range": 1,
-		"movement": 2,
-		"strength": 30,
-		"rangedStrength": 35,
-		"cost": 225,
-		"requiredTech": "Industrialization",
-		"promotions": ["Extended Range"],
-		"upgradesTo": "Machine Gun",
-		"obsoleteTech": "Ballistics",
-		"attackSound": "machinegun"
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"promotions": ["Golem"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
 	},
 	
 	// Mykara
