@@ -37,7 +37,7 @@
 		"uniqueName": "The Sharing",
 		"uniques": [
 			"[+1 Food] from every [Forest]",
-			"[+1 Food] from every [Jungle]",
+			"[+1 Production] from every [Jungle]",
 			"[+10]% Production when constructing [all] buildings [in all cities]",
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."
 		],
@@ -626,7 +626,7 @@
 		"name": "Morgawr",
 		"leaderName": "The Mind",
 		"adjective": ["Morgawr"],
-		"startBias":["Coast"],
+		"startBias":["Coast","River"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "While much is known of the surface of Auriga, its oceans still guard many mysteries. While the nations of the planet learned to meet, trade, and war on the seas, another force arose from beneath them. They are - or is? - the Morgawr, a twisted and possessed people that seem to be symbiotic creations of sea life and other, unimaginable species. Constructed creatures that broke out of their prisons in the abysses of Auriga, the Morgawr are driven to seek the surface by forces they do not understand.",
@@ -645,12 +645,15 @@
 		"uniqueName": "Neptunian",
 		"uniques": [
 			"Comment [Harbor and Seaport tile bonuses also applies to Water tiles without resources.]",
-			"[+1 Production] from every [Fresh water] <after discovering [Optics]>",
-			"[+1 Production] from every [Fresh water] <after discovering [Navigation]>",
+			"[+1 Production] from every [Fresh Water]",
+			"[+1 Production] from every [Fresh Water] <after discovering [Navigation]>",
+
 			"[+1 Production] from every [Water] <in cities with a [Harbor]> <hidden from users>",
 			"[-1 Production] from every [Water resource] <in cities with a [Harbor]> <hidden from users>",
 			"[+1 Production, +1 Gold] from every [Water] <in cities with a [Seaport]> <hidden from users>",
 			"[-1 Production, -1 Gold] from every [Water resource] <in cities with a [Seaport]> <hidden from users>",
+			
+			"Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
 			"Enables [Land] units to enter ocean tiles <starting from the [Ancient era]> <hidden from users>", 
 			"[+1] Sight <for [Embarked] units>",
 			"Defense bonus when embarked",
@@ -699,12 +702,17 @@
 		"innerColor": [155,0,0],
 		"uniqueName": "Born of Ash",
 		"uniques": [
-			"[+1 Food] from every [Mine]",
-			"[+1 Food] from every [Quarry]",
-			"[+3 Food] from every [Manufactory]",
+			"[Worker] units gain the [Volcanoformer] promotion",
+			"[+1 Food] from every [Volcanic Terrain]",
+			"[+10]% Strength <when fighting in [Volcanic Terrain] tiles>",
 			"Units ignore terrain costs when moving into any tile with Hills",
-			"Free [Great Engineer] appears <upon discovering [Masonry] technology>",
-			"[Great Engineer] is earned [50]% faster"
+
+			"Free [Great Engineer] appears <upon discovering [Masonry] technology> <for [AI player]><hidden from users>",
+			"[Great Engineer] is earned [50]% faster <for [AI player]><hidden from users>",
+			"[+1 Food] from every [Hill] <for [AI player]><hidden from users>",
+			"[+1 Food] from every [Mine] <for [AI player]><hidden from users>",
+			"[+1 Food] from every [Quarry] <for [AI player]><hidden from users>",
+			"[+3 Food] from every [Manufactory] <for [AI player]><hidden from users>"
 			],
 		"cities": ["Iokua", "Ormn", "Amenvar", "Meen", "Isield", "Sliq", "Himun", "Tarrael", "Barians", "Nyerte", "Chah", "Oyvinn", "Masweyr", "Yunarin", "Fudoro", "Ataiu", "Cthydra", "Reghsina", "Aynar", "Syciki", "Waredda", "Dels", "Laldora", "Saradh", "Zhagorak"]
 	},

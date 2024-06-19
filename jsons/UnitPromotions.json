@@ -24,7 +24,28 @@
 	},
 
 	{
+		"name": "Volcanoformer",
+		"uniques": [
+			"Turn this tile into a [Ash Drifts] tile <in [{non-[Vegetation]} {Grassland}] tiles> <for [2] movement>",
+			"Turn this tile into a [Basalt Plains] tile <in [{non-[Vegetation]} {Plains}] tiles> <for [2] movement>",
+			"Turn this tile into a [Barren Soil] tile <in [{non-[Vegetation]} {Tundra}] tiles> <for [2] movement>",
+			"Turn this tile into a [Badlands] tile <in [{non-[Vegetation]} {Desert}] tiles> <for [2] movement>",
+			"Turn this tile into a [Lava Swirl] tile <in [{non-[Vegetation]} {Snow}] tiles> <for [2] movement>",
+			"Turn this tile into a [Scorched Wilds] tile <in [Vegetation] tiles> <for [2] movement>"
+		]
+	},
+	{
 		"name": "Golem",
 		"uniques": ["[-100]% maintenance costs","[+25]% Strength <when defending>"]
+	},
+
+	{
+		"name": "Controlled Tides",
+		"uniques": ["[+1] Movement"]
+	},
+	{
+		"name": "Controlled Skies",
+		"uniques": ["[+1] Sight"]
 	}
+
 ]

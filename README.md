@@ -1,7 +1,37 @@
 # Endless Legend Civilizations
 An Endless Legend inspired Unciv mod.
 
-### Possible Roadmap (most likely in that order)
+# New Nations Guide
+### Plays like basegame nations
+Wild Walkers: Iroquois alternative
+
+Rowing Clans: Arabia alternative
+
+Drakken: Mixture of Greece and Siam
+
+Morgawr: Naval Empire
+
+### Has a mechanic that needs player attention
+Vaulters: Russia alternative with selecting a strategic resource per city
+
+Necrophages: Warmongerer who uses killed units for free melee land units or population
+
+Ardent Mages: Great Improvements with adjacency bonuses
+
+Allayi: Two sets of National Unique that they can switch between
+
+Kapaku: Workers can teraform land tiles for higher yields
+
+### Unique mechanic forcing different play style
+Broken Lords: Doesn't generate food at all. Creates population by buying them.
+
+Cultists: Single City Civ with barbarian conversion and increasing great improvements yields per puppet city
+
+Forgotten: Doesn't generate science at all. Buys new techs or steals from other nations
+
+Mykare: Single City Civ who gets bonuses for engaging in diplomacy and their puppets don't have culture/science penalty
+
+# Possible Roadmap (most likely in that order)
 Adding unique gameplay elements to factions
 
 Further balancing
@@ -13,9 +43,51 @@ Endless Legend minor factions as city states
 Auriga custom map
 
 # Credits
-Faction icons and Setseke icon come from Endless Legend
+- Faction icons and Setseke icon come from Endless Legend
+- Scorched Wilds icon - https://thenounproject.com/icon/bare-trees-264528/
 
 # Changelog
+### v0.8 Terrain-form
+This update has some terrain stuff happening. This means both interesting changes and a ton more incompatibilities with other mods. Lack of tileset also means you should switch to Minimal tileset for now.
+Also added a "New Nations Guide" to readme to briefly explain faction mechanics
+
+Volcanic Terrains:
+- 6 new volcanic terrains added for Kapaku volcanoform
+- Grassland will become Ash Drifts which gives 1 Food, 1 Gold
+- Plains, will become Basalt Plains which gives 1 Production, 1 Gold
+- Tundra -will become Barren Soil which gives 1 Food, 1 Production
+- Snow will become Lava Swirl which gives 1 Production, 1 Science
+- Desert will become Badlands which gives 2 Gold
+- Forest and Jungles will become Scorched Wildlands which gives 2 Production (unfortunately, due to implementation way, they become base terrain and not a cutable feature)
+- Resources, improvements and features are edited to make them compatible with new terrain. Marshes burn up but Oasis and Flood Plains stay.
+
+Ocean Fortresses/Facilities:
+- Facilities are Natural Wonders that can generate in the water tiles next to coasts
+- Each Facility provides at least 2 happiness and 1 culture. Units on them gain +25% defense
+- 6 Facility that gives different tile yields
+- 2 Facility that gives high happiness and a promotion to naval units next to them
+- 5 Facility that gives a nation wide unique benefit (through free buildings)
+- Each facility has weight of 10 for map generation
+
+Natural Wonders:
+- To balance the natural wonder distribution between land and water, 10 of the happiness anomalies from Endless Legend are now Natural Wonders
+- Each wonder has weight of 10 for map generation but they don't generate in water maps
+
+Wild Walkers:
+- Replaced Jungle's +1 Food with +1 Production for real this time.
+
+Morgawr:
+- Fresh water bonus applies correctly now. Also first bonus is available from the start (to better help in maps with less water tiles)
+- Land units can embark from the start (they can already enter the ocean)
+- Vore base strength increased while defense bonus reduced
+
+Kapaku
+- National Unique now allows Volcanoform. Burn up the ground and turn the land into a volcanic paradise!
+- Worker units can now spend 2 movement on a land tile to transform it into a volcanic terrain.
+- Kapaku gets +1 food on volcanic terrain, allowing them to have land tile yields of at least 3 while rest has 2.
+- Since Volcanoform is not limited to Kapaku borders, you can Volcanoform unsettled tiles or tiles you have access to with open borders. This means you can Volcanoform tiles of your allies or city states (which is helpful if they spawn near snow as Lava Swirl accepts Farm improvement)
+- Old national unique is now for AI only as AI doesn't know how to volcanoform.
+
 ### v0.7.1
 Mostly balance changes. Putting this out now before I mess with terrains for Kapaku Volcanoform stuff.
 

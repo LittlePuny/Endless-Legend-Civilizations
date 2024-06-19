@@ -413,11 +413,11 @@
 		"uniqueTo": "Morgawr",
 		"replaces": "Trireme",
 		"movement": 4,
-		"strength": 10,
+		"strength": 12,
 		"cost": 45,
 		"requiredTech": "Sailing",
 		"promotions": ["Rapid Mutation"],
-		"uniques": ["[+50]% Strength <when defending>"],
+		"uniques": ["[+25]% Strength <when defending>"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -455,6 +455,10 @@
 		"attackSound": "metalhit"
 	},
 	
+
+
+	
+
 	// Mykara
 	{
 		"name": "Ipotane",
