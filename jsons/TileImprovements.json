@@ -7,8 +7,8 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
 		"uniques": [
-			"Great Improvement", 
-			"[+3 Production] <after discovering [Chemistry]>", 
+			"Great Improvement", "Arcana Pillar",
+			"[+1 Production] <after discovering [Chemistry]>", 
 			"Removes removable features when built", 
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"[+1 Food] for each adjacent [Farm]",
@@ -35,8 +35,8 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 4,
 		"uniques": [
-			"Great Improvement", 
-			"[+4 Gold] <after discovering [Economics]>", 
+			"Great Improvement", "Arcana Pillar",
+			"[+1 Gold] <after discovering [Economics]>", 
 			"Removes removable features when built", 
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"[+1 Food] for each adjacent [Farm]",
@@ -63,7 +63,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
 		"uniques": [
-			"Great Improvement", 
+			"Great Improvement", "Arcana Pillar",
 			"[+2 Science] <after discovering [Scientific Theory]>", 
 			"[+2 Science] <after discovering [Atomic Theory]>", 
 			"Removes removable features when built", 
@@ -92,7 +92,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 6,
 		"uniques": [
-			"Great Improvement", 
+			"Great Improvement", "Arcana Pillar",
 			"Removes removable features when built", 
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"[+1 Food] for each adjacent [Farm]",
@@ -118,7 +118,7 @@
 		"uniqueTo": "Ardent Mages",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
+			"Great Improvement", "Arcana Pillar",
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
@@ -148,7 +148,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 6,
 		"uniques": [
-			"Great Improvement", 
+			"Great Improvement", "Arcana Pillar",
 			"Removes removable features when built", 
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"[+1 Food] for each adjacent [Farm]",

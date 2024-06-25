@@ -19,8 +19,13 @@
 	},
 
 	{
+		"name": "From the Shadows",
+		"uniques": ["Invisible to non-adjacent units","May enter foreign tiles without open borders"]
+	},
+
+	{
 		"name": "Rapid Mutation",
-		"uniques": ["May heal outside of friendly territory","All healing effects doubled"]
+		"uniques": ["May heal outside of friendly territory","[+5] HP when healing <in [Foreign Land] tiles>","All healing effects doubled"]
 	},
 
 	{

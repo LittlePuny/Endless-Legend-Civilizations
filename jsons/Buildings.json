@@ -4,8 +4,7 @@
 			"name": "Strategic Boost Facility",
 			"cost": 1,
 			"uniques": [
-				"Unbuildable", "Cannot be purchased",
-				"Will not be displayed in Civilopedia",
+				"Unsellable",
 				"Automatically built in all cities where it is buildable",
 				"Must have an owned [Strategic Boost Facility] within [3] tiles",
 				"Limited to [1] per Civilization",
@@ -16,8 +15,7 @@
 			"name": "Luxury Boost Facility",
 			"cost": 1,
 			"uniques": [
-				"Unbuildable", "Cannot be purchased",
-				"Will not be displayed in Civilopedia",
+				"Unsellable",
 				"Automatically built in all cities where it is buildable",
 				"Must have an owned [Luxury Boost Facility] within [3] tiles",
 				"Limited to [1] per Civilization",
@@ -28,12 +26,10 @@
 			"name": "Component Design Facility",
 			"cost": 1,
 			"uniques": [
-				"Unbuildable", "Cannot be purchased",
-				"Will not be displayed in Civilopedia",
+				"Unsellable",
 				"Automatically built in all cities where it is buildable",
 				"Must have an owned [Component Design Facility] within [3] tiles",
 				"Limited to [1] per Civilization",
-				"[1] Happiness from each type of luxury resource",
 				"New [Water] units start with [10] Experience [in all cities]"
 			]
 		},
@@ -41,12 +37,10 @@
 			"name": "Naval Architecture Facility",
 			"cost": 1,
 			"uniques": [
-				"Unbuildable", "Cannot be purchased",
-				"Will not be displayed in Civilopedia",
+				"Unsellable",
 				"Automatically built in all cities where it is buildable",
 				"Must have an owned [Naval Architecture Facility] within [3] tiles",
 				"Limited to [1] per Civilization",
-				"[1] Happiness from each type of luxury resource",
 				"[+10]% Production when constructing [Water] units [in all cities]"
 			]
 		},
@@ -54,12 +48,10 @@
 			"name": "Cargo Nexus",
 			"cost": 1,
 			"uniques": [
-				"Unbuildable", "Cannot be purchased",
-				"Will not be displayed in Civilopedia",
+				"Unsellable",
 				"Automatically built in all cities where it is buildable",
 				"Must have an owned [Cargo Nexus] within [3] tiles",
 				"Limited to [1] per Civilization",
-				"[1] Happiness from each type of luxury resource",
 				"[+10]% [Gold] from Trade Routes"
 			]
 		},

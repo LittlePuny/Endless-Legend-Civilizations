@@ -359,7 +359,7 @@
 	},
 	// Cultists
 	{
-		"name": "Fanatic",
+		"name": "Preacher",
 		"unitType": "Civilian",
 		"replaces": "Missionary",
 		"uniqueTo": "Cult of the Eternal End",
@@ -375,17 +375,19 @@
 
 	// Forgotten
 	{
-		"name": "Myst",
-		"unitType": "Scout",
+		"name": "Predatore",
+		"unitType": "Archery",
 		"uniqueTo": "Forgotten",
-		"replaces": "Scout",
-		"movement": 3,
-		"strength": 5,
-		"cost": 25,
-		"obsoleteTech": "Scientific Theory",
-		"uniques": ["[+1] Sight","Invisible to non-adjacent units","May enter foreign tiles without open borders"],
-		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit"
+		"replaces": "Crossbowman",
+		"movement": 2,
+		"strength": 15,
+		"rangedStrength": 20,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"promotions": ["From the Shadows"],
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "crossbow"
 	},
 
 	// Allayi
@@ -439,7 +441,7 @@
 	},
 	// Kapaku
 	{
-		"name": "Sentinel",
+		"name": "Stone Sentinel",
 		"unitType": "Sword",
 		"uniqueTo": "Kapaku",
 		"replaces": "Swordsman",
@@ -455,10 +457,6 @@
 		"attackSound": "metalhit"
 	},
 	
-
-
-	
-
 	// Mykara
 	{
 		"name": "Ipotane",

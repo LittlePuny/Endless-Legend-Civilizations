@@ -31,22 +31,91 @@ Forgotten: Doesn't generate science at all. Buys new techs or steals from other 
 
 Mykare: Single City Civ who gets bonuses for engaging in diplomacy and their puppets don't have culture/science penalty
 
-# Possible Roadmap (most likely in that order)
-Adding unique gameplay elements to factions
-
-Further balancing
-
-Finding icons
-
-Endless Legend minor factions as city states
-
-Auriga custom map
-
 # Credits
 - Faction icons and Setseke icon come from Endless Legend
 - Scorched Wilds icon - https://thenounproject.com/icon/bare-trees-264528/
+- Ardent's Arcana Pillars - https://thenounproject.com/icon/pillar-5796009/
+- Aurigan Pearls - https://thenounproject.com/icon/contrast-210852/
+- Cadavers - https://thenounproject.com/icon/mummy-2035563/
+- Dekari Ranger - https://thenounproject.com/icon/bow-4690191/
+- Agache Shaman - https://thenounproject.com/icon/druid-6336417/
+- Tenei Walker - https://thenounproject.com/icon/ent-6213969/
+- Stalwarts - https://thenounproject.com/icon/classes-spearman-2360011/
+- Ryder - https://thenounproject.com/icon/knight-5735906/
+- Dust Bishop - https://thenounproject.com/icon/mages-1897077/
+- Vaulter Marine - https://thenounproject.com/icon/crossbow-5598805/
+- Dawn Officer - https://thenounproject.com/icon/axe-6546012/
+- Vaulter Titan - https://thenounproject.com/icon/transformer-91861/
+- Forager - https://thenounproject.com/icon/ant-6905616/
+- Necrodrone - https://thenounproject.com/icon/beetle-6254033/
+- Proliferator - https://thenounproject.com/icon/larvae-1026149/
+- Telsem Warlock - https://thenounproject.com/icon/spell-4133531/
+- Ateshi Zealot - https://thenounproject.com/icon/wizard-3367135/
+- Eneqa Wing - https://thenounproject.com/icon/phoenix-4051564/
+- Dervish - https://thenounproject.com/icon/horse-549886/
+- Kassai - https://thenounproject.com/icon/zebra-6627692/
+- Yirmak - https://thenounproject.com/icon/rhino-6927926/
+- Drakkenling - https://thenounproject.com/icon/dragon-5301363/
+- Wyvern - https://thenounproject.com/icon/dragon-6217857/
+- Ancient - https://thenounproject.com/icon/dragon-6217860/
+- Preacher - https://thenounproject.com/icon/mask-6855814/
+- Fanatic - https://thenounproject.com/icon/horse-cart-rental-5166239/
+- Nameless Guard - https://thenounproject.com/icon/longbow-5299634/
+- Assassin - https://thenounproject.com/icon/assassin-4730114/
+- Predatore - https://thenounproject.com/icon/marksman-2280376/
+- Myst - https://thenounproject.com/icon/classes-assassin-2360004/
+- Seeker - https://thenounproject.com/icon/spear-5950410/
+- Skyfin - https://thenounproject.com/icon/manta-ray-4827746/
+- Monk - https://thenounproject.com/icon/katana-5950327/
+- Mindmaster - https://thenounproject.com/icon/mind-6951465/
+- Vore - https://thenounproject.com/icon/snapping-turtle-4171061/
+- Leviathan - https://thenounproject.com/icon/sea-serpent-1390018/
+- Stone Sentinel - https://thenounproject.com/icon/golem-1974739/
+- Geomancer - https://thenounproject.com/icon/staff-4382449/
+- Ryder - https://thenounproject.com/icon/horse-head-374037/
+- Ipotane - https://thenounproject.com/icon/iron-javelin-750117/
+- Gorgon - https://thenounproject.com/icon/mantis-6254054/
+- Shambler - https://thenounproject.com/icon/vine-6935879/
+- Feeding Pits - https://thenounproject.com/icon/captured-man-2741540/
+- Feed the Hive - https://thenounproject.com/icon/catering-3503012/
+- Demanding Gods - https://thenounproject.com/icon/blood-knife-3435603/
+- Oologic Nursery - https://thenounproject.com/icon/nest-egg-2235941/
+- Shrine of Whispers - https://thenounproject.com/icon/candles-6267464/
+- Caudata Sanctuary - https://thenounproject.com/icon/indian-skink-1048691/
+- Garth of Allayi - https://thenounproject.com/icon/park-26249/
+- Shift to Dark season - https://thenounproject.com/icon/ying-yang-5741683/
+- Shift to Light Season - https://thenounproject.com/icon/ying-yang-5741790/
+- Golem Camp - https://thenounproject.com/icon/camp-6957294/
+- Kernel of Plentitude - https://thenounproject.com/icon/cornucopia-5758047/
 
 # Changelog
+### v0.8.1 Icons!
+We now have unit icons! I am open to replace them later if something better suited shows up. Also note that there are also icons for missing units from Endless Legend. I've included because 1- units are still getting replaced here and there 2- It's useful to have them in case of a 3/4 UC expansion.
+Other than units, there is also icons for most buildings, arcana pillars and new resources. Other missing icons will come later.
+
+Sea Facilities
+- Facilities with unique buildigns now correctly autobuild.
+- Fixed some facility stats.
+
+Ardent Mages:
+- Added "Arcana Pillar" unique to their great improvements for filtering
+- Strength bonus only applies to "Arcana Pillar" now. No more bonuses from enemy great improvements
+- Industry and Dust pillars gets normal bonus from tech research now
+
+Roving Clans:
+- Added +10% gold when not at war. Make trade not war!
+
+Cultists
+- Fanatic is renamed to Preacher
+
+Forgotten:
+- Scout units now get "From the Shadows" promotion
+- Myst removed
+- Predatore back as Crossbowman replacement
+
+Morgawr:
+- Rapid Mutation should now allow units to heal.
+
 ### v0.8 Terrain-form
 This update has some terrain stuff happening. This means both interesting changes and a ton more incompatibilities with other mods. Lack of tileset also means you should switch to Minimal tileset for now.
 Also added a "New Nations Guide" to readme to briefly explain faction mechanics

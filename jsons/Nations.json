@@ -185,7 +185,7 @@
 		"innerColor": [255,128,0],
 		"uniqueName": "Holy Resource",
 		"uniques": [
-			"Comment [Can Build Holy Resource buildings. Only one type can be built in each city. Sell the Holy Resource building to replace it]",
+			"Comment [Can Build Holy Resource buildings. Only one type can be built in each city. Sell the Holy Resource building to replace it.]",
 			"Comment [Holy Resource buildings doubles the quantity of the selected strategic resource and increase their tile yield by 50%]",
 			"[+1 Science] from every [Strategic resource]",
 			"[+1 Science] from every [Strategic resource]<after discovering [Scientific Theory]>"
@@ -282,7 +282,7 @@
 		"uniqueName": "Power Through Pain",
 		"uniques": [
 			"Damage is ignored when determining unit Strength <for [All] units>",
-			"[+10]% Strength <within [2] tiles of a [Great Improvement]>",
+			"[+10]% Strength <within [2] tiles of a [Arcana Pillar]>",
 			"Free Great Person <upon discovering [Philosophy] technology>",
 			"Comment [Great Improvements are replaced with Pillars which gain yields based on adjacent tile improvements]"
 			],
@@ -332,6 +332,7 @@
 		"innerColor": [200,100,0],
 		"uniqueName": "Nomadic Cities",
 		"uniques": [
+			"[+10]% [Gold] <when not at war>",
 			"[+1 Gold, +1 Culture] from each Trade Route",
 			"[+1 Happiness] from each Trade Route",
 			"[-50]% maintenance on road & railroads",
@@ -496,6 +497,7 @@
 			"Receive triple Gold from Barbarian encampments and pillaging Cities",
 			"No movement cost to pillage <for [Land] units>",
 			"Gain an extra spy <upon discovering [Agriculture] technology>",
+			"All newly-trained [Scout] units [in all cities] receive the [From the Shadows] promotion",
 			"[+1 Gold] per [1] population [in all cities]<hidden from users>",
 			
 			"Nullifies [Science] [in all cities] <for [Human player]><hidden from users>",
@@ -626,7 +628,7 @@
 		"name": "Morgawr",
 		"leaderName": "The Mind",
 		"adjective": ["Morgawr"],
-		"startBias":["Coast","River"],
+		"startBias":["Coast"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "While much is known of the surface of Auriga, its oceans still guard many mysteries. While the nations of the planet learned to meet, trade, and war on the seas, another force arose from beneath them. They are - or is? - the Morgawr, a twisted and possessed people that seem to be symbiotic creations of sea life and other, unimaginable species. Constructed creatures that broke out of their prisons in the abysses of Auriga, the Morgawr are driven to seek the surface by forces they do not understand.",
@@ -676,7 +678,7 @@
 		// inner peace: influence on ruins
 
 		// inner fire: no dmg from lava flows, volcanic tile dmg bonus
-		// stone golem: infantry 
+		// stone sentinel: infantry 
 		// geomancer" support, buff depending on terraing
 		// golem rider: cavalry
 
